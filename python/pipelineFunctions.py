@@ -1,4 +1,4 @@
-## Territory Nuke functions
+## Default Nuke pipelinefunctions
 
 import nuke
 import os
