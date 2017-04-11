@@ -57,7 +57,7 @@ def setWriteNode():
 	p.addEnumerationPulldown('Show:', "RPO_01")
 	p.addEnumerationPulldown('Vendor:', 'DD ILM')
 	p.addEnumerationPulldown('Context:', 'shot library plate')
-	p.addEnumerationPulldown('Layer Type:', 'GFX slapcomp_MOV slapcomp_EXR')
+	p.addEnumerationPulldown('Layer Type:', 'GFX slapcomp_MOV GFX_MOV slapcomp_EXR')
 	p.addSingleLineInput('Layer:', '')
 	p.addEnumerationPulldown('mergeOp:', 'over plus screen atop average color-burn color-dodge conjoint-over copy difference disjoint-over divide exclusion from geometric hard-light hypot in mask matte max min minus multiply out overlay soft-light stencil under xor')
 
@@ -99,6 +99,9 @@ def setWriteNode():
 			
 			if layerType == "slapcomp_MOV":
 				writeFile = baseFolder+"/_MOV/"+sequence+"_"+shot+"_"+assetName+"_"+taskName+"_slapcomp_"+scriptVersion+".mov"
+            
+            if layerType == "GFX_MOV":
+                writeFile = baseFolder+"/_MOV/"+sequence+"_"+shot+"_"+assetName+"_"+taskName+"_GFX_"+scriptVersion+".mov"
 				
 			if layerType == "slapcomp_EXR":
 				writeFile = baseFolder+"/_EXR/"+sequence+"_"+shot+"_"+assetName+"_"+taskName+"_slapcomp_"+scriptVersion+".%04d.exr"
@@ -112,7 +115,11 @@ def setWriteNode():
             if layerType == "slapcomp_MOV":
                 writeFile = basepath+show+"/assets/"+assetName+"/aftereffects/"+taskName+"/__aep/__OUTPUT/export/"
                 writeFile = writeFile+assetName+"_"+taskName+"_"+scriptVersion+"/_MOV/library00gfx_"+assetName+"_"+taskName+"_slapcomp_"+scriptVersion+".mov"
-                    
+
+            if layerType == "GFX_MOV":
+                writeFile = basepath+show+"/assets/"+assetName+"/aftereffects/"+taskName+"/__aep/__OUTPUT/export/"
+                writeFile = writeFile+assetName+"_"+taskName+"_"+scriptVersion+"/_MOV/library00gfx_"+assetName+"_"+taskName+"_GFX_"+scriptVersion+".mov"
+                
             if layerType == "slapcomp_EXR":
                 writeFile = basepath+show+"/assets/"+assetName+"/aftereffects/"+taskName+"/__aep/__OUTPUT/export/"
                 writeFile = writeFile+assetName+"_"+taskName+"_"+scriptVersion+"/_EXR/library00gfx_"+assetName+"_"+taskName+"_slapcomp_"+scriptVersion+".#.exr"
@@ -125,6 +132,9 @@ def setWriteNode():
 			
 			if layerType == "slapcomp_MOV":
 				writeFile = baseFolder+"/"+sequence+shot+"/graphicsLayers/comped/"+sequence+"."+shot+"."+assetName+"."+taskName+".slapcomp."+scriptVersion+".mov"
+                
+            if layerType == "GFX_MOV":
+				writeFile = baseFolder+"/"+sequence+shot+"/graphicsLayers/"+sequence+"."+shot+"."+assetName+"."+taskName+".GFX."+scriptVersion+".mov"
 				
 			if layerType == "slapcomp_EXR":
 				writeFile = baseFolder+"/"+sequence+shot+"/graphicsLayers/comped/"+sequence+"."+shot+"."+assetName+"."+taskName+".slapcomp."+scriptVersion+".%04d.exr"
@@ -138,6 +148,10 @@ def setWriteNode():
 			if layerType == "slapcomp_MOV":
 				writeFile = basepath+show+"/assets/"+assetName+"/aftereffects/"+taskName+"/__aep/__OUTPUT/export/"
 				writeFile = writeFile+assetName+"_"+taskName+"_"+scriptVersion+"/graphicsLayers/comped/"+sequence+shot+"."+assetName+"."+taskName+".gfx."+scriptVersion+".mov"
+                
+            if layerType == "GFX_MOV":
+				writeFile = basepath+show+"/assets/"+assetName+"/aftereffects/"+taskName+"/__aep/__OUTPUT/export/"
+				writeFile = writeFile+assetName+"_"+taskName+"_"+scriptVersion+"/graphicsLayers/"+sequence+shot+"."+assetName+"."+taskName+".gfx."+scriptVersion+".mov"
 					
 			if layerType == "slapcomp_EXR":
 				writeFile = basepath+show+"/assets/"+assetName+"/aftereffects/"+taskName+"/__aep/__OUTPUT/export/"
