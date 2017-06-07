@@ -1,0 +1,41 @@
+set cut_paste_input [stack 0]
+version 10.0 v6
+push $cut_paste_input
+Group {
+name SwitchMatte
+selected true
+xpos -123
+ypos 829
+}
+Input {
+inputs 0
+name Alpha
+xpos -90
+ypos 532
+number 1
+}
+Input {
+inputs 0
+name IMG
+xpos 80
+ypos 536
+}
+Copy {
+inputs 2
+from0 rgba.alpha
+to0 rgba.alpha
+name Copy1
+xpos -1
+ypos 680
+}
+Premult {
+name Premult1
+xpos -1
+ypos 718
+}
+Output {
+name Output1
+xpos -1
+ypos 818
+}
+end_group

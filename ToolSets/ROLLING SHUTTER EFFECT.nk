@@ -1,0 +1,7479 @@
+set cut_paste_input [stack 0]
+version 10.0 v4
+BackdropNode {
+ inputs 0
+ name BackdropNode29
+ tile_color 0x7e152f00
+ note_font_size 42
+ selected true
+ xpos -2502
+ ypos 7094
+ bdwidth 960
+ bdheight 6083
+ z_order -100
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode17
+ tile_color 0xf4cbea00
+ label "ref ROlling shutter\n"
+ note_font_size 42
+ selected true
+ xpos -4698
+ ypos 6241
+ bdwidth 1424
+ bdheight 681
+ z_order -1
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode18
+ tile_color 0xde755500
+ note_font_size 42
+ selected true
+ xpos -2506
+ ypos 14080
+ bdwidth 431
+ bdheight 356
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode19
+ tile_color 0x5b41fb00
+ note_font_size 42
+ selected true
+ xpos -4397
+ ypos 6515
+ bdwidth 126
+ bdheight 263
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode20
+ tile_color 0xb633e700
+ label "SLIDE 1\n@ 123F"
+ note_font_size 42
+ selected true
+ xpos -2451
+ ypos 7185
+ bdwidth 373
+ bdheight 326
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode21
+ tile_color 0x689e1e00
+ label "SLIDE 2\n@ 194F\n"
+ note_font_size 42
+ selected true
+ xpos -2287
+ ypos 13481
+ bdwidth 259
+ bdheight 260
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode22
+ tile_color 0x1d758f00
+ label "SLIDE 3  AT 43F"
+ note_font_size 42
+ selected true
+ xpos -2392
+ ypos 7817
+ bdwidth 656
+ bdheight 228
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode23
+ tile_color 0x6f0bbc00
+ note_font_size 42
+ selected true
+ xpos -1858
+ ypos 8464
+ bdwidth 236
+ bdheight 352
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode24
+ tile_color 0x7a975200
+ note_font_size 42
+ selected true
+ xpos -2305
+ ypos 8972
+ bdwidth 320
+ bdheight 229
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode25
+ tile_color 0x1d758f00
+ label "SLIDE 3  AT 63F"
+ note_font_size 42
+ selected true
+ xpos -2396
+ ypos 9684
+ bdwidth 656
+ bdheight 228
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode26
+ tile_color 0x6f0bbc00
+ note_font_size 42
+ selected true
+ xpos -1862
+ ypos 10333
+ bdwidth 236
+ bdheight 352
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode27
+ tile_color 0x1d758f00
+ label "SLIDE 3  AT 170F"
+ note_font_size 42
+ selected true
+ xpos -2359
+ ypos 11696
+ bdwidth 656
+ bdheight 228
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode28
+ tile_color 0x8b357300
+ note_font_size 42
+ selected true
+ xpos -2346
+ ypos 9930
+ bdwidth 740
+ bdheight 821
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode30
+ tile_color 0x689e1e00
+ label "SLIDE 2\n63F\n"
+ note_font_size 42
+ selected true
+ xpos -2296
+ ypos 10787
+ bdwidth 259
+ bdheight 260
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode31
+ tile_color 0x6f0bbc00
+ note_font_size 42
+ selected true
+ xpos -1825
+ ypos 12345
+ bdwidth 236
+ bdheight 352
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode32
+ tile_color 0x8b357300
+ note_font_size 42
+ selected true
+ xpos -2309
+ ypos 11942
+ bdwidth 740
+ bdheight 821
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode34
+ tile_color 0xb633e700
+ label "SLIDE 1\n@ 170F"
+ note_font_size 42
+ selected true
+ xpos -2492
+ ypos 12879
+ bdwidth 368
+ bdheight 287
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode35
+ tile_color 0x2404cc00
+ label "jpeg compressions"
+ note_font_size 42
+ selected true
+ xpos -2590
+ ypos 14561
+ bdwidth 468
+ bdheight 245
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode36
+ tile_color 0x8b357300
+ note_font_size 42
+ selected true
+ xpos -2342
+ ypos 8065
+ bdwidth 740
+ bdheight 821
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/Comp7_#####.sgi"
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ first 0
+ last 443
+ origfirst 0
+ origlast 443
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read153
+ selected true
+ xpos -3745
+ ypos 6334
+ disable true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/Comp 3_#####.sgi"
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ first 0
+ last 2022
+ origfirst 0
+ origlast 2022
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read154
+ selected true
+ xpos -4411
+ ypos 6338
+ disable true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/Comp 2_#####.sgi"
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ first 0
+ last 119
+ origfirst 0
+ origlast 119
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read155
+ selected true
+ xpos -4517
+ ypos 6339
+ disable true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/clip01.#####.sgi"
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ first 0
+ last 119
+ origfirst 0
+ origlast 119
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read156
+ selected true
+ xpos -4657
+ ypos 6343
+ disable true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/Comp 9_#####.sgi"
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ first 0
+ last 324
+ origfirst 0
+ origlast 324
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read157
+ selected true
+ xpos -4187
+ ypos 6336
+ disable true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/Comp_8_#####.sgi"
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ first 0
+ last 443
+ origfirst 0
+ origlast 443
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read158
+ selected true
+ xpos -3486
+ ypos 6390
+ disable true
+}
+CheckerBoard2 {
+ inputs 0
+ name CheckerBoard2
+ selected true
+ xpos -3619
+ ypos 6596
+ disable true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/Comp 4.#####.sgi"
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ first 0
+ last 391
+ origfirst 0
+ origlast 391
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read159
+ selected true
+ xpos -4078
+ ypos 6328
+ disable true
+ dope_sheet true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/Comp5_#####.sgi"
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ first 0
+ last 453
+ origfirst 0
+ origlast 453
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read162
+ selected true
+ xpos -4122
+ ypos 6528
+ disable true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/tesla_#####.sgi"
+ format "1280 720 0 0 1280 720 1 HD_720"
+ last 209
+ origlast 209
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read163
+ selected true
+ xpos -4362
+ ypos 6602
+ disable true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/14_NUKE/TEST_COMPS/TEST_COMPS_v20.####.exr"
+ localizationPolicy on
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ last 256
+ origlast 256
+ origset true
+ colorspace sRGB
+ in_colorspace linear
+ out_colorspace linear
+ name Read164
+ selected true
+ xpos -3772
+ ypos 6497
+ disable true
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/08_FOOTAGE/REF/TRIMMED/Comp6.#####.sgi"
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ first 0
+ last 314
+ origfirst 0
+ origlast 314
+ origset true
+ in_colorspace linear
+ out_colorspace linear
+ name Read165
+ selected true
+ xpos -3855
+ ypos 6328
+ disable true
+}
+StickyNote {
+ inputs 0
+ name StickyNote1
+ label "lightning flash timings\n\n8 *\n25 *\n43\n63 *\n76 *\n113 *\n153 * \n170\n226 *\n"
+ note_font_size 100
+ selected true
+ xpos -3974
+ ypos 12939
+}
+push $cut_paste_input
+push 0
+Difference {
+ inputs 2
+ name Difference1
+ selected true
+ xpos -2571
+ ypos 14687
+}
+Roto {
+ inputs 0
+ cliptype none
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097664}
+    {t x44700000 x44070000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier2 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {x42c40000 x42c60000 x42c80000 x42ca0000 x42e00000}
+        {{{x 4
+        {xc0800000 -}}      xc0800000}
+      {{x 4
+        {0 -}}      0}}
+        {{{xc2f80000 0 1 xc1900000 1}
+       {xc3080000 -}
+       {xc3060008 -}
+       {xc3080000 xc03ffd00 1 0 1}      xc397332e}
+      {{x44a5c000 0 1 xc3310000 1}
+       {x44970000 -}
+       {x44a19bff x40580c00 1 x40580c00 1}
+       {x44a1c001 -}      x45024666}}
+        {{{x 4
+        {x40800000 -}}      x40800000}
+      {{x 4
+        {0 -}}      0}}
+        {{{x 4
+        {xc1d00000 -}}      xc1d00000}
+      {{x 4
+        {xc0000000 -}}      xc0000000}}
+        {{{xc2e80000 0 1 xc1900000 1}
+       {xc3000000 -}
+       {xc2fc0010 -}
+       {xc3000000 xc03ffd00 1 0 1}      xc393332e}
+      {{x44914000 0 1 xc3310000 1}
+       {x44828000 -}
+       {x448d1bff x40580c00 1 x40580c00 1}
+       {x448d4001 -}      x44f00ccd}}
+        {{{x 4
+        {x41d00000 -}}      x41d00000}
+      {{x 4
+        {x40000000 -}}      x40000000}}
+        {{{x 4
+        {0 -}}      0}
+      {{x 4
+        {0 -}}      0}}
+        {{{x450b6000 0 1 xc1900000 1}
+       {x450aa000 -}
+       {x450ac000 -}
+       {x450aa000 xc0400000 1 0 1}      x4500399a}
+      {{x4491c000 0 1 xc3310000 1}
+       {x44830000 -}
+       {x448d9bff x40580c00 1 x40580c00 1}
+       {x448dc001 -}      x44f08ccd}}
+        {{{x 4
+        {0 -}}      0}
+      {{x 4
+        {0 -}}      0}}
+        {{{x 4
+        {x42680000 -}}      x42680000}
+      {{x 4
+        {xc0000000 -}}      xc0000000}}
+        {{{x450f2000 0 1 xc1900000 1}
+       {x450e6000 -}
+       {x450e8000 -}
+       {x450e6000 xc0400000 1 0 1}      x4503f99a}
+      {{x44adc000 0 1 xc3310000 1}
+       {x449f0000 -}
+       {x44a99bff x40580c00 1 x40580c00 1}
+       {x44a9c001 -}      x45064666}}
+        {{{x 4
+        {xc2680000 -}}      xc2680000}
+      {{x 4
+        {x40000000 -}}      x40000000}}}}     idem}
+     {tx x42c60000 x44844000 x448ee000}
+     {a osw x41200000 osf 0 str 1 spx x44700000 spy x44070000 sb 1 ltn x42c60000 ltm x42c60000 tt x40800000}}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {x42be0000 x42c00000 x42c20000 x42c40000 x42c60000 x42c80000 x42ca0000 x42cc0000 x42ce0000 x42d00000 x42d20000 x42d40000 x42d60000 x42d80000 x42da0000 x42de0000 x42e00000}
+        {{{0 -}}
+      {{x40800000 -}}}
+        {{{xc2966657 -}
+       {xc2b40000 x418fff40 1 x418fff40 1}
+       {xc217ffe0 -}
+       {xc317fff8 -}
+       {xc317fff7 -}
+       {xc35ffffb -}
+       {xc317ffff x4243fff6 1 x4243fff6 1}
+       {xc2fc0000 -}
+       {xc2fe0000 xc0400000 1 xc0400000 1}
+       {xc3140007 -}
+       {xc2f7fff4 x41a163c8 1 x41a163c8 1}
+       {xc2d74e2a x416dc398 1 x416dc398 1}
+       {xc2bc8f0e x4124b8dc 1 x4124b8dc 1}
+       {xc2ae1ff3 -}
+       {xc303fffa xc1400180 1 xc1400180 1}
+       {xc30c000a -}
+       {xc2a59984 x42ab99d8 1 0 1}}
+      {{xc390999d 0 1 x43be8006 1}
+       {x43db0000 x442f8000 1 x442f8000 1}
+       {x44a93fff -}
+       {x44667ffe -}
+       {x447a7ffc -}
+       {x424fffd1 -}
+       {x44b9bffe -}
+       {x43b0fff4 -}
+       {x44d927fc -}
+       {x4377ffe0 -}
+       {x44d43ffc -}
+       {x44ccd518 xc2d9cc28 1 xc2d9cc28 1}
+       {x44b90677 xc3547c70 1 xc3547c70 1}
+       {x4497b5fc xc3f38cf6 1 xc3f38cf6 1}
+       {x43fcfff1 xc3ee9d55 1 xc3ee9d55 1}
+       {xc35a001e xc3a08889 1 xc3a08889 1}
+       {xc3e499ab xc346444b 1 0 1}}}
+        {{{0 -}}
+      {{xc0800000 -}}}
+        {{{x40800000 -}}
+      {{x40800000 -}}}
+        {{{x450d8ccc -}
+       {x450ca000 x41900000 1 x41900000 1}
+       {x450fe000 -}
+       {x4508c000 xba400000 1 xba400000 1}
+       {x4508bfff xba400000 1 xba400000 1}
+       {x45044000 -}
+       {x4508c000 x42440000 1 x42440000 1}
+       {x450a6000 -}
+       {x450a5000 xc0400000 1 xc0400000 1}
+       {x45090000 -}
+       {x450a8001 x414ff300 1 x414ff300 1}
+       {x450ac552 x40383c00 1 x40383c00 1}
+       {x450adc1f x3f697800 1 x3f697800 1}
+       {x450ae281 -}
+       {x4507c000 xc1400180 1 xc1400180 1}
+       {x45073fff -}
+       {x450ad334 x42ab99f0 1 0 1}}
+      {{xc38a999d 0 1 x43be8006 1}
+       {x43e10000 x442f8000 1 x442f8000 1}
+       {x44aabfff -}
+       {x44697ffe -}
+       {x447d7ffc -}
+       {x427fffd1 -}
+       {x44bb3ffe -}
+       {x43b6fff4 -}
+       {x44daa7fc -}
+       {x4381fff0 -}
+       {x44d5bffc -}
+       {x44ce029d xc2e74468 1 xc2e74468 1}
+       {x44b8d76f xc3680684 1 xc3680684 1}
+       {x449400fc xc40a9773 1 xc40a9773 1}
+       {x43b8ffef xc4002b56 1 xc4002b56 1}
+       {xc3b10011 xc3a08889 1 xc3a08889 1}
+       {xc4144cd6 xc3464448 1 0 1}}}
+        {{{xc0800000 -}}
+      {{xc0800000 -}}}
+        {{{x 5
+        {x41000000 -}}
+       {x41000080 x39000000 1 x39000000 1}
+       {x 10
+        {x41000100 -}}
+       {x41000000 xb9c00000 1 0 1}}
+      {{x40800000 -}}}
+        {{{x45096ccc -}
+       {x45088000 x41900000 1 x41900000 1}
+       {x450b3fff -}
+       {x45043fff xba400000 1 xba400000 1}
+       {x45043ffe xba400000 1 xba400000 1}
+       {x44ff7ffd -}
+       {x45043ffe x4243fff0 1 x4243fff0 1}
+       {x4505dffe -}
+       {x4505cffe xc0400000 1 xc0400000 1}
+       {x45047ffe -}
+       {x4505ffff -}
+       {x4505af63 xc1478800 1 xc1478800 1}
+       {x450470ef -}
+       {x4508447e -}
+       {x 2
+        {x45043fff -}}
+       {x4507d334 x42ab99f0 1 0 1}}
+      {{xc4604ccc 0 1 x43c20003 1}
+       {xc32a0000 x442c0000 1 x442c0000 1}
+       {x44338000 -}
+       {xc3b4ffff -}
+       {xc38d0001 -}
+       {xc49a0000 -}
+       {x4349fff8 -}
+       {xc4688002 -}
+       {x43e29ff8 -}
+       {xc4818002 -}
+       {x43cefff8 x42161560 1 x42161560 1}
+       {x43d540dc -}
+       {x43bfaf27 xc29bb1ce 1 xc29bb1ce 1}
+       {x438767f5 xc3a8d596 1 xc3a8d596 1}
+       {x 2
+        {xc45e8004 -}}
+       {xc48d2669 xc3b3666a 1 0 1}}}
+        {{{xc1000000 -}}
+      {{xc0800000 -}}}
+        {{{x40800000 -}}
+      {{xc1a00000 -}}}
+        {{{xc335332b -}
+       {xc3440000 x418fff40 1 x418fff40 1}
+       {xc2efffff -}
+       {xc3680000 -}
+       {xc367ffff -}
+       {xc3980002 -}
+       {xc3680008 x4243fff6 1 x4243fff6 1}
+       {xc34e0009 -}
+       {xc34f0008 xc03fff40 1 xc03fff40 1}
+       {xc3640010 -}
+       {xc34c0003 -}
+       {xc35109c5 xc1478830 1 xc1478830 1}
+       {xc364f109 -}
+       {xc327b7fb -}
+       {x 2
+        {xc3680003 -}}
+       {xc32eccbb x42ab99d8 1 0 1}}
+      {{xc4754ccc 0 1 x43b8c002 1}
+       {xc37e0000 x44354001 1 x44354001 1}
+       {x44310001 -}
+       {xc3b9fffd -}
+       {xc391ffff -}
+       {xc49b3fff -}
+       {x43400000 -}
+       {xc46b0000 -}
+       {x43dd9ffc -}
+       {xc482c001 -}
+       {x43c9fffc x42161560 1 x42161560 1}
+       {x43d040e0 -}
+       {x43baaf2b xc29bb1ce 1 xc29bb1ce 1}
+       {x438267f9 xc3a8d596 1 xc3a8d596 1}
+       {x 2
+        {xc4610002 -}}
+       {xc48e6668 xc3b3666a 1 0 1}}}
+        {{{xc0800000 -}}
+      {{x41a00000 -}}}}}     idem}
+     {tx x42c00000 x4481a000 x42e80000}
+     {a osw x41200000 osf 0 str 1 spx x44700000 spy x44070000 sb 1 ltn x42c00000 ltm x42c00000 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {960 540}
+ colorOverlay {0 0 0 0}
+ lifetime_type "all frames"
+ lifetime_start 96
+ lifetime_end 96
+ motionblur_mode global
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ name Roto3
+ selected true
+ xpos -2203
+ ypos 7337
+}
+set N619bcc00 [stack 0]
+Blur {
+ channels rgba
+ size 5.4
+ crop false
+ name Blur21
+ selected true
+ xpos -2197
+ ypos 7379
+}
+Roto {
+ inputs 0
+ cliptype none
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097152}
+    {t x44700000 x44070000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Rectangle1 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {x42f00000 x42f20000 x42f40000 x42f60000 x42f80000 x42fa0000 x42fc0000}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {xc38c0000 -}}      xc38c0004}}
+        {{{xc3a00002 -}
+       {xc39f0002 x40c00000 1 x40c00000 1}
+       {xc34c0008 x43020002 1 x43020002 1}
+       {xc267fffe -}
+       {xc2a4000e xc2080040 1 xc2080040 1}
+       {xc2fc003f xc2440073 1 0 1}      xc30c0020}
+      {{xc303fffc 0 1 x44796000 1}
+       {x444f8001 x445ec000 1 x445ec000 1}
+       {x44ce4000 -}
+       {x440affff -}
+       {x44398000 x440b8003 1 x440b8003 1}
+       {x44da0000 x4498ffff 1 0 1}      x45092000}}
+        {{{x 5
+        {x445a0000 -}}
+       {x445a0002 x39400000 1 0 1}      x445a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 2
+        {xc45a0000 -}}
+       {xc45a0002 -}
+       {xc45a0000 -}
+       {xc45a0002 xb9000000 1 xb9000000 1}
+       {xc45a0004 xb9000000 1 0 1}      xc45a0004}
+      {{x 6
+        {0 -}}      0}}
+        {{{x450f8000 -}
+       {x450fa000 x40c00000 1 x40c00000 1}
+       {x4516c000 x43020000 1 x43020000 1}
+       {x451fe000 -}
+       {x451e6000 xc2080000 1 xc2080000 1}
+       {x451ba000 xc2440000 1 0 1}      x451ac000}
+      {{xc303fffc 0 1 x44796000 1}
+       {x444f8001 x445ec000 1 x445ec000 1}
+       {x44ce4000 -}
+       {x440affff -}
+       {x44398000 x440b8003 1 x440b8003 1}
+       {x44da0000 x4498ffff 1 0 1}      x45092000}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {xc38c0000 -}}      xc38c0004}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {x438c0000 -}}      x438c0000}}
+        {{{x450f8001 -}
+       {x450fa001 x40c00000 1 x40c00000 1}
+       {x45160000 x42f7fff0 1 x42f7fff0 1}
+       {x 2
+        {x451f2000 -}}
+       {x451c6000 xc2840000 1 0 1}      x451b8000}
+      {{xc4958000 0 1 x446a4001 1}
+       {xc369fffd x447d0000 1 x447d0000 1}
+       {x444f0000 -}
+       {x 2
+        {xc3850000 -}}
+       {x44380000 x44bbe000 1 0 1}      x44943fff}}
+        {{{x 3
+        {xc45a0002 -}}
+       {x 2
+        {xc45a0000 -}}
+       {xc45a0002 xb9400000 1 0 1}      xc45a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 2
+        {x445a0002 -}}
+       {x 3
+        {x445a0000 -}}
+       {x445a0002 x39400000 1 0 1}      x445a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{xc3a00003 -}
+       {xc39f0003 x40c00000 1 x40c00000 1}
+       {xc3580008 x42f80006 1 x42f80006 1}
+       {x 2
+        {xc28c0000 -}}
+       {xc2e40031 xc284004a 1 0 1}      xc3000018}
+      {{xc4958000 0 1 x446a4001 1}
+       {xc369fffd x447d0000 1 x447d0000 1}
+       {x444f0000 -}
+       {x 2
+        {xc3850000 -}}
+       {x44380000 x44bbe000 1 0 1}      x44943fff}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {x438c0000 -}}      x438c0000}}}}
+      {cc
+       {f 8192}
+       {px
+        {x42f00000 x42f20000 x42f40000 x42f60000 x42f80000 x42fa0000 x42fc0000}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {xc38c0000 -}}      xc38c0004}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 5
+        {x445a0000 -}}
+       {x445a0002 x39400000 1 0 1}      x445a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 2
+        {xc45a0000 -}}
+       {xc45a0002 -}
+       {xc45a0000 -}
+       {xc45a0002 xb9000000 1 xb9000000 1}
+       {xc45a0004 xb9000000 1 0 1}      xc45a0004}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {xc38c0000 -}}      xc38c0004}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {x438c0000 -}}      x438c0000}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 3
+        {xc45a0002 -}}
+       {x 2
+        {xc45a0000 -}}
+       {xc45a0002 xb9400000 1 0 1}      xc45a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 2
+        {x445a0002 -}}
+       {x 3
+        {x445a0000 -}}
+       {x445a0002 x39400000 1 0 1}      x445a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {x438c0000 -}}      x438c0000}}}}}
+     {tx x42f60000 x449ac000 x431a0000}
+     {a opc
+   {{x42f40000 x3ef33333 0 1 x3f49999a 1}
+    {x42f60000 1 -}
+    {x42f80000 x3f03d70a -}
+    {x42fa0000 x3f1ae148 x3e0a3d72 1 0 1}}     osw x41200000 osf 0 str 1 spx x44700000 spy x44070000 sb 1 ltn x42f60000 ltm x42f60000 tt x41000000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 tt 8 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {960 540}
+ colorOverlay {0 0 0 0}
+ opacity {{curve x122 0.474999994 1 0.5149999857 0.6050000191}}
+ lifetime_type "all frames"
+ lifetime_start 123
+ lifetime_end 123
+ motionblur_mode global
+ motionblur_shutter_offset_type centred
+ global_motionblur 0.82
+ global_motionblur_shutter 0.23
+ source_black_outside true
+ name Roto4
+ selected true
+ xpos -2111
+ ypos 13615
+}
+Blur {
+ channels rgba
+ size 5.4
+ crop false
+ name Blur20
+ selected true
+ xpos -2111
+ ypos 13641
+}
+Retime {
+ input.first 120
+ input.first_lock true
+ input.last 127
+ input.last_lock true
+ output.first 229
+ output.first_lock true
+ output.last 236
+ time ""
+ name Retime10
+ selected true
+ xpos -2125
+ ypos 13675
+}
+set N61927800 [stack 0]
+push $N61927800
+Roto {
+ inputs 0
+ cliptype none
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097664}
+    {t x44700000 x44070000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier2 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {x42c40000 x42c60000 x42c80000 x42ca0000 x42e00000}
+        {{{x 4
+        {xc0800000 -}}      xc0800000}
+      {{x 4
+        {0 -}}      0}}
+        {{{xc2f80000 0 1 xc1900000 1}
+       {xc3080000 -}
+       {xc3060008 -}
+       {xc3080000 xc03ffd00 1 0 1}      xc397332e}
+      {{x44a5c000 0 1 xc3310000 1}
+       {x44970000 -}
+       {x44a19bff x40580c00 1 x40580c00 1}
+       {x44a1c001 -}      x45024666}}
+        {{{x 4
+        {x40800000 -}}      x40800000}
+      {{x 4
+        {0 -}}      0}}
+        {{{x 4
+        {xc1d00000 -}}      xc1d00000}
+      {{x 4
+        {xc0000000 -}}      xc0000000}}
+        {{{xc2e80000 0 1 xc1900000 1}
+       {xc3000000 -}
+       {xc2fc0010 -}
+       {xc3000000 xc03ffd00 1 0 1}      xc393332e}
+      {{x44914000 0 1 xc3310000 1}
+       {x44828000 -}
+       {x448d1bff x40580c00 1 x40580c00 1}
+       {x448d4001 -}      x44f00ccd}}
+        {{{x 4
+        {x41d00000 -}}      x41d00000}
+      {{x 4
+        {x40000000 -}}      x40000000}}
+        {{{x 4
+        {0 -}}      0}
+      {{x 4
+        {0 -}}      0}}
+        {{{x450b6000 0 1 xc1900000 1}
+       {x450aa000 -}
+       {x450ac000 -}
+       {x450aa000 xc0400000 1 0 1}      x4500399a}
+      {{x4491c000 0 1 xc3310000 1}
+       {x44830000 -}
+       {x448d9bff x40580c00 1 x40580c00 1}
+       {x448dc001 -}      x44f08ccd}}
+        {{{x 4
+        {0 -}}      0}
+      {{x 4
+        {0 -}}      0}}
+        {{{x 4
+        {x42680000 -}}      x42680000}
+      {{x 4
+        {xc0000000 -}}      xc0000000}}
+        {{{x450f2000 0 1 xc1900000 1}
+       {x450e6000 -}
+       {x450e8000 -}
+       {x450e6000 xc0400000 1 0 1}      x4503f99a}
+      {{x44adc000 0 1 xc3310000 1}
+       {x449f0000 -}
+       {x44a99bff x40580c00 1 x40580c00 1}
+       {x44a9c001 -}      x45064666}}
+        {{{x 4
+        {xc2680000 -}}      xc2680000}
+      {{x 4
+        {x40000000 -}}      x40000000}}}}     idem}
+     {tx x42c60000 x44844000 x448ee000}
+     {a osw x41200000 osf 0 str 1 spx x44700000 spy x44070000 sb 1 ltn x42c60000 ltm x42c60000 tt x40800000}}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {x42be0000 x42c00000 x42c20000 x42c40000 x42c60000 x42c80000 x42ca0000 x42cc0000 x42ce0000 x42d00000 x42d20000 x42d40000 x42d60000 x42d80000 x42da0000 x42de0000 x42e00000}
+        {{{0 -}}
+      {{x40800000 -}}}
+        {{{xc2966657 -}
+       {xc2b40000 x418fff40 1 x418fff40 1}
+       {xc217ffe0 -}
+       {xc317fff8 -}
+       {xc317fff7 -}
+       {xc35ffffb -}
+       {xc317ffff x4243fff6 1 x4243fff6 1}
+       {xc2fc0000 -}
+       {xc2fe0000 xc0400000 1 xc0400000 1}
+       {xc3140007 -}
+       {xc2f7fff4 x41a163c8 1 x41a163c8 1}
+       {xc2d74e2a x416dc398 1 x416dc398 1}
+       {xc2bc8f0e x4124b8dc 1 x4124b8dc 1}
+       {xc2ae1ff3 -}
+       {xc303fffa xc1400180 1 xc1400180 1}
+       {xc30c000a -}
+       {xc2a59984 x42ab99d8 1 0 1}}
+      {{xc390999d 0 1 x43be8006 1}
+       {x43db0000 x442f8000 1 x442f8000 1}
+       {x44a93fff -}
+       {x44667ffe -}
+       {x447a7ffc -}
+       {x424fffd1 -}
+       {x44b9bffe -}
+       {x43b0fff4 -}
+       {x44d927fc -}
+       {x4377ffe0 -}
+       {x44d43ffc -}
+       {x44ccd518 xc2d9cc28 1 xc2d9cc28 1}
+       {x44b90677 xc3547c70 1 xc3547c70 1}
+       {x4497b5fc xc3f38cf6 1 xc3f38cf6 1}
+       {x43fcfff1 xc3ee9d55 1 xc3ee9d55 1}
+       {xc35a001e xc3a08889 1 xc3a08889 1}
+       {xc3e499ab xc346444b 1 0 1}}}
+        {{{0 -}}
+      {{xc0800000 -}}}
+        {{{x40800000 -}}
+      {{x40800000 -}}}
+        {{{x450d8ccc -}
+       {x450ca000 x41900000 1 x41900000 1}
+       {x450fe000 -}
+       {x4508c000 xba400000 1 xba400000 1}
+       {x4508bfff xba400000 1 xba400000 1}
+       {x45044000 -}
+       {x4508c000 x42440000 1 x42440000 1}
+       {x450a6000 -}
+       {x450a5000 xc0400000 1 xc0400000 1}
+       {x45090000 -}
+       {x450a8001 x414ff300 1 x414ff300 1}
+       {x450ac552 x40383c00 1 x40383c00 1}
+       {x450adc1f x3f697800 1 x3f697800 1}
+       {x450ae281 -}
+       {x4507c000 xc1400180 1 xc1400180 1}
+       {x45073fff -}
+       {x450ad334 x42ab99f0 1 0 1}}
+      {{xc38a999d 0 1 x43be8006 1}
+       {x43e10000 x442f8000 1 x442f8000 1}
+       {x44aabfff -}
+       {x44697ffe -}
+       {x447d7ffc -}
+       {x427fffd1 -}
+       {x44bb3ffe -}
+       {x43b6fff4 -}
+       {x44daa7fc -}
+       {x4381fff0 -}
+       {x44d5bffc -}
+       {x44ce029d xc2e74468 1 xc2e74468 1}
+       {x44b8d76f xc3680684 1 xc3680684 1}
+       {x449400fc xc40a9773 1 xc40a9773 1}
+       {x43b8ffef xc4002b56 1 xc4002b56 1}
+       {xc3b10011 xc3a08889 1 xc3a08889 1}
+       {xc4144cd6 xc3464448 1 0 1}}}
+        {{{xc0800000 -}}
+      {{xc0800000 -}}}
+        {{{x 5
+        {x41000000 -}}
+       {x41000080 x39000000 1 x39000000 1}
+       {x 10
+        {x41000100 -}}
+       {x41000000 xb9c00000 1 0 1}}
+      {{x40800000 -}}}
+        {{{x45096ccc -}
+       {x45088000 x41900000 1 x41900000 1}
+       {x450b3fff -}
+       {x45043fff xba400000 1 xba400000 1}
+       {x45043ffe xba400000 1 xba400000 1}
+       {x44ff7ffd -}
+       {x45043ffe x4243fff0 1 x4243fff0 1}
+       {x4505dffe -}
+       {x4505cffe xc0400000 1 xc0400000 1}
+       {x45047ffe -}
+       {x4505ffff -}
+       {x4505af63 xc1478800 1 xc1478800 1}
+       {x450470ef -}
+       {x4508447e -}
+       {x 2
+        {x45043fff -}}
+       {x4507d334 x42ab99f0 1 0 1}}
+      {{xc4604ccc 0 1 x43c20003 1}
+       {xc32a0000 x442c0000 1 x442c0000 1}
+       {x44338000 -}
+       {xc3b4ffff -}
+       {xc38d0001 -}
+       {xc49a0000 -}
+       {x4349fff8 -}
+       {xc4688002 -}
+       {x43e29ff8 -}
+       {xc4818002 -}
+       {x43cefff8 x42161560 1 x42161560 1}
+       {x43d540dc -}
+       {x43bfaf27 xc29bb1ce 1 xc29bb1ce 1}
+       {x438767f5 xc3a8d596 1 xc3a8d596 1}
+       {x 2
+        {xc45e8004 -}}
+       {xc48d2669 xc3b3666a 1 0 1}}}
+        {{{xc1000000 -}}
+      {{xc0800000 -}}}
+        {{{x40800000 -}}
+      {{xc1a00000 -}}}
+        {{{xc335332b -}
+       {xc3440000 x418fff40 1 x418fff40 1}
+       {xc2efffff -}
+       {xc3680000 -}
+       {xc367ffff -}
+       {xc3980002 -}
+       {xc3680008 x4243fff6 1 x4243fff6 1}
+       {xc34e0009 -}
+       {xc34f0008 xc03fff40 1 xc03fff40 1}
+       {xc3640010 -}
+       {xc34c0003 -}
+       {xc35109c5 xc1478830 1 xc1478830 1}
+       {xc364f109 -}
+       {xc327b7fb -}
+       {x 2
+        {xc3680003 -}}
+       {xc32eccbb x42ab99d8 1 0 1}}
+      {{xc4754ccc 0 1 x43b8c002 1}
+       {xc37e0000 x44354001 1 x44354001 1}
+       {x44310001 -}
+       {xc3b9fffd -}
+       {xc391ffff -}
+       {xc49b3fff -}
+       {x43400000 -}
+       {xc46b0000 -}
+       {x43dd9ffc -}
+       {xc482c001 -}
+       {x43c9fffc x42161560 1 x42161560 1}
+       {x43d040e0 -}
+       {x43baaf2b xc29bb1ce 1 xc29bb1ce 1}
+       {x438267f9 xc3a8d596 1 xc3a8d596 1}
+       {x 2
+        {xc4610002 -}}
+       {xc48e6668 xc3b3666a 1 0 1}}}
+        {{{xc0800000 -}}
+      {{x41a00000 -}}}}}     idem}
+     {tx x42c00000 x4481a000 x42e80000}
+     {a osw x41200000 osf 0 str 1 spx x44700000 spy x44070000 sb 1 ltn x42c00000 ltm x42c00000 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {960 540}
+ colorOverlay {0 0 0 0}
+ lifetime_type "all frames"
+ lifetime_start 96
+ lifetime_end 96
+ motionblur_mode global
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ name Roto6
+ selected true
+ xpos -2483
+ ypos 13039
+}
+Blur {
+ channels rgba
+ size 5.4
+ crop false
+ name Blur14
+ selected true
+ xpos -2477
+ ypos 13081
+}
+Retime {
+ input.first 95
+ input.first_lock true
+ input.last 112
+ input.last_lock true
+ output.first 170
+ output.first_lock true
+ output.last 187
+ filter nearest
+ time ""
+ name Retime3
+ selected true
+ xpos -2477
+ ypos 13135
+}
+set N61926c00 [stack 0]
+push $N61926c00
+Roto {
+ inputs 0
+ cliptype none
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097152}
+    {t x44700000 x44070000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Rectangle1 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {x42f00000 x42f20000 x42f40000 x42f60000 x42f80000 x42fa0000 x42fc0000}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {xc38c0000 -}}      xc38c0004}}
+        {{{xc3a00002 -}
+       {xc39f0002 x40c00000 1 x40c00000 1}
+       {xc34c0008 x43020002 1 x43020002 1}
+       {xc267fffe -}
+       {xc2a4000e xc2080040 1 xc2080040 1}
+       {xc2fc003f xc2440073 1 0 1}      xc30c0020}
+      {{xc303fffc 0 1 x44796000 1}
+       {x444f8001 x445ec000 1 x445ec000 1}
+       {x44ce4000 -}
+       {x440affff -}
+       {x44398000 x440b8003 1 x440b8003 1}
+       {x44da0000 x4498ffff 1 0 1}      x45092000}}
+        {{{x 5
+        {x445a0000 -}}
+       {x445a0002 x39400000 1 0 1}      x445a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 2
+        {xc45a0000 -}}
+       {xc45a0002 -}
+       {xc45a0000 -}
+       {xc45a0002 xb9000000 1 xb9000000 1}
+       {xc45a0004 xb9000000 1 0 1}      xc45a0004}
+      {{x 6
+        {0 -}}      0}}
+        {{{x450f8000 -}
+       {x450fa000 x40c00000 1 x40c00000 1}
+       {x4516c000 x43020000 1 x43020000 1}
+       {x451fe000 -}
+       {x451e6000 xc2080000 1 xc2080000 1}
+       {x451ba000 xc2440000 1 0 1}      x451ac000}
+      {{xc303fffc 0 1 x44796000 1}
+       {x444f8001 x445ec000 1 x445ec000 1}
+       {x44ce4000 -}
+       {x440affff -}
+       {x44398000 x440b8003 1 x440b8003 1}
+       {x44da0000 x4498ffff 1 0 1}      x45092000}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {xc38c0000 -}}      xc38c0004}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {x438c0000 -}}      x438c0000}}
+        {{{x450f8001 -}
+       {x450fa001 x40c00000 1 x40c00000 1}
+       {x45160000 x42f7fff0 1 x42f7fff0 1}
+       {x 2
+        {x451f2000 -}}
+       {x451c6000 xc2840000 1 0 1}      x451b8000}
+      {{xc4958000 0 1 x446a4001 1}
+       {xc369fffd x447d0000 1 x447d0000 1}
+       {x444f0000 -}
+       {x 2
+        {xc3850000 -}}
+       {x44380000 x44bbe000 1 0 1}      x44943fff}}
+        {{{x 3
+        {xc45a0002 -}}
+       {x 2
+        {xc45a0000 -}}
+       {xc45a0002 xb9400000 1 0 1}      xc45a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 2
+        {x445a0002 -}}
+       {x 3
+        {x445a0000 -}}
+       {x445a0002 x39400000 1 0 1}      x445a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{xc3a00003 -}
+       {xc39f0003 x40c00000 1 x40c00000 1}
+       {xc3580008 x42f80006 1 x42f80006 1}
+       {x 2
+        {xc28c0000 -}}
+       {xc2e40031 xc284004a 1 0 1}      xc3000018}
+      {{xc4958000 0 1 x446a4001 1}
+       {xc369fffd x447d0000 1 x447d0000 1}
+       {x444f0000 -}
+       {x 2
+        {xc3850000 -}}
+       {x44380000 x44bbe000 1 0 1}      x44943fff}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {x438c0000 -}}      x438c0000}}}}
+      {cc
+       {f 8192}
+       {px
+        {x42f00000 x42f20000 x42f40000 x42f60000 x42f80000 x42fa0000 x42fc0000}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {xc38c0000 -}}      xc38c0004}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 5
+        {x445a0000 -}}
+       {x445a0002 x39400000 1 0 1}      x445a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 2
+        {xc45a0000 -}}
+       {xc45a0002 -}
+       {xc45a0000 -}
+       {xc45a0002 xb9000000 1 xb9000000 1}
+       {xc45a0004 xb9000000 1 0 1}      xc45a0004}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {xc38c0000 -}}      xc38c0004}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {x438c0000 -}}      x438c0000}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 3
+        {xc45a0002 -}}
+       {x 2
+        {xc45a0000 -}}
+       {xc45a0002 xb9400000 1 0 1}      xc45a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 2
+        {x445a0002 -}}
+       {x 3
+        {x445a0000 -}}
+       {x445a0002 x39400000 1 0 1}      x445a0002}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {0 -}}      0}}
+        {{{x 6
+        {0 -}}      0}
+      {{x 6
+        {x438c0000 -}}      x438c0000}}}}}
+     {tx x42f60000 x449ac000 x431a0000}
+     {a opc
+   {{x42f40000 x3ef33333 0 1 x3f49999a 1}
+    {x42f60000 1 -}
+    {x42f80000 x3f03d70a -}
+    {x42fa0000 x3f1ae148 x3e0a3d72 1 0 1}}     osw x41200000 osf 0 str 1 spx x44700000 spy x44070000 sb 1 ltn x42f60000 ltm x42f60000 tt x41000000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 tt 8 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {960 540}
+ colorOverlay {0 0 0 0}
+ opacity {{curve x122 0.474999994 1 0.5149999857 0.6050000191}}
+ lifetime_type "all frames"
+ lifetime_start 123
+ lifetime_end 123
+ motionblur_mode global
+ motionblur_shutter_offset_type centred
+ global_motionblur 0.82
+ global_motionblur_shutter 0.23
+ source_black_outside true
+ name Roto2
+ selected true
+ xpos -2127
+ ypos 10935
+}
+Blur {
+ channels rgba
+ size 5.4
+ crop false
+ name Blur12
+ selected true
+ xpos -2127
+ ypos 10961
+}
+Retime {
+ input.first 120
+ input.first_lock true
+ input.last 127
+ input.last_lock true
+ output.first 63
+ output.first_lock true
+ output.last 70
+ time ""
+ name Retime2
+ selected true
+ xpos -2127
+ ypos 10995
+}
+set N61926000 [stack 0]
+push $N61926000
+Roto {
+ inputs 0
+ cliptype none
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097152}
+    {t x44700000 x44070000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px
+        {x42e60000 x42e80000 x42ea0000 x42ec0000 x42ee0000 x42f00000 x42f20000 x42f40000 x42f60000 x43000000}
+        {{{x 9
+        {xc0c00000 -}}      xc0c00000}
+      {{x 9
+        {x40800000 -}}      x40800000}}
+        {{{xc3fcfff6 0 1 x413ffe20 1}
+       {xc3f90000 -}
+       {xc4048001 xc1a00030 1 xc1a00030 1}
+       {xc4068003 -}
+       {xc3bfffff x41900000 1 x41900000 1}
+       {xc3bcffff x40800000 1 x40800000 1}
+       {xc3bbffff x40c00000 1 x40c00000 1}
+       {xc3a90005 -}
+       {xc3b10004 xc1bfffe8 1 0 1}      xc3b00005}
+      {{x44d14001 0 1 xc3cd8006 1}
+       {x44af0000 -}
+       {x44d34000 -}
+       {x44afc000 xc3d60006 1 xc3d60006 1}
+       {x44507ffa xc4124003 1 xc4124003 1}
+       {x436bffe8 -}
+       {x437dffea -}
+       {x429bffe2 xc342fffa 1 xc342fffa 1}
+       {xc308000b xc35f7ffd 1 0 1}      xc30c0007}}
+        {{{x 9
+        {x40c00000 -}}      x40c00000}
+      {{x 9
+        {xc0800000 -}}      xc0800000}}
+        {{{x 9
+        {x41200000 -}}      x41200000}
+      {{x 9
+        {x41c00000 -}}      x41c00000}}
+        {{{x4514e001 0 1 x413ffe80 1}
+       {x45156000 -}
+       {x45136000 xc1a00000 1 xc1a00000 1}
+       {x4512e000 xc1c00000 1 xc1c00000 1}
+       {x45100000 -}
+       {x45106000 x40800000 1 x40800000 1}
+       {x45108000 x40c00000 1 x40c00000 1}
+       {x4512dffe -}
+       {x4511dffe xc1c00000 1 0 1}      x4511fffe}
+      {{x44de0001 0 1 xc3cd8006 1}
+       {x44bbc000 -}
+       {x44e00000 -}
+       {x44bc8000 xc3e00005 1 xc3e00005 1}
+       {x445ffffb xc4174002 1 xc4174002 1}
+       {x4394fff6 -}
+       {x439dfff7 -}
+       {x430bfff5 xc342fffb 1 xc342fffb 1}
+       {xc294000f xc35f7ffd 1 0 1}      xc29c0007}}
+        {{{x 9
+        {xc1200000 -}}      xc1200000}
+      {{x 9
+        {xc1c00000 -}}      xc1c00000}}
+        {{{x 9
+        {0 -}}      0}
+      {{x 9
+        {x41a00000 -}}      x41a00000}}
+        {{{x4510a001 0 1 x41a7fe80 1}
+       {x45117fff -}
+       {x450f7fff xc1400000 1 xc1400000 1}
+       {x450f3fff xc0400200 1 xc0400200 1}
+       {x450f1ffe -}
+       {x450f3ffd x3ffffc00 1 x3ffffc00 1}
+       {x450f5ffd x40c00000 1 x40c00000 1}
+       {x4511bffb -}
+       {x4510bffb xc1c00000 1 0 1}      x4510dffb}
+      {{x44934001 0 1 xc3e88009 1}
+       {x4458ffff -}
+       {x4490c000 -}
+       {x445e0000 xc3968002 1 xc3968002 1}
+       {x440afffe xc40ac001 1 xc40ac001 1}
+       {xc35e0005 -}
+       {xc34c0003 -}
+       {xc3bdfffd xc342fffa 1 xc342fffa 1}
+       {xc4147ffe xc35f8000 1 0 1}      xc4157ffd}}
+        {{{x 9
+        {0 -}}      0}
+      {{x 9
+        {xc1a00000 -}}      xc1a00000}}
+        {{{x 9
+        {x40000000 -}}      x40000000}
+      {{x 9
+        {x40000000 -}}      x40000000}}
+        {{{xc377ffec 0 1 x413ffe20 1}
+       {xc3700000 -}
+       {xc3880002 xb9c00000 1 xb9c00000 1}
+       {xc3880006 xb9c00000 1 xb9c00000 1}
+       {xc3890001 -}
+       {xc387ffff x40000080 1 x40000080 1}
+       {xc386ffff x40c00000 1 x40c00000 1}
+       {xc3680009 -}
+       {xc3780007 xc1bfffe8 1 0 1}      xc3760009}
+      {{x4493c001 0 1 xc3cd8006 1}
+       {x44630000 -}
+       {x4495c000 -}
+       {x44600001 xc39e8000 1 xc39e8000 1}
+       {x440d0000 xc40ac000 1 xc40ac000 1}
+       {xc355fffc -}
+       {xc343fffa -}
+       {xc3b9fff9 xc342fffb 1 xc342fffb 1}
+       {xc4127ffc xc35f8000 1 0 1}      xc4137ffb}}
+        {{{x 9
+        {xc0000000 -}}      xc0000000}
+      {{x 9
+        {xc0000000 -}}      xc0000000}}}}     idem}
+     {tx x42e80000 x44786000 x44935000}
+     {a opc
+   {{x42e80000 x3f4f5c29 0 1 x3e91eb85 1}
+    {x42ea0000 1 -}
+    {x42ec0000 x3f333333 xbec3d70a 1 xbec3d70a 1}
+    {x42ee0000 x3e70a3d7 -}
+    {x42f00000 x3e970a3d x3db33333 1 x3db33333 1}
+    {x42f20000 x3ed1eb85 -}
+    {x42f40000 x3e828f5c xbe6e147b 1 0 1}}     osw x41200000 osf 0 str 1 spx x44700000 spy x44070000 sb 1 ltn x42e80000 ltm x42e80000 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {960 540}
+ colorOverlay {0 0 0 0}
+ opacity {{curve x116 0.81 1 0.6999999881 0.2349999994 0.2949999869 0.4099999964 0.2549999952}}
+ lifetime_type "all frames"
+ lifetime_start 116
+ lifetime_end 116
+ motionblur_mode global
+ motionblur_shutter_offset_type centred
+ global_motionblur_shutter 0.11
+ source_black_outside true
+ name Roto5
+ selected true
+ xpos -2075
+ ypos 9056
+}
+Blur {
+ channels rgba
+ size 9.6
+ crop false
+ name Blur19
+ selected true
+ xpos -2075
+ ypos 9097
+}
+Retime {
+ input.first 114
+ input.first_lock true
+ input.last 129
+ input.last_lock true
+ output.first 43
+ output.first_lock true
+ output.last 58
+ time ""
+ name Retime11
+ selected true
+ xpos -2075
+ ypos 9136
+}
+Crop {
+ box {0 0 1920 1080}
+ name Crop12
+ selected true
+ xpos -2075
+ ypos 9162
+}
+set N619bd000 [stack 0]
+push $N619bd000
+push $N619bcc00
+Retime {
+ input.first 95
+ input.first_lock true
+ input.last 112
+ input.last_lock true
+ output.first 8
+ output.first_lock true
+ output.last 25
+ filter nearest
+ time ""
+ name Retime9
+ selected true
+ xpos -2197
+ ypos 7429
+}
+set N619bc400 [stack 0]
+push $N619bc400
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/14_NUKE/TEST_COMPS/v025/TEST_COMPS_v25_precomp.####.exr"
+ localizationPolicy on
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ last 256
+ origlast 256
+ origset true
+ version 19
+ name Read166
+ selected true
+ xpos -2307
+ ypos 5876
+}
+Dot {
+ name Dot26
+ selected true
+ xpos -2279
+ ypos 7010
+}
+ColorCorrect {
+ inputs 1+1
+ saturation 0.28
+ contrast 0.4
+ gain {1.9 1.3 2.3 3}
+ gain_panelDropped true
+ offset 0.035
+ name ColorCorrect12
+ selected true
+ xpos -2307
+ ypos 7376
+}
+Grade {
+ inputs 1+1
+ blackpoint 0.045
+ whitepoint 0.46
+ multiply 1.76
+ name Grade13
+ selected true
+ xpos -2307
+ ypos 7429
+}
+Dot {
+ name Dot16
+ selected true
+ xpos -2335
+ ypos 7562
+}
+Dot {
+ name Dot3
+ selected true
+ xpos -2291
+ ypos 7888
+}
+Group {
+ name Group38
+ help "Another 2D Camera Shake Tool for Nuke Features:/n* use either vector Blur or 2d transform motion blur/n* combine vectors from an input with camera shake vectors for motion blur/n*presets/n* tiling/n* pre-transform paramaters (i.e. to scale the image)/n* combining two noise patterns together i.e. a small vibration shake with a hand-held shake./n* being able to view the output curves with time offsets to place the big 'bumps' at the right moment in time/n* separate amplitude and frequency for Transform, scale and rotation."
+ tile_color 0x8ac160ff
+ label "\n\n"
+ selected true
+ xpos -2316
+ ypos 7945
+ addUserKnob {20 Controls}
+ addUserKnob {52 pyLoad l "" +STARTLINE T "nuke.thisGroup()\['pyClass'].execute()" +STARTLINE}
+ addUserKnob {22 pyClass l INVISIBLE -STARTLINE +INVISIBLE T "class cameraShakeVectors:\n\n\n    def __init__(self):\n\timport nuke\n\timport ast\n\tself.knobKeys = \['global_amt','center','amplitude','scale_amount','rot_amount','frequency','frequencyScale','frequencyRotation','global_amtHF','frequencyHF']\n\tself.thisG=nuke.thisGroup()\n\tpresetsStr=self.thisG\['presetsStr'].getValue()\n\tif not presetsStr is \"\":\n\t\tself.presetsDict=ast.literal_eval(presetsStr)\n\telse:\n\t\tself.presetsDict=\{\}\n\n    def savePreset(self):\n        newDict=\{\}\n        presetName=nuke.getInput('name of new preset')\n        if presetName: #2do validate is unique\n           presetName=presetName\n           for knob in self.knobKeys:\n                newDict\[knob]=(self.thisG\[knob].getValue())\n           self.presetsDict\[presetName]=newDict\n           self.thisG\['presetsStr'].setValue(str(self.presetsDict))\n\n    def updatePresetsList(self):\n             self.thisG\['presets'].setValues(self.presetsDict.keys())\n\n    def load(self):\n        preset=self.thisG\['presets'].value()\n        presetKnobs=self.presetsDict\[preset]        \n        for knob in presetKnobs:\n            \tself.thisG\[knob].setValue(presetKnobs\[knob])\n\n    def clearAll(self):\n\tif nuke.ask('Do you want to delete all the presets'):\n\t\tself.thisG\['presetsStr'].setValue('')\n\t\tself.thisG\['presets'].setValues(\[])\n\n    def delete(self):\n\tpreset=self.thisG\['presets'].value()\n\tif nuke.ask('Do you want to delete the '+preset+' preset'):\n\t\tdel self.presetsDict\[preset]\n\t\tnuke.tprint(self.presetsDict)\n\t\tself.thisG\['presetsStr'].setValue(str(self.presetsDict))"}
+ addUserKnob {41 enableShake l "Enable Shake (vector mode: motion blur is control independent)" T control.enableShake}
+ addUserKnob {41 enableMotionBlur l "Enable Motion Blur" T control.enableMotionBlur}
+ addUserKnob {6 motiontileEnable l "Enable Tile (motion blur only works in vector mode)" +STARTLINE}
+ motiontileEnable true
+ addUserKnob {41 checkerBoard T control.checkerBoard}
+ addUserKnob {20 PreShakeTransform l "Pre-Shake Transform" n 1}
+ addUserKnob {12 xformSizeOriginal_translate l Translate t "Use to translate image before you shake it"}
+ addUserKnob {14 xformSizeOriginal_scale l Scale t "Use to scale image before you shake it" R 0 100}
+ xformSizeOriginal_scale 1
+ addUserKnob {12 xformSizeOriginal_center l "XY Center" t "center of the pre-shake transform"}
+ addUserKnob {20 endGroup n -1}
+ addUserKnob {20 presets_G l Presets n 1}
+ addUserKnob {4 presets M {}}
+ addUserKnob {22 loadShake l " load " -STARTLINE T cameraShakeVectors().load()}
+ addUserKnob {22 saveShake l " save " -STARTLINE T "cameraShakeVectors().savePreset()\ncameraShakeVectors().updatePresetsList()"}
+ addUserKnob {22 clear l INVISIBLE -STARTLINE +INVISIBLE T cameraShakeVectors().clearAll()}
+ addUserKnob {22 delete l " delete " -STARTLINE T "cameraShakeVectors().delete()\ncameraShakeVectors().updatePresetsList()"}
+ addUserKnob {1 presetsStr l INVISIBLE +INVISIBLE}
+ presetsStr "\{\}"
+ addUserKnob {20 endGroup_2 l endGroup n -1}
+ addUserKnob {20 ShakeControls l "Shake Controls" n 1}
+ addUserKnob {41 global_amt l shake T control.global_amt}
+ addUserKnob {41 center T control.center}
+ addUserKnob {26 text02 l " amplitude (amount)"}
+ addUserKnob {41 amplitude l Transform T control.amplitude}
+ addUserKnob {41 scale_amount l Scale T control.scale_amount}
+ addUserKnob {41 rot_amount l Rotation T control.rot_amount}
+ addUserKnob {26 text03 l "Frequency (smoothness)"}
+ addUserKnob {41 frequency l Transform T control.frequency}
+ addUserKnob {41 frequencyScale l Scale T control.frequencyScale}
+ addUserKnob {41 frequencyRotation l Rotation T control.frequencyRotation}
+ addUserKnob {26 text05 l "2nd Hi frequency shake"}
+ addUserKnob {41 global_amtHF l "Transform Amplitude" T control.global_amtHF}
+ addUserKnob {41 frequencyHF l "Transform Frequency" T control.frequencyHF}
+ addUserKnob {20 endGroup_1 l endGroup n -1}
+ addUserKnob {20 MotionBlur}
+ addUserKnob {41 mbChoice l method T control.mbChoice}
+ addUserKnob {26 ""}
+ addUserKnob {26 method2d l "method 2d"}
+ addUserKnob {41 filter T TransformMB.filter}
+ addUserKnob {41 motionblur T TransformMB.motionblur}
+ addUserKnob {41 shutter T TransformMB.shutter}
+ addUserKnob {41 shutteroffset l "shutter offset" T TransformMB.shutteroffset}
+ addUserKnob {41 shuttercustomoffset l "" -STARTLINE T TransformMB.shuttercustomoffset}
+ addUserKnob {26 ""}
+ addUserKnob {26 methodVectors l "method Vectors"}
+ addUserKnob {41 shutter_1 l shutter T MotionBlur2D1.shutter}
+ addUserKnob {41 shutteroffset_1 l "shutter offset" T MotionBlur2D1.shutteroffset}
+ addUserKnob {41 shuttercustomoffset_1 l "" -STARTLINE T MotionBlur2D1.shuttercustomoffset}
+ addUserKnob {41 method T VectorBlur2.method}
+ addUserKnob {41 grow_bbox l "grow bbox" T VectorBlur2.grow_bbox}
+ addUserKnob {26 ""}
+ addUserKnob {26 text01 l "Use Input Vectors" T ""}
+ addUserKnob {41 useVectorInput l "" t "combine input vectors and camera shake vectors together" -STARTLINE T control.useVectorInput}
+ addUserKnob {41 in l "" -STARTLINE T ShuffleCopy2.in}
+ addUserKnob {41 mix l "add input vectors" T Merge10.mix}
+ addUserKnob {20 Curves}
+ addUserKnob {26 text04 l "This are here so" T "you can look at the shake curves in the curve editor"}
+ addUserKnob {41 translate T control.translate}
+ addUserKnob {41 scale T control.scale}
+ addUserKnob {41 rotation T control.rotation}
+ addUserKnob {26 text04_1 l "Offset (time)"}
+ addUserKnob {41 TransformOffsetY l TransformOffsetH T control.TransformOffsetY}
+ addUserKnob {41 TransformOffsetX l TransformOffsetY T control.TransformOffsetX}
+ addUserKnob {41 ScaleOffset T control.ScaleOffset}
+ addUserKnob {41 RotationOffset T control.RotationOffset}
+ addUserKnob {20 endGroup_3 l endGroup n -1}
+ addUserKnob {20 Info}
+ addUserKnob {26 version l version: T "v0.6b (1/5/2014)"}
+ addUserKnob {26 github l "github latest:" T https://github.com/vfxwiki/CameraShakeVetr}
+ addUserKnob {26 githubstable l "github stable:" T https://github.com/vfxwiki/nukeArtistToolkit/blob/master/CameraShakeVetr}
+}
+ Input {
+  inputs 0
+  name vectors
+  xpos 615
+  ypos -247
+  number 1
+ }
+ CheckerBoard2 {
+  inputs 0
+  name CheckerBoard1
+  xpos 229
+  ypos -291
+ }
+ Input {
+  inputs 0
+  name Input1
+  xpos 370
+  ypos -286
+ }
+ Switch {
+  inputs 2
+  which {{control.checkerBoard i}}
+  name Switch3
+  xpos 370
+  ypos -194
+ }
+set N61be8d80 [stack 0]
+add_layer {motionShk motionShk.red motionShk.green motionShk.blue motionShk.alpha}
+ AddChannels {
+  channels motionShk
+  name AddChannels1
+  xpos 370
+  ypos -164
+ }
+ ShuffleCopy {
+  inputs 2
+  in motion
+  red red
+  green green
+  blue blue
+  out motionShk
+  out2 rgba
+  name ShuffleCopy2
+  xpos 370
+  ypos -107
+ }
+ Crop {
+  box {0 0 {width} {height}}
+  name Crop2
+  xpos 370
+  ypos -77
+  disable {{!motiontileEnable}}
+ }
+ Dot {
+  name Dot12
+  xpos 402
+  ypos -19
+ }
+set N61a97000 [stack 0]
+ Transform {
+  translate {{xformSizeOriginal_translate.x} {xformSizeOriginal_translate.y}}
+  scale {{xformSizeOriginal_scale.w}}
+  center {{xformSizeOriginal_center.x} {xformSizeOriginal_center.y}}
+  filter Rifman
+  name xformSizeOriginal
+  tile_color 0xffff00
+  label "Pre-Shake Translate"
+  xpos 412
+  ypos 30
+ }
+set N61a96c00 [stack 0]
+ Transform {
+  translate {{control.translate i} {control.translate i}}
+  center {{control.center i} {control.center i}}
+  filter Rifman
+  name xformShake
+  tile_color 0xff000000
+  label ShakeXY
+  xpos 379
+  ypos 250
+ }
+set N61a96800 [stack 0]
+ Dot {
+  name Dot23
+  xpos 223
+  ypos 193
+ }
+push $N61a96800
+ MotionBlur2D {
+  inputs 2
+  uv motionShk
+  name MotionBlur2D2
+  xpos 341
+  ypos 316
+ }
+set N61a96000 [stack 0]
+ Transform {
+  translate {{-control.translate} {-control.translate}}
+  center {{control.center} {control.center}}
+  filter Rifman
+  name xformShake3
+  tile_color 0xff000000
+  label ShakeXY
+  xpos 151
+  ypos 310
+ }
+push $N61a97000
+ Dot {
+  name Dot11
+  xpos 70
+  ypos 125
+ }
+ ShuffleCopy {
+  inputs 2
+  in motionShk
+  alpha alpha2
+  black red
+  white green
+  red2 blue
+  green2 alpha
+  out2 motionShk
+  name ShuffleCopy5
+  xpos 36
+  ypos 316
+ }
+ Dot {
+  name Dot2
+  xpos 70
+  ypos 362
+ }
+set N61ac9000 [stack 0]
+ Dot {
+  name Dot9
+  xpos 70
+  ypos 426
+ }
+set N61ac8c00 [stack 0]
+ Dot {
+  name Dot8
+  xpos 70
+  ypos 454
+ }
+set N61ac8800 [stack 0]
+ Dot {
+  name Dot7
+  xpos 70
+  ypos 482
+ }
+set N61ac8400 [stack 0]
+ Dot {
+  name Dot6
+  xpos 70
+  ypos 562
+ }
+set N61ac8000 [stack 0]
+ Dot {
+  name Dot5
+  xpos 70
+  ypos 590
+ }
+set N61aebc00 [stack 0]
+ Dot {
+  name Dot4
+  xpos 70
+  ypos 618
+ }
+set N61aeb800 [stack 0]
+ Dot {
+  name Dot3
+  xpos 70
+  ypos 700
+ }
+set N61aeb400 [stack 0]
+ Dot {
+  name Dot10
+  xpos 70
+  ypos 728
+ }
+ Transform {
+  translate {{width+Transform1.translate.x i} {-height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform9
+  xpos 142
+  ypos 725
+ }
+push $N61aeb400
+ Transform {
+  translate {{-width+Transform1.translate.x i} {height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform8
+  xpos 142
+  ypos 697
+ }
+push $N61aeb800
+ Transform {
+  translate {{width+Transform1.translate.x i} {height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform5
+  xpos 142
+  ypos 615
+ }
+push $N61aebc00
+ Transform {
+  translate {{Transform1.translate.x i} {height+Transform1.translate.y i}}
+  scale {1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform6
+  xpos 142
+  ypos 587
+ }
+push $N61ac8000
+ Transform {
+  translate {{width+Transform1.translate.x i} {Transform1.translate.y i}}
+  scale {-1 1}
+  center {{width/2 i} {height/2 i}}
+  name Transform7
+  xpos 142
+  ypos 559
+ }
+push $N61ac8400
+ Transform {
+  translate {{-width+Transform1.translate.x i} {-height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform4
+  xpos 142
+  ypos 479
+ }
+push $N61ac8800
+ Transform {
+  translate {{Transform1.translate.x i} {-height+Transform1.translate.y i}}
+  scale {1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform3
+  xpos 142
+  ypos 451
+ }
+push $N61ac8c00
+ Transform {
+  translate {{-width+Transform1.translate.x i} {Transform1.translate.y i}}
+  scale {-1 1}
+  center {{width/2 i} {height/2 i}}
+  name Transform2
+  xpos 142
+  ypos 423
+ }
+push $N61ac9000
+ Transform {
+  translate {{xformShake.translate.x} {xformShake.translate.y}}
+  center {{width/2} {height/2}}
+  name Transform1
+  xpos 252
+  ypos 359
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge1
+  xpos 252
+  ypos 423
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge2
+  xpos 252
+  ypos 451
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge3
+  xpos 252
+  ypos 479
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge4
+  xpos 252
+  ypos 559
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge5
+  xpos 252
+  ypos 587
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge6
+  xpos 252
+  ypos 615
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge7
+  xpos 252
+  ypos 697
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge8
+  xpos 252
+  ypos 725
+ }
+ Shuffle {
+  alpha white
+  name Shuffle3
+  xpos 252
+  ypos 749
+ }
+push $N61a96000
+push $N61a96800
+ Switch {
+  inputs 2
+  which {{motiontileEnable}}
+  name Switch4
+  xpos 379
+  ypos 482
+ }
+ Merge2 {
+  inputs 2
+  bbox A
+  also_merge motionShk
+  name Merge9
+  label MotionTile
+  xpos 379
+  ypos 731
+  disable {{!motiontileEnable x1042 0}}
+ }
+set N51eb6400 [stack 0]
+push $N61a96c00
+ Dot {
+  name Dot1
+  xpos 883
+  ypos 39
+ }
+ Dot {
+  name Dot15
+  xpos 885
+  ypos 708
+ }
+set N51efdc00 [stack 0]
+ Dot {
+  name Dot13
+  xpos 1202
+  ypos 1385
+ }
+set N51efd800 [stack 0]
+push $N51efdc00
+push $N51eb6400
+ Transform {
+  rotate {{control.rotation i}}
+  center {{control.center i} {control.center i}}
+  filter Rifman
+  name xformShake1
+  tile_color 0xff000000
+  label ShakeRotate
+  xpos 379
+  ypos 820
+ }
+set N51efd400 [stack 0]
+ ShuffleCopy {
+  inputs 2
+  in motionShk
+  alpha alpha2
+  black red
+  white green
+  red2 blue
+  green2 alpha
+  out2 motionShk
+  name ShuffleCopy1
+  xpos 869
+  ypos 862
+ }
+ Dot {
+  name Dot24
+  xpos 924
+  ypos 1426
+ }
+push $N51eb6400
+push $N51efd400
+ Transform {
+  scale {{control.scale i}}
+  center {{control.center i} {control.center i}}
+  filter Rifman
+  name xformShake2
+  tile_color 0xff000000
+  label ShakeZoom
+  xpos 379
+  ypos 916
+ }
+set N51efc800 [stack 0]
+ Dot {
+  name Dot17
+  xpos 383
+  ypos 1035
+ }
+push $N51efc800
+ Dot {
+  name Dot16
+  xpos 426
+  ypos 1037
+ }
+ MotionBlur2D {
+  inputs 2
+  uv motionShk
+  name MotionBlur2D1
+  xpos 373
+  ypos 1072
+ }
+set N51f23c00 [stack 0]
+ Merge2 {
+  inputs 2
+  operation plus
+  Achannels motionShk
+  Bchannels motionShk
+  output motionShk
+  name Merge11
+  xpos 291
+  ypos 1140
+  disable {{!motiontileEnable i}}
+ }
+ Dot {
+  name Dot18
+  xpos 407
+  ypos 1243
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  Achannels motionShk
+  Bchannels motionShk
+  output motionShk
+  name Merge10
+  xpos 385
+  ypos 1398
+  disable {{!control.useVectorInput x1046 1}}
+ }
+ ShuffleCopy {
+  inputs 2
+  in2 motionShk
+  red red
+  green green
+  blue blue
+  out2 motionShk
+  name ShuffleCopy3
+  xpos 996
+  ypos 1588
+  disable {{control.enableShake x1049 0}}
+ }
+ ShuffleCopy {
+  inputs 2
+  in motionShk
+  alpha alpha2
+  black red
+  white green
+  red2 blue
+  green2 alpha
+  out2 motionShk
+  name ShuffleCopy4
+  xpos 917
+  ypos 1642
+  disable true
+ }
+ VectorBlur {
+  channels rgb
+  uv motionShk
+  mix {{control.enableMotionBlur 0.9064516129}}
+  name VectorBlur2
+  tile_color 0xcc804e00
+  label (all)
+  xpos 834
+  ypos 1678
+  disable {{!control.enableMotionBlur x1040 1}}
+ }
+push $N51efc800
+ Transform {
+  center {{width/2} {height/2}}
+  filter Rifman
+  motionblur 1
+  shutteroffset centred
+  name TransformMB
+  xpos 526
+  ypos 1275
+  disable {{!control.enableMotionBlur x1044 0}}
+ }
+push $N51efd800
+ Dot {
+  name Dot22
+  xpos 665
+  ypos 1717
+ }
+ Switch {
+  inputs 2
+  which {{control.enableShake}}
+  name Switch1
+  xpos 603
+  ypos 1856
+ }
+ Switch {
+  inputs 2
+  which {{control.mbChoice}}
+  name Switch2
+  xpos 834
+  ypos 1856
+ }
+ Remove {
+  channels motionShk
+  name Remove1
+  xpos 834
+  ypos 1881
+ }
+ Output {
+  name Output1
+  xpos 834
+  ypos 1932
+ }
+ Dot {
+  inputs 0
+  name Dot14
+  xpos 211
+  ypos 916
+ }
+push $N61be8d80
+ Dot {
+  name Dot25
+  xpos -328
+  ypos -202
+ }
+ Dot {
+  name Dot27
+  xpos -298
+  ypos 833
+ }
+ Dot {
+  name Dot19
+  xpos -298
+  ypos 1002
+ }
+ Dot {
+  name Dot26
+  xpos -282
+  ypos 1666
+ }
+ NoOp {
+  name control
+  xpos -110
+  ypos 1584
+  addUserKnob {20 User}
+  addUserKnob {6 checkerBoard +STARTLINE}
+  addUserKnob {7 frequencyHF R 1 100}
+  frequencyHF 38
+  addUserKnob {14 global_amtHF R 0 100}
+  global_amtHF 17
+  addUserKnob {7 global_amt}
+  global_amt {{curve x39 0 0.52 1 x43 1 x44 0.64 0.36 0.12 0.85 0}}
+  addUserKnob {7 scale_amount}
+  scale_amount 0.425
+  addUserKnob {7 rot_amount}
+  rot_amount 0.36
+  addUserKnob {14 translate R 0 100}
+  translate {{"frequency.h>0?(((( noise((frame+TransformOffsetX)*(1/(frequency.w/5)),0,5) + (frequency.w/5)) * amplitude.w)-(amplitude.w*(frequency.w/5)))*10+((( noise((frame+TransformOffsetX+1000)*(1/((frequency.w/100*frequencyHF*0.25))),0,5) + (frequency.w/100*frequencyHF*0.25)) * amplitude.w)-(amplitude.w*(frequency.w/100*frequencyHF*0.25)))*(global_amtHF/10))*global_amt:0" x1026 -6930281} {"frequency.h>0?((((noise((frame+TransformOffsetY+1000)*(1/((frequency.h/5))),0,5) + (frequency.h/5)) * amplitude.h)-(amplitude.h*(frequency.h/5)))*10+((( noise((frame+TransformOffsetY+2000)*(1/((frequency.h/100*frequencyHF*0.25))),0,5) + (frequency.h/100*frequencyHF*0.25)) * amplitude.h)-(amplitude.h*(frequency.h/100*frequencyHF*0.25)))*(global_amtHF/10))*global_amt:0"}}
+  addUserKnob {14 scale R 0 100}
+  scale {{frequencyScale>0?1+((scale_amount/10)*noise((frame+ScaleOffset)*(2/(frequencyScale/10)),0.5)*global_amt):1}}
+  addUserKnob {7 rotation}
+  rotation {{"frequencyRotation>0?(((rot_amount*100)* noise((frame+RotationOffset)*(1/(frequencyRotation/100)),0.5)) * rot_amount/3)*global_amt:0" x1026 0.225}}
+  addUserKnob {12 center}
+  center {{width/2 x1049 1930 x1066 1440} {height/2 x1049 1505 x1066 1080}}
+  addUserKnob {6 enableShake +STARTLINE}
+  enableShake true
+  addUserKnob {6 enableMotionBlur +STARTLINE}
+  enableMotionBlur true
+  addUserKnob {4 mbChoice l method M {"2d transform" "vector blur" "" ""}}
+  mbChoice "vector blur"
+  addUserKnob {6 useVectorInput +STARTLINE}
+  useVectorInput true
+  addUserKnob {26 ""}
+  addUserKnob {14 frequency l Transform R 0 100}
+  frequency 36
+  addUserKnob {7 frequencyScale R 1 100}
+  frequencyScale 45
+  addUserKnob {7 frequencyRotation R 1 100}
+  frequencyRotation 66
+  addUserKnob {14 amplitude l Amplitude/Amount R 0 100}
+  amplitude 34.5
+  addUserKnob {7 TransformOffsetX R -50 50}
+  TransformOffsetX 31.5
+  addUserKnob {7 TransformOffsetY R -50 50}
+  TransformOffsetY 2
+  addUserKnob {7 ScaleOffset R -50 50}
+  ScaleOffset 38.5
+  addUserKnob {7 RotationOffset R -50 50}
+  RotationOffset 15.5
+ }
+push 0
+push 0
+push 0
+push 0
+push 0
+push 0
+push $N51f23c00
+ Viewer {
+  inputs 8
+  channels motion
+  viewerProcess rec709
+  input_process false
+  name Viewer1
+  xpos 529
+  ypos 1114
+ }
+end_group
+Dot {
+ name Dot4
+ selected true
+ xpos -2288
+ ypos 8121
+}
+set N51f91800 [stack 0]
+Group {
+ name fizzle1
+ selected true
+ xpos -1761
+ ypos 8117
+ addUserKnob {20 User}
+ addUserKnob {6 distortioncheck l distortion +STARTLINE}
+ addUserKnob {6 scanlineenable l scanlines -STARTLINE}
+ scanlineenable true
+ addUserKnob {6 flickerenable l flicker -STARTLINE}
+ addUserKnob {6 scrollenable l scroll -STARTLINE}
+ scrollenable true
+ addUserKnob {4 linealign l lines M {Vertical Horizontal Grid None "" "" "" "" "" "" "" "" ""}}
+ linealign Horizontal
+ addUserKnob {7 dotsize l "line width" R 0 10}
+ dotsize 1.35
+ addUserKnob {41 saturation l "pre saturation" T Saturation1.saturation}
+ addUserKnob {41 multiply_1 l tint T Grade1.multiply}
+ addUserKnob {7 dotexp l "dot exposure" R -1 1}
+ dotexp -0.2
+ addUserKnob {41 white l "scanline gain" T Grade_scanline.white}
+ addUserKnob {41 minimum_enable l enable -STARTLINE T Clamp1.minimum_enable}
+ addUserKnob {20 redgroup l "red tube" t "multiply red channel and shit it's axis for weakened / missaligned tube gun effect" n 1}
+ addUserKnob {41 redvalue l "red multiply" T mult_red.value}
+ addUserKnob {41 translate l shift T Position_red.translate}
+ addUserKnob {20 endGroup n -1}
+ addUserKnob {20 greengroup l "green tube" t "multiply green channel and shit it's axis for weakened / missaligned tube gun effect" n 1}
+ addUserKnob {41 greenvalue l "green multiply" T mult_green.value}
+ addUserKnob {41 translate_1 l shift T Position_green.translate}
+ addUserKnob {20 endGroup_1 l endGroup n -1}
+ addUserKnob {20 bluegroup l "blue tube" t "multiply blue channel and shit it's axis for weakened / missaligned tube gun effect" n 1}
+ addUserKnob {41 bluevalue l "blue multiply" T mult_blues.value}
+ addUserKnob {41 translate_2 l shift T Position_blue.translate}
+ addUserKnob {20 endGroup_2 l endGroup n -1}
+ addUserKnob {41 minimum l "black lift" T Clamp1.minimum}
+ addUserKnob {41 mix T final_mix.mix}
+ addUserKnob {26 info l "" +STARTLINE T "\nFizzle v2.0 | by Julian van Mil 2011\nuse fizzle to simulate physical monitor\ndisply patterns and colour corrections"}
+ addUserKnob {20 distortion}
+ addUserKnob {41 channels T PerspDistort1.channels}
+ addUserKnob {41 fov l "Field of View" T PerspDistort1.fov}
+ addUserKnob {41 reverse T PerspDistort1.reverse}
+ addUserKnob {41 resize_bbox l "resize bounding box" -STARTLINE T PerspDistort1.resize_bbox}
+ addUserKnob {41 filter T PerspDistort1.filter}
+ addUserKnob {20 scanlines}
+ addUserKnob {4 scanlinedirection l "scanline alignment" M {Horizontal Vertical ""}}
+ addUserKnob {41 multiply_2 l multiply T Grade_scanline.multiply}
+ addUserKnob {41 black l lift T Grade_scanline.black}
+ addUserKnob {7 scanlinesize l "scanline size" R 0 35}
+ scanlinesize 27.4
+ addUserKnob {41 size l "scanline blur" T Blur1.size}
+ addUserKnob {26 scanlineanimationlitile l "scanline animation"}
+ addUserKnob {7 scanlineamp l amplitude R 0 300}
+ scanlineamp 202
+ addUserKnob {7 scanlinefeq l frequency}
+ scanlinefeq 0.495
+ addUserKnob {41 rotation T CameraShake_sacnline.rotation}
+ addUserKnob {41 octaves T CameraShake_sacnline.octaves}
+ addUserKnob {41 shutter T CameraShake_sacnline.shutter}
+ addUserKnob {41 samples T CameraShake_sacnline.samples}
+ addUserKnob {41 filter_1 l filter T CameraShake_sacnline.filter}
+ addUserKnob {26 scanlinedistortiontext l "scanline distortion"}
+ addUserKnob {6 scanlinedistortionenable l enable +STARTLINE}
+ scanlinedistortionenable true
+ addUserKnob {41 uv_scale l amount T IDistort1.uv_scale}
+ addUserKnob {41 scale T Transform_scanlinescale.scale}
+ addUserKnob {41 uv_offset l offset T IDistort1.uv_offset}
+ addUserKnob {20 flickertab l flicker}
+ addUserKnob {41 multiply T Grade_flicker.multiply}
+ addUserKnob {41 white_1 l gain T Grade_flicker.white}
+ addUserKnob {26 flickrcontrolslable l animation}
+ addUserKnob {41 scale_1 l scale T flickr_controls.scale}
+ addUserKnob {41 speed T flickr_controls.speed}
+ addUserKnob {41 seed T flickr_controls.seed}
+ addUserKnob {41 offset T flickr_controls.offset}
+ addUserKnob {41 float l result T flickr_controls.float}
+ addUserKnob {20 scrolltab l scroll}
+ addUserKnob {41 amplitude T SCROLL.amplitude}
+ addUserKnob {41 rotation_1 l rotation T SCROLL.rotation}
+ addUserKnob {41 scaling T SCROLL.scaling}
+ addUserKnob {41 frequency T SCROLL.frequency}
+ addUserKnob {41 octaves_1 l octaves T SCROLL.octaves}
+ addUserKnob {41 shutter_1 l shutter T SCROLL.shutter}
+ addUserKnob {41 samples_1 l samples T SCROLL.samples}
+ addUserKnob {41 scale_2 l "fixed scale" T SCROLL.scale}
+ addUserKnob {41 filter_2 l filter T SCROLL.filter}
+}
+ BackdropNode {
+  inputs 0
+  name BackdropNode1
+  tile_color 0x8e8e3800
+  label "LINE & DOT\n"
+  note_font_size 42
+  xpos -145
+  ypos -813
+  bdwidth 471
+  bdheight 652
+ }
+ BackdropNode {
+  inputs 0
+  name BackdropNode2
+  tile_color 0x37648eff
+  gl_color 0x80a2ccff
+  label TUBES
+  note_font_size 42
+  xpos -657
+  ypos -603
+  bdwidth 379
+  bdheight 525
+ }
+ BackdropNode {
+  inputs 0
+  name BackdropNode3
+  tile_color 0x7171c600
+  label "SCANLINE\n"
+  note_font_size 42
+  xpos -569
+  ypos 312
+  bdwidth 626
+  bdheight 606
+ }
+ BackdropNode {
+  inputs 0
+  name BackdropNode4
+  tile_color 0x8e8e3800
+  label CC
+  note_font_size 42
+  xpos -650
+  ypos -10
+  bdwidth 372
+  bdheight 269
+ }
+ StickyNote {
+  inputs 0
+  name Distortion
+  label DISTORTION
+  note_font_size 24
+  xpos -418
+  ypos 1114
+ }
+ NoOp {
+  inputs 0
+  name flickr_controls
+  xpos -628
+  ypos 155
+  addUserKnob {20 User}
+  addUserKnob {7 scale}
+  scale 0.5
+  addUserKnob {7 speed R 0 2}
+  speed 1
+  addUserKnob {7 seed R 0 100}
+  seed 7.5
+  addUserKnob {7 offset R 0 20}
+  offset 0.8
+  addUserKnob {26 ""}
+  addUserKnob {7 float}
+  float {{"this.scale * (random(frame * this.speed + this.seed)+this.offset)"}}
+  addUserKnob {7 percent}
+  percent {{floor(this.float*100) i}}
+ }
+ Input {
+  inputs 0
+  name Input1
+  xpos -579
+  ypos -955
+ }
+set N51fddc00 [stack 0]
+ Dot {
+  name Dot3
+  xpos -771
+  ypos -961
+ }
+ Dot {
+  name Dot4
+  xpos -771
+  ypos 1041
+ }
+set N51fdd400 [stack 0]
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{parent.scanlinesize i} {Input1.height i}}
+  color0 0
+  color1 1
+  color2 1
+  color3 0
+  centerlinewidth 0
+  name CheckerBoard5
+  xpos -78
+  ypos 347
+  disable {{!parent.scanlineenable i}}
+ }
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{Input1.width+200 i} {parent.scanlinesize i}}
+  color0 {1 1 1 1}
+  color1 {1 1 1 1}
+  color2 {0 0 0 0}
+  color3 {0 0 0 0}
+  centerlinewidth 0
+  name CheckerBoard3
+  xpos -184
+  ypos 347
+  disable {{!parent.scanlineenable i}}
+ }
+ Switch {
+  inputs 2
+  which {{parent.scanlinedirection i}}
+  name scanlineswitch
+  xpos -132
+  ypos 443
+ }
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat4
+  xpos -132
+  ypos 467
+ }
+ Blur {
+  size 64
+  name Blur1
+  xpos -132
+  ypos 501
+  disable {{!parent.scanlineenable i}}
+ }
+ Gamma {
+  value 0.4
+  name Gamma1
+  xpos -132
+  ypos 530
+  disable {{!parent.scanlineenable i}}
+ }
+set N5200bc00 [stack 0]
+ CameraShake {
+  name CameraShake_sacnline1
+  xpos -72
+  ypos 600
+  disable {{!parent.scanlineenable i}}
+  amplitude {{parent.scanlineamp i} 0}
+  rotation 3
+  frequency {{parent.scanlinefeq i}}
+ }
+push $N5200bc00
+ CameraShake {
+  name CameraShake_sacnline
+  xpos -193
+  ypos 598
+  disable {{!parent.scanlineenable i}}
+  amplitude {0 {parent.scanlineamp i}}
+  rotation 3
+  frequency {{parent.scanlinefeq i}}
+  shutter 0.745
+ }
+set N903cb900 [stack 0]
+ Switch {
+  inputs 2
+  which {{parent.scanlinedirection i}}
+  name scanlineswitch1
+  xpos -132
+  ypos 708
+ }
+ Transform {
+  center {300 225}
+  name Transform_scanlinescale
+  xpos -132
+  ypos 778
+  disable {{!parent.scanlinedistortionenable x416 1}}
+ }
+push $N903cb900
+ Constant {
+  inputs 0
+  color {1 1 1 1}
+  name Constant1
+  xpos 236
+  ypos -717
+ }
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{parent.dotsize i x14 2} {Input1.height i}}
+  color0 0
+  color1 1
+  color2 1
+  color3 0
+  linecolor 0
+  centerlinewidth 0
+  name CheckerBoard1
+  xpos -83
+  ypos -743
+ }
+set N52048000 [stack 0]
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{Input1.width i x14 2} {parent.dotsize i}}
+  color0 1
+  color1 1
+  color2 0
+  color3 0
+  linecolor 0
+  centerlinewidth 0
+  name CheckerBoard4
+  xpos 31
+  ypos -736
+ }
+set N52085c00 [stack 0]
+ Merge2 {
+  inputs 2
+  operation multiply
+  name Merge3
+  xpos 137
+  ypos -665
+ }
+push $N52085c00
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat2
+  xpos 31
+  ypos -664
+ }
+push $N52048000
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat1
+  xpos -83
+  ypos -667
+ }
+ Switch {
+  inputs 4
+  which {{parent.linealign}}
+  name alignmentswitch
+  xpos -83
+  ypos -490
+ }
+set N51fb8400 [stack 0]
+ Dot {
+  name Dot6
+  xpos -49
+  ypos -368
+ }
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{parent.dotsize i}}
+  color0 0
+  color1 1
+  color2 0
+  color3 1
+  centerlinewidth 0
+  name CheckerBoard2
+  xpos 61
+  ypos -467
+ }
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat3
+  xpos 61
+  ypos -395
+ }
+ Merge2 {
+  inputs 2
+  name Merge4
+  xpos 61
+  ypos -371
+ }
+set N520bf400 [stack 0]
+ Transform {
+  translate {0 {-parent.dotsize/2 i}}
+  center {960 540}
+  name Transform3
+  xpos 61
+  ypos -318
+ }
+push $N520bf400
+ Dot {
+  name Dot1
+  xpos 233
+  ypos -368
+ }
+ Merge2 {
+  inputs 2
+  operation minus
+  name Merge5
+  xpos 199
+  ypos -318
+ }
+set N520be800 [stack 0]
+ Transform {
+  translate {{parent.dotsize i} {parent.dotsize i}}
+  center {960 540}
+  name Transform4
+  xpos 59
+  ypos -253
+ }
+push $N520be800
+ Merge2 {
+  inputs 2
+  name Merge6
+  xpos 199
+  ypos -253
+ }
+ Dot {
+  name Dot2
+  xpos 233
+  ypos 107
+ }
+push $N51fb8400
+ Dot {
+  name Dot5
+  xpos -419
+  ypos -487
+ }
+set N520fb800 [stack 0]
+push $N51fddc00
+ CameraShake {
+  name SCROLL
+  xpos -579
+  ypos -757
+  disable {{!parent.scrollenable i x49 1}}
+  amplitude {0 60}
+  frequency 0.07
+ }
+ Transform {
+  center {960 540}
+  name Transform1
+  xpos -579
+  ypos -733
+ }
+ Dot {
+  name Dot7
+  xpos -545
+  ypos -488
+ }
+set N52133800 [stack 0]
+ ShuffleCopy {
+  inputs 2
+  green black
+  blue black
+  name ShuffleCopy3
+  xpos -625
+  ypos -397
+  postage_stamp true
+ }
+ Multiply {
+  channels rgb
+  value 10
+  name mult_red
+  xpos -625
+  ypos -325
+ }
+ Position {
+  translate {6 1}
+  name Position_red
+  xpos -625
+  ypos -301
+ }
+ Premult {
+  name Premult1
+  xpos -625
+  ypos -277
+ }
+push $N520fb800
+push $N52133800
+ ShuffleCopy {
+  inputs 2
+  red black
+  blue black
+  name ShuffleCopy2
+  xpos -511
+  ypos -399
+  postage_stamp true
+ }
+ Multiply {
+  channels rgb
+  value 10
+  name mult_green
+  xpos -511
+  ypos -327
+ }
+ Position {
+  translate {-5 0}
+  name Position_green
+  xpos -511
+  ypos -303
+ }
+ Premult {
+  name Premult2
+  xpos -511
+  ypos -279
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  name Merge1
+  xpos -511
+  ypos -217
+ }
+push $N520fb800
+push $N52133800
+ ShuffleCopy {
+  inputs 2
+  red black
+  green black
+  name ShuffleCopy1
+  xpos -402
+  ypos -398
+  postage_stamp true
+ }
+ Multiply {
+  channels rgb
+  value 10
+  name mult_blues
+  xpos -402
+  ypos -326
+ }
+ Position {
+  translate {3 0}
+  name Position_blue
+  xpos -402
+  ypos -302
+ }
+ Premult {
+  name Premult3
+  xpos -402
+  ypos -278
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  name Merge2
+  xpos -511
+  ypos -193
+ }
+ Saturation {
+  saturation 3.05
+  name Saturation1
+  xpos -511
+  ypos 43
+ }
+ Grade {
+  multiply {0.45 0.75 1 1}
+  name Grade1
+  xpos -511
+  ypos 67
+ }
+ EXPTool {
+  inputs 1+1
+  red {{parent.dotexp i}}
+  green {{curve i x56 0}}
+  blue {{curve i x56 0}}
+  name EXPTool1
+  xpos -511
+  ypos 104
+ }
+ Grade {
+  multiply 3.6
+  mix {{flickr_controls.float.main}}
+  name Grade_flicker
+  xpos -511
+  ypos 158
+  disable {{!parent.flickerenable}}
+ }
+ Grade {
+  inputs 1+1
+  black 0.14
+  white 2.7
+  multiply 3.5
+  name Grade_scanline
+  xpos -511
+  ypos 598
+  disable {{!parent.scanlineenable x75 1}}
+ }
+add_layer {scanlinedistort scanlinedistort.u scanlinedistort.v}
+ Remove {
+  channels scanlinedistort
+  name Remove1
+  xpos -511
+  ypos 690
+  disable {{!parent.scanlinedistortionenable i x416 1}}
+ }
+ ShuffleCopy {
+  inputs 2
+  alpha alpha2
+  black red
+  white green
+  out2 scanlinedistort
+  name ShuffleCopy5
+  xpos -511
+  ypos 778
+  disable {{!parent.scanlinedistortionenable i}}
+ }
+ IDistort {
+  uv scanlinedistort
+  uv_scale 3
+  name IDistort1
+  xpos -511
+  ypos 821
+  disable {{!parent.scanlinedistortionenable}}
+ }
+ Clamp {
+  minimum 0.014
+  maximum_enable false
+  name Clamp1
+  xpos -511
+  ypos 953
+ }
+ ShuffleCopy {
+  inputs 2
+  name ShuffleCopy4
+  xpos -511
+  ypos 1022
+ }
+push $N51fdd400
+ Merge2 {
+  inputs 2
+  operation plus
+  Bchannels {rgba.red rgba.green rgba.blue -rgba.alpha}
+  name final_mix
+  xpos -511
+  ypos 1074
+ }
+ PerspDistort {
+  fov 14.4
+  reverse true
+  name PerspDistort1
+  xpos -511
+  ypos 1115
+  disable {{!parent.distortioncheck x49 1}}
+ }
+ Output {
+  name Output1
+  xpos -511
+  ypos 1287
+ }
+ StickyNote {
+  inputs 0
+  name Distortion1
+  label "BLACK LIFT"
+  note_font_size 24
+  xpos -418
+  ypos 952
+ }
+end_group
+ColorCorrect {
+ saturation 0.41
+ contrast 1.58
+ shadows.offset -0.02
+ name ColorCorrect6
+ selected true
+ xpos -1761
+ ypos 8269
+}
+Colorspace {
+ colorspace_out YCbCr
+ name Colorspace3
+ selected true
+ xpos -1761
+ ypos 8371
+}
+set N521e6000 [stack 0]
+push $N521e6000
+Reformat {
+ type scale
+ scale 0.5
+ name Reformat4
+ selected true
+ xpos -1665
+ ypos 8371
+}
+Blur {
+ size 0.6
+ name Blur6
+ selected true
+ xpos -1665
+ ypos 8397
+}
+Reformat {
+ type scale
+ scale 2
+ name Reformat6
+ selected true
+ xpos -1665
+ ypos 8435
+}
+Copy {
+ inputs 2
+ from0 rgba.red
+ to0 rgba.red
+ name Copy3
+ selected true
+ xpos -1761
+ ypos 8442
+}
+Colorspace {
+ colorspace_in YCbCr
+ name Colorspace4
+ selected true
+ xpos -1761
+ ypos 8511
+}
+Dot {
+ name Dot5
+ selected true
+ xpos -1733
+ ypos 8580
+}
+set N52224000 [stack 0]
+push $N52224000
+Group {
+ name TransChroma3
+ tile_color 0xd4b30a00
+ note_font "Bitstream Vera Sans"
+ selected true
+ xpos -1999
+ ypos 8583
+ mapsize {0.15 0.15}
+ addUserKnob {20 "" l TransChroma}
+ addUserKnob {7 tr l " rotate" R -180 180}
+ tr 0.1
+ addUserKnob {26 ""}
+ addUserKnob {14 ts l scale R 0 100}
+ ts 1.02
+ addUserKnob {26 ""}
+ addUserKnob {7 tx l x R -200 200}
+ tx 25
+ addUserKnob {7 ty l y R -200 200}
+ ty -4
+ addUserKnob {26 ""}
+ addUserKnob {12 centerg l center}
+ centerg {{format.width/2} {format.height/2}}
+ addUserKnob {26 ""}
+ addUserKnob {7 bias}
+ bias 0.2
+ addUserKnob {7 steps2 l steps R 8 21}
+ steps2 1
+ addUserKnob {26 ""}
+ addUserKnob {32 knob l help t "opens example script" -STARTLINE T "script_open \[getenv DD_FACILITY_ROOT]/extension/nuke/\[getenv NUKE_RELEASE]/templates/TransChroma_example.nk"}
+ addUserKnob {20 "" l colour}
+ addUserKnob {18 c1}
+ c1 {1 0 0}
+ addUserKnob {6 c1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c2}
+ c2 {0 4 0}
+ addUserKnob {6 c2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c3}
+ c3 {0 0 1}
+ addUserKnob {6 c3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+}
+ Input {
+  inputs 0
+  name Input1
+  xpos -240
+  ypos -74
+ }
+set N52265c00 [stack 0]
+ TimeWarp {
+  lookup {{dude2}}
+  length 0
+  time ""
+  filter nearest
+  name TimeWarp1
+  xpos -240
+  ypos -48
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipshit}
+  dipshit {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 dude3}
+  dude3 {{((dude(((x-1)*ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 dude2}
+  dude2 {{((dude(((x-1)/ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 ratio3}
+  ratio3 {{steps3/1 i}}
+  addUserKnob {7 dude}
+  dude {{curve i l x1 0 1}}
+  addUserKnob {7 steps3 l steps R 5 21}
+  steps3 {{int(steps2) i}}
+ }
+ Grade {
+  whitepoint {{1/21 i}}
+  multiply {{reda*colour1.r(x/TimeWarp1.steps3)+colour2.r(x/TimeWarp1.steps3)*greena+colour3.r(x/TimeWarp1.steps3)*bluea i} {greena*colour2.g(x/TimeWarp1.steps3)+colour1.g(x/TimeWarp1.steps3)*reda+colour3.g(x/TimeWarp1.steps3)*bluea i} {bluea*colour3.b(x/TimeWarp1.steps3)+colour1.b(x/TimeWarp1.steps3)*reda+colour2.b(x/TimeWarp1.steps3)*greena i} {curve i}}
+  black_clamp false
+  name Grade11
+  tile_color 0x7aa9ff00
+  label ChromaEngine
+  xpos -240
+  ypos -22
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipsh}
+  dipsh {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 redb}
+  redb {{curve(((x-1)/ratio)+1) i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greenb}
+  greenb {{curve(((x-1)/ratio)+1) i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 blueb}
+  blueb {{curve(((x-1)/ratio)+1) i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 reda}
+  reda {{"(frame<1) ? redb : redb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greena}
+  greena {{"(frame<1) ? greenb : greenb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 bluea}
+  bluea {{"(frame<1) ? blueb : blueb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 ratio}
+  ratio {{TimeWarp1.steps3/21 i}}
+  addUserKnob {26 ""}
+  addUserKnob {18 colour1}
+  colour1 {{c1.r i} {c1.g i} {c1.b i}}
+  addUserKnob {6 colour1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour2}
+  colour2 {{c2.r i} {c2.g i} {c2.b i}}
+  addUserKnob {6 colour2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour3}
+  colour3 {{c3.r i} {c3.g i} {c3.b i}}
+  addUserKnob {6 colour3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ }
+ Transform {
+  translate {{tx*(bias(x/steps2)-1) i} {ty*(bias(x/steps2)-1) i}}
+  rotate {{tr*(bias(x/steps2)-1) i}}
+  scale {{(1/ts*(1-(bias(x/steps2)))+((bias(x/steps2))))}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform2
+  xpos -240
+  ypos 18
+ }
+ Transform {
+  translate {{movexb i} {moveyb i}}
+  rotate {{rotb i}}
+  scale {{"scalexb " i} {scaleyb i}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform1
+  xpos -240
+  ypos 44
+  addUserKnob {20 "" l User}
+  addUserKnob {7 scalexb}
+  scalexb {{pow(((ts.w(x/steps2)-1)+1),(dud.scale.w(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 scaleyb}
+  scaleyb {{pow(((ts.h(x/steps2)-1)+1),(dud.scale.h(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 movexb}
+  movexb {{(dud.translate.x(((x-1)/ratio2)+1))*tx(x/steps2) i}}
+  addUserKnob {7 moveyb}
+  moveyb {{(dud.translate.y(((x-1)/ratio2)+1))*ty(x/steps2) i}}
+  addUserKnob {7 rotb}
+  rotb {{(dud.rotate(((x-1)/ratio2)+1))*tr(x/steps2) i}}
+  addUserKnob {7 ratio2}
+  ratio2 {{TimeWarp1.steps3/1 i}}
+ }
+ TimeWarp {
+  lookup {{TimeWarp1.dude3 i C x1 1 x71 71}}
+  length {{TimeWarp1.steps3 i}}
+  time ""
+  name TimeWarp2
+  xpos -240
+  ypos 70
+ }
+ Grade {
+  multiply {0.9209 1.0388 1.151 1}
+  black_clamp false
+  mix {{1-(int(steps2)-8)/13 i}}
+  name Grade5
+  xpos -240
+  ypos 96
+ }
+ Grade {
+  multiply {{1/(c1.r+c2.r+c3.r) i} {1/(c1.g+c2.g+c3.g) i} {1/(c1.b+c2.b+c3.b) i} 1}
+  black_clamp false
+  name Grade4
+  xpos -240
+  ypos 122
+ }
+ Output {
+  name Output1
+  xpos -240
+  ypos 148
+ }
+push $N52265c00
+ Transform {
+  translate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  rotate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  scale {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  skewX {{curve i x1 0 0}}
+  center {1024 554}
+  name dud
+  xpos -130
+  ypos -74
+ }
+end_group
+Saturation {
+ saturation 0
+ name Saturation2
+ selected true
+ xpos -1999
+ ypos 8699
+}
+push $N52224000
+Group {
+ name TransChroma4
+ tile_color 0xd4b30a00
+ note_font "Bitstream Vera Sans"
+ selected true
+ xpos -1872
+ ypos 8662
+ mapsize {0.15 0.15}
+ addUserKnob {20 "" l TransChroma}
+ addUserKnob {7 tr l " rotate" R -180 180}
+ tr 1
+ addUserKnob {26 ""}
+ addUserKnob {14 ts l scale R 0 100}
+ ts 1.02
+ addUserKnob {26 ""}
+ addUserKnob {7 tx l x R -200 200}
+ tx -14
+ addUserKnob {7 ty l y R -200 200}
+ addUserKnob {26 ""}
+ addUserKnob {12 centerg l center}
+ centerg {{format.width/2} {format.height/2}}
+ addUserKnob {26 ""}
+ addUserKnob {7 bias}
+ bias 0.46
+ addUserKnob {7 steps2 l steps R 8 21}
+ steps2 8
+ addUserKnob {26 ""}
+ addUserKnob {32 knob l help t "opens example script" -STARTLINE T "script_open \[getenv DD_FACILITY_ROOT]/extension/nuke/\[getenv NUKE_RELEASE]/templates/TransChroma_example.nk"}
+ addUserKnob {20 "" l colour}
+ addUserKnob {18 c1}
+ c1 {1 0 0}
+ addUserKnob {6 c1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c2}
+ c2 {0 1 0}
+ addUserKnob {6 c2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c3}
+ c3 {0 0 1}
+ addUserKnob {6 c3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+}
+ Input {
+  inputs 0
+  name Input1
+  xpos -240
+  ypos -74
+ }
+set N522ad000 [stack 0]
+ TimeWarp {
+  lookup {{dude2}}
+  length 0
+  time ""
+  filter nearest
+  name TimeWarp1
+  xpos -240
+  ypos -48
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipshit}
+  dipshit {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 dude3}
+  dude3 {{((dude(((x-1)*ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 dude2}
+  dude2 {{((dude(((x-1)/ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 ratio3}
+  ratio3 {{steps3/1 i}}
+  addUserKnob {7 dude}
+  dude {{curve i l x1 0 1}}
+  addUserKnob {7 steps3 l steps R 5 21}
+  steps3 {{int(steps2) i}}
+ }
+ Grade {
+  whitepoint {{1/21 i}}
+  multiply {{reda*colour1.r(x/TimeWarp1.steps3)+colour2.r(x/TimeWarp1.steps3)*greena+colour3.r(x/TimeWarp1.steps3)*bluea i} {greena*colour2.g(x/TimeWarp1.steps3)+colour1.g(x/TimeWarp1.steps3)*reda+colour3.g(x/TimeWarp1.steps3)*bluea i} {bluea*colour3.b(x/TimeWarp1.steps3)+colour1.b(x/TimeWarp1.steps3)*reda+colour2.b(x/TimeWarp1.steps3)*greena i} {curve i}}
+  black_clamp false
+  name Grade11
+  tile_color 0x7aa9ff00
+  label ChromaEngine
+  xpos -240
+  ypos -22
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipsh}
+  dipsh {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 redb}
+  redb {{curve(((x-1)/ratio)+1) i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greenb}
+  greenb {{curve(((x-1)/ratio)+1) i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 blueb}
+  blueb {{curve(((x-1)/ratio)+1) i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 reda}
+  reda {{"(frame<1) ? redb : redb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greena}
+  greena {{"(frame<1) ? greenb : greenb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 bluea}
+  bluea {{"(frame<1) ? blueb : blueb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 ratio}
+  ratio {{TimeWarp1.steps3/21 i}}
+  addUserKnob {26 ""}
+  addUserKnob {18 colour1}
+  colour1 {{c1.r i} {c1.g i} {c1.b i}}
+  addUserKnob {6 colour1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour2}
+  colour2 {{c2.r i} {c2.g i} {c2.b i}}
+  addUserKnob {6 colour2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour3}
+  colour3 {{c3.r i} {c3.g i} {c3.b i}}
+  addUserKnob {6 colour3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ }
+ Transform {
+  translate {{tx*(bias(x/steps2)-1) i} {ty*(bias(x/steps2)-1) i}}
+  rotate {{tr*(bias(x/steps2)-1) i}}
+  scale {{(1/ts*(1-(bias(x/steps2)))+((bias(x/steps2))))}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform2
+  xpos -240
+  ypos 18
+ }
+ Transform {
+  translate {{movexb i} {moveyb i}}
+  rotate {{rotb i}}
+  scale {{"scalexb " i} {scaleyb i}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform1
+  xpos -240
+  ypos 44
+  addUserKnob {20 "" l User}
+  addUserKnob {7 scalexb}
+  scalexb {{pow(((ts.w(x/steps2)-1)+1),(dud.scale.w(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 scaleyb}
+  scaleyb {{pow(((ts.h(x/steps2)-1)+1),(dud.scale.h(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 movexb}
+  movexb {{(dud.translate.x(((x-1)/ratio2)+1))*tx(x/steps2) i}}
+  addUserKnob {7 moveyb}
+  moveyb {{(dud.translate.y(((x-1)/ratio2)+1))*ty(x/steps2) i}}
+  addUserKnob {7 rotb}
+  rotb {{(dud.rotate(((x-1)/ratio2)+1))*tr(x/steps2) i}}
+  addUserKnob {7 ratio2}
+  ratio2 {{TimeWarp1.steps3/1 i}}
+ }
+ TimeWarp {
+  lookup {{TimeWarp1.dude3 i C x1 1 x71 71}}
+  length {{TimeWarp1.steps3 i}}
+  time ""
+  name TimeWarp2
+  xpos -240
+  ypos 70
+ }
+ Grade {
+  multiply {0.9209 1.0388 1.151 1}
+  black_clamp false
+  mix {{1-(int(steps2)-8)/13 i}}
+  name Grade5
+  xpos -240
+  ypos 96
+ }
+ Grade {
+  multiply {{1/(c1.r+c2.r+c3.r) i} {1/(c1.g+c2.g+c3.g) i} {1/(c1.b+c2.b+c3.b) i} 1}
+  black_clamp false
+  name Grade4
+  xpos -240
+  ypos 122
+ }
+ Output {
+  name Output1
+  xpos -240
+  ypos 148
+ }
+push $N522ad000
+ Transform {
+  translate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  rotate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  scale {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  skewX {{curve i x1 0 0}}
+  center {1024 554}
+  name dud
+  xpos -130
+  ypos -74
+ }
+end_group
+Dissolve {
+ inputs 2
+ channels {rgba.red -rgba.green -rgba.blue none}
+ which 0.775
+ name Dissolve2
+ selected true
+ xpos -1872
+ ypos 8749
+}
+Copy {
+ inputs 2
+ from0 rgba.blue
+ to0 rgba.blue
+ name Copy5
+ selected true
+ xpos -1761
+ ypos 8755
+}
+Dot {
+ name Dot8
+ selected true
+ xpos -1733
+ ypos 8848
+}
+push $N51f91800
+Dissolve {
+ inputs 2
+ channels rgba
+ which {{curve x40 0 x42 1 x43 0.83 0.825 0.42 0 0.315 x49 0}}
+ name Dissolve3
+ selected true
+ xpos -2295
+ ypos 8850
+}
+EXPTool {
+ inputs 1+1
+ mode Stops
+ red 5.683333397
+ green 5.683333397
+ blue 5.683333397
+ name Exposure1
+ label "\[value mode]"
+ selected true
+ xpos -2295
+ ypos 9137
+}
+ColorCorrect {
+ inputs 1+1
+ saturation 0.28
+ contrast 0.68
+ offset 0.18
+ midtones.gamma {0.64 0.33 5 1.4}
+ midtones.gamma_panelDropped true
+ highlights.gamma {1 1 1 1}
+ highlights.gamma_panelDropped true
+ name ColorCorrect15
+ selected true
+ xpos -2295
+ ypos 9175
+}
+Dot {
+ name Dot14
+ selected true
+ xpos -2295
+ ypos 9755
+}
+Group {
+ name Group39
+ help "Another 2D Camera Shake Tool for Nuke Features:/n* use either vector Blur or 2d transform motion blur/n* combine vectors from an input with camera shake vectors for motion blur/n*presets/n* tiling/n* pre-transform paramaters (i.e. to scale the image)/n* combining two noise patterns together i.e. a small vibration shake with a hand-held shake./n* being able to view the output curves with time offsets to place the big 'bumps' at the right moment in time/n* separate amplitude and frequency for Transform, scale and rotation."
+ tile_color 0x8ac160ff
+ label "\n\n"
+ selected true
+ xpos -2320
+ ypos 9814
+ addUserKnob {20 Controls}
+ addUserKnob {52 pyLoad l "" +STARTLINE T "nuke.thisGroup()\['pyClass'].execute()" +STARTLINE}
+ addUserKnob {22 pyClass l INVISIBLE -STARTLINE +INVISIBLE T "class cameraShakeVectors:\n\n\n    def __init__(self):\n\timport nuke\n\timport ast\n\tself.knobKeys = \['global_amt','center','amplitude','scale_amount','rot_amount','frequency','frequencyScale','frequencyRotation','global_amtHF','frequencyHF']\n\tself.thisG=nuke.thisGroup()\n\tpresetsStr=self.thisG\['presetsStr'].getValue()\n\tif not presetsStr is \"\":\n\t\tself.presetsDict=ast.literal_eval(presetsStr)\n\telse:\n\t\tself.presetsDict=\{\}\n\n    def savePreset(self):\n        newDict=\{\}\n        presetName=nuke.getInput('name of new preset')\n        if presetName: #2do validate is unique\n           presetName=presetName\n           for knob in self.knobKeys:\n                newDict\[knob]=(self.thisG\[knob].getValue())\n           self.presetsDict\[presetName]=newDict\n           self.thisG\['presetsStr'].setValue(str(self.presetsDict))\n\n    def updatePresetsList(self):\n             self.thisG\['presets'].setValues(self.presetsDict.keys())\n\n    def load(self):\n        preset=self.thisG\['presets'].value()\n        presetKnobs=self.presetsDict\[preset]        \n        for knob in presetKnobs:\n            \tself.thisG\[knob].setValue(presetKnobs\[knob])\n\n    def clearAll(self):\n\tif nuke.ask('Do you want to delete all the presets'):\n\t\tself.thisG\['presetsStr'].setValue('')\n\t\tself.thisG\['presets'].setValues(\[])\n\n    def delete(self):\n\tpreset=self.thisG\['presets'].value()\n\tif nuke.ask('Do you want to delete the '+preset+' preset'):\n\t\tdel self.presetsDict\[preset]\n\t\tnuke.tprint(self.presetsDict)\n\t\tself.thisG\['presetsStr'].setValue(str(self.presetsDict))"}
+ addUserKnob {41 enableShake l "Enable Shake (vector mode: motion blur is control independent)" T control.enableShake}
+ addUserKnob {41 enableMotionBlur l "Enable Motion Blur" T control.enableMotionBlur}
+ addUserKnob {6 motiontileEnable l "Enable Tile (motion blur only works in vector mode)" +STARTLINE}
+ motiontileEnable true
+ addUserKnob {41 checkerBoard T control.checkerBoard}
+ addUserKnob {20 PreShakeTransform l "Pre-Shake Transform" n 1}
+ addUserKnob {12 xformSizeOriginal_translate l Translate t "Use to translate image before you shake it"}
+ addUserKnob {14 xformSizeOriginal_scale l Scale t "Use to scale image before you shake it" R 0 100}
+ xformSizeOriginal_scale 1
+ addUserKnob {12 xformSizeOriginal_center l "XY Center" t "center of the pre-shake transform"}
+ addUserKnob {20 endGroup n -1}
+ addUserKnob {20 presets_G l Presets n 1}
+ addUserKnob {4 presets M {}}
+ addUserKnob {22 loadShake l " load " -STARTLINE T cameraShakeVectors().load()}
+ addUserKnob {22 saveShake l " save " -STARTLINE T "cameraShakeVectors().savePreset()\ncameraShakeVectors().updatePresetsList()"}
+ addUserKnob {22 clear l INVISIBLE -STARTLINE +INVISIBLE T cameraShakeVectors().clearAll()}
+ addUserKnob {22 delete l " delete " -STARTLINE T "cameraShakeVectors().delete()\ncameraShakeVectors().updatePresetsList()"}
+ addUserKnob {1 presetsStr l INVISIBLE +INVISIBLE}
+ presetsStr "\{\}"
+ addUserKnob {20 endGroup_2 l endGroup n -1}
+ addUserKnob {20 ShakeControls l "Shake Controls" n 1}
+ addUserKnob {41 global_amt l shake T control.global_amt}
+ addUserKnob {41 center T control.center}
+ addUserKnob {26 text02 l " amplitude (amount)"}
+ addUserKnob {41 amplitude l Transform T control.amplitude}
+ addUserKnob {41 scale_amount l Scale T control.scale_amount}
+ addUserKnob {41 rot_amount l Rotation T control.rot_amount}
+ addUserKnob {26 text03 l "Frequency (smoothness)"}
+ addUserKnob {41 frequency l Transform T control.frequency}
+ addUserKnob {41 frequencyScale l Scale T control.frequencyScale}
+ addUserKnob {41 frequencyRotation l Rotation T control.frequencyRotation}
+ addUserKnob {26 text05 l "2nd Hi frequency shake"}
+ addUserKnob {41 global_amtHF l "Transform Amplitude" T control.global_amtHF}
+ addUserKnob {41 frequencyHF l "Transform Frequency" T control.frequencyHF}
+ addUserKnob {20 endGroup_1 l endGroup n -1}
+ addUserKnob {20 MotionBlur}
+ addUserKnob {41 mbChoice l method T control.mbChoice}
+ addUserKnob {26 ""}
+ addUserKnob {26 method2d l "method 2d"}
+ addUserKnob {41 filter T TransformMB.filter}
+ addUserKnob {41 motionblur T TransformMB.motionblur}
+ addUserKnob {41 shutter T TransformMB.shutter}
+ addUserKnob {41 shutteroffset l "shutter offset" T TransformMB.shutteroffset}
+ addUserKnob {41 shuttercustomoffset l "" -STARTLINE T TransformMB.shuttercustomoffset}
+ addUserKnob {26 ""}
+ addUserKnob {26 methodVectors l "method Vectors"}
+ addUserKnob {41 shutter_1 l shutter T MotionBlur2D1.shutter}
+ addUserKnob {41 shutteroffset_1 l "shutter offset" T MotionBlur2D1.shutteroffset}
+ addUserKnob {41 shuttercustomoffset_1 l "" -STARTLINE T MotionBlur2D1.shuttercustomoffset}
+ addUserKnob {41 method T VectorBlur2.method}
+ addUserKnob {41 grow_bbox l "grow bbox" T VectorBlur2.grow_bbox}
+ addUserKnob {26 ""}
+ addUserKnob {26 text01 l "Use Input Vectors" T ""}
+ addUserKnob {41 useVectorInput l "" t "combine input vectors and camera shake vectors together" -STARTLINE T control.useVectorInput}
+ addUserKnob {41 in l "" -STARTLINE T ShuffleCopy2.in}
+ addUserKnob {41 mix l "add input vectors" T Merge10.mix}
+ addUserKnob {20 Curves}
+ addUserKnob {26 text04 l "This are here so" T "you can look at the shake curves in the curve editor"}
+ addUserKnob {41 translate T control.translate}
+ addUserKnob {41 scale T control.scale}
+ addUserKnob {41 rotation T control.rotation}
+ addUserKnob {26 text04_1 l "Offset (time)"}
+ addUserKnob {41 TransformOffsetY l TransformOffsetH T control.TransformOffsetY}
+ addUserKnob {41 TransformOffsetX l TransformOffsetY T control.TransformOffsetX}
+ addUserKnob {41 ScaleOffset T control.ScaleOffset}
+ addUserKnob {41 RotationOffset T control.RotationOffset}
+ addUserKnob {20 endGroup_3 l endGroup n -1}
+ addUserKnob {20 Info}
+ addUserKnob {26 version l version: T "v0.6b (1/5/2014)"}
+ addUserKnob {26 github l "github latest:" T https://github.com/vfxwiki/CameraShakeVetr}
+ addUserKnob {26 githubstable l "github stable:" T https://github.com/vfxwiki/nukeArtistToolkit/blob/master/CameraShakeVetr}
+}
+ Input {
+  inputs 0
+  name vectors
+  xpos 615
+  ypos -247
+  number 1
+ }
+ CheckerBoard2 {
+  inputs 0
+  name CheckerBoard1
+  xpos 229
+  ypos -291
+ }
+ Input {
+  inputs 0
+  name Input1
+  xpos 370
+  ypos -286
+ }
+ Switch {
+  inputs 2
+  which {{control.checkerBoard i}}
+  name Switch3
+  xpos 370
+  ypos -194
+ }
+set N51fb6d80 [stack 0]
+ AddChannels {
+  channels motionShk
+  name AddChannels1
+  xpos 370
+  ypos -164
+ }
+ ShuffleCopy {
+  inputs 2
+  in motion
+  red red
+  green green
+  blue blue
+  out motionShk
+  out2 rgba
+  name ShuffleCopy2
+  xpos 370
+  ypos -107
+ }
+ Crop {
+  box {0 0 {width} {height}}
+  name Crop2
+  xpos 370
+  ypos -77
+  disable {{!motiontileEnable}}
+ }
+ Dot {
+  name Dot12
+  xpos 402
+  ypos -19
+ }
+set N5237f400 [stack 0]
+ Transform {
+  translate {{xformSizeOriginal_translate.x} {xformSizeOriginal_translate.y}}
+  scale {{xformSizeOriginal_scale.w}}
+  center {{xformSizeOriginal_center.x} {xformSizeOriginal_center.y}}
+  filter Rifman
+  name xformSizeOriginal
+  tile_color 0xffff00
+  label "Pre-Shake Translate"
+  xpos 412
+  ypos 30
+ }
+set N5237f000 [stack 0]
+ Transform {
+  translate {{control.translate i} {control.translate i}}
+  center {{control.center i} {control.center i}}
+  filter Rifman
+  name xformShake
+  tile_color 0xff000000
+  label ShakeXY
+  xpos 379
+  ypos 250
+ }
+set N5237ec00 [stack 0]
+ Dot {
+  name Dot23
+  xpos 223
+  ypos 193
+ }
+push $N5237ec00
+ MotionBlur2D {
+  inputs 2
+  uv motionShk
+  name MotionBlur2D2
+  xpos 341
+  ypos 316
+ }
+set N5237e400 [stack 0]
+ Transform {
+  translate {{-control.translate} {-control.translate}}
+  center {{control.center} {control.center}}
+  filter Rifman
+  name xformShake3
+  tile_color 0xff000000
+  label ShakeXY
+  xpos 151
+  ypos 310
+ }
+push $N5237f400
+ Dot {
+  name Dot11
+  xpos 70
+  ypos 125
+ }
+ ShuffleCopy {
+  inputs 2
+  in motionShk
+  alpha alpha2
+  black red
+  white green
+  red2 blue
+  green2 alpha
+  out2 motionShk
+  name ShuffleCopy5
+  xpos 36
+  ypos 316
+ }
+ Dot {
+  name Dot2
+  xpos 70
+  ypos 362
+ }
+set N523b1400 [stack 0]
+ Dot {
+  name Dot9
+  xpos 70
+  ypos 426
+ }
+set N523b1000 [stack 0]
+ Dot {
+  name Dot8
+  xpos 70
+  ypos 454
+ }
+set N523b0c00 [stack 0]
+ Dot {
+  name Dot7
+  xpos 70
+  ypos 482
+ }
+set N523b0800 [stack 0]
+ Dot {
+  name Dot6
+  xpos 70
+  ypos 562
+ }
+set N523b0400 [stack 0]
+ Dot {
+  name Dot5
+  xpos 70
+  ypos 590
+ }
+set N523b0000 [stack 0]
+ Dot {
+  name Dot4
+  xpos 70
+  ypos 618
+ }
+set N523cfc00 [stack 0]
+ Dot {
+  name Dot3
+  xpos 70
+  ypos 700
+ }
+set N523cf800 [stack 0]
+ Dot {
+  name Dot10
+  xpos 70
+  ypos 728
+ }
+ Transform {
+  translate {{width+Transform1.translate.x i} {-height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform9
+  xpos 142
+  ypos 725
+ }
+push $N523cf800
+ Transform {
+  translate {{-width+Transform1.translate.x i} {height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform8
+  xpos 142
+  ypos 697
+ }
+push $N523cfc00
+ Transform {
+  translate {{width+Transform1.translate.x i} {height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform5
+  xpos 142
+  ypos 615
+ }
+push $N523b0000
+ Transform {
+  translate {{Transform1.translate.x i} {height+Transform1.translate.y i}}
+  scale {1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform6
+  xpos 142
+  ypos 587
+ }
+push $N523b0400
+ Transform {
+  translate {{width+Transform1.translate.x i} {Transform1.translate.y i}}
+  scale {-1 1}
+  center {{width/2 i} {height/2 i}}
+  name Transform7
+  xpos 142
+  ypos 559
+ }
+push $N523b0800
+ Transform {
+  translate {{-width+Transform1.translate.x i} {-height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform4
+  xpos 142
+  ypos 479
+ }
+push $N523b0c00
+ Transform {
+  translate {{Transform1.translate.x i} {-height+Transform1.translate.y i}}
+  scale {1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform3
+  xpos 142
+  ypos 451
+ }
+push $N523b1000
+ Transform {
+  translate {{-width+Transform1.translate.x i} {Transform1.translate.y i}}
+  scale {-1 1}
+  center {{width/2 i} {height/2 i}}
+  name Transform2
+  xpos 142
+  ypos 423
+ }
+push $N523b1400
+ Transform {
+  translate {{xformShake.translate.x} {xformShake.translate.y}}
+  center {{width/2} {height/2}}
+  name Transform1
+  xpos 252
+  ypos 359
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge1
+  xpos 252
+  ypos 423
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge2
+  xpos 252
+  ypos 451
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge3
+  xpos 252
+  ypos 479
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge4
+  xpos 252
+  ypos 559
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge5
+  xpos 252
+  ypos 587
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge6
+  xpos 252
+  ypos 615
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge7
+  xpos 252
+  ypos 697
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge8
+  xpos 252
+  ypos 725
+ }
+ Shuffle {
+  alpha white
+  name Shuffle3
+  xpos 252
+  ypos 749
+ }
+push $N5237e400
+push $N5237ec00
+ Switch {
+  inputs 2
+  which {{motiontileEnable}}
+  name Switch4
+  xpos 379
+  ypos 482
+ }
+ Merge2 {
+  inputs 2
+  bbox A
+  also_merge motionShk
+  name Merge9
+  label MotionTile
+  xpos 379
+  ypos 731
+  disable {{!motiontileEnable x1042 0}}
+ }
+set N52448800 [stack 0]
+push $N5237f000
+ Dot {
+  name Dot1
+  xpos 883
+  ypos 39
+ }
+ Dot {
+  name Dot15
+  xpos 885
+  ypos 708
+ }
+set N52448000 [stack 0]
+ Dot {
+  name Dot13
+  xpos 1202
+  ypos 1385
+ }
+set N5248bc00 [stack 0]
+push $N52448000
+push $N52448800
+ Transform {
+  rotate {{control.rotation i}}
+  center {{control.center i} {control.center i}}
+  filter Rifman
+  name xformShake1
+  tile_color 0xff000000
+  label ShakeRotate
+  xpos 379
+  ypos 820
+ }
+set N5248b800 [stack 0]
+ ShuffleCopy {
+  inputs 2
+  in motionShk
+  alpha alpha2
+  black red
+  white green
+  red2 blue
+  green2 alpha
+  out2 motionShk
+  name ShuffleCopy1
+  xpos 869
+  ypos 862
+ }
+ Dot {
+  name Dot24
+  xpos 924
+  ypos 1426
+ }
+push $N52448800
+push $N5248b800
+ Transform {
+  scale {{control.scale i}}
+  center {{control.center i} {control.center i}}
+  filter Rifman
+  name xformShake2
+  tile_color 0xff000000
+  label ShakeZoom
+  xpos 379
+  ypos 916
+ }
+set N5248ac00 [stack 0]
+ Dot {
+  name Dot17
+  xpos 383
+  ypos 1035
+ }
+push $N5248ac00
+ Dot {
+  name Dot16
+  xpos 426
+  ypos 1037
+ }
+ MotionBlur2D {
+  inputs 2
+  uv motionShk
+  name MotionBlur2D1
+  xpos 373
+  ypos 1072
+ }
+set N5248a000 [stack 0]
+ Merge2 {
+  inputs 2
+  operation plus
+  Achannels motionShk
+  Bchannels motionShk
+  output motionShk
+  name Merge11
+  xpos 291
+  ypos 1140
+  disable {{!motiontileEnable i}}
+ }
+ Dot {
+  name Dot18
+  xpos 407
+  ypos 1243
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  Achannels motionShk
+  Bchannels motionShk
+  output motionShk
+  name Merge10
+  xpos 385
+  ypos 1398
+  disable {{!control.useVectorInput x1046 1}}
+ }
+ ShuffleCopy {
+  inputs 2
+  in2 motionShk
+  red red
+  green green
+  blue blue
+  out2 motionShk
+  name ShuffleCopy3
+  xpos 996
+  ypos 1588
+  disable {{control.enableShake x1049 0}}
+ }
+ ShuffleCopy {
+  inputs 2
+  in motionShk
+  alpha alpha2
+  black red
+  white green
+  red2 blue
+  green2 alpha
+  out2 motionShk
+  name ShuffleCopy4
+  xpos 917
+  ypos 1642
+  disable true
+ }
+ VectorBlur {
+  channels rgb
+  uv motionShk
+  mix {{control.enableMotionBlur 0.9064516129}}
+  name VectorBlur2
+  tile_color 0xcc804e00
+  label (all)
+  xpos 834
+  ypos 1678
+  disable {{!control.enableMotionBlur x1040 1}}
+ }
+push $N5248ac00
+ Transform {
+  center {{width/2} {height/2}}
+  filter Rifman
+  motionblur 1
+  shutteroffset centred
+  name TransformMB
+  xpos 526
+  ypos 1275
+  disable {{!control.enableMotionBlur x1044 0}}
+ }
+push $N5248bc00
+ Dot {
+  name Dot22
+  xpos 665
+  ypos 1717
+ }
+ Switch {
+  inputs 2
+  which {{control.enableShake}}
+  name Switch1
+  xpos 603
+  ypos 1856
+ }
+ Switch {
+  inputs 2
+  which {{control.mbChoice}}
+  name Switch2
+  xpos 834
+  ypos 1856
+ }
+ Remove {
+  channels motionShk
+  name Remove1
+  xpos 834
+  ypos 1881
+ }
+ Output {
+  name Output1
+  xpos 834
+  ypos 1932
+ }
+ Dot {
+  inputs 0
+  name Dot14
+  xpos 211
+  ypos 916
+ }
+push $N51fb6d80
+ Dot {
+  name Dot25
+  xpos -328
+  ypos -202
+ }
+ Dot {
+  name Dot27
+  xpos -298
+  ypos 833
+ }
+ Dot {
+  name Dot19
+  xpos -298
+  ypos 1002
+ }
+ Dot {
+  name Dot26
+  xpos -282
+  ypos 1666
+ }
+ NoOp {
+  name control
+  xpos -110
+  ypos 1584
+  addUserKnob {20 User}
+  addUserKnob {6 checkerBoard +STARTLINE}
+  addUserKnob {7 frequencyHF R 1 100}
+  frequencyHF 38
+  addUserKnob {14 global_amtHF R 0 100}
+  global_amtHF 17
+  addUserKnob {7 global_amt}
+  global_amt {{curve x59 0 0.52 1 x63 1 x64 0.64 0.36 0.12 0.85 0}}
+  addUserKnob {7 scale_amount}
+  scale_amount 0.425
+  addUserKnob {7 rot_amount}
+  rot_amount 0.36
+  addUserKnob {14 translate R 0 100}
+  translate {{"frequency.h>0?(((( noise((frame+TransformOffsetX)*(1/(frequency.w/5)),0,5) + (frequency.w/5)) * amplitude.w)-(amplitude.w*(frequency.w/5)))*10+((( noise((frame+TransformOffsetX+1000)*(1/((frequency.w/100*frequencyHF*0.25))),0,5) + (frequency.w/100*frequencyHF*0.25)) * amplitude.w)-(amplitude.w*(frequency.w/100*frequencyHF*0.25)))*(global_amtHF/10))*global_amt:0" x1026 -6930281} {"frequency.h>0?((((noise((frame+TransformOffsetY+1000)*(1/((frequency.h/5))),0,5) + (frequency.h/5)) * amplitude.h)-(amplitude.h*(frequency.h/5)))*10+((( noise((frame+TransformOffsetY+2000)*(1/((frequency.h/100*frequencyHF*0.25))),0,5) + (frequency.h/100*frequencyHF*0.25)) * amplitude.h)-(amplitude.h*(frequency.h/100*frequencyHF*0.25)))*(global_amtHF/10))*global_amt:0"}}
+  addUserKnob {14 scale R 0 100}
+  scale {{frequencyScale>0?1+((scale_amount/10)*noise((frame+ScaleOffset)*(2/(frequencyScale/10)),0.5)*global_amt):1}}
+  addUserKnob {7 rotation}
+  rotation {{"frequencyRotation>0?(((rot_amount*100)* noise((frame+RotationOffset)*(1/(frequencyRotation/100)),0.5)) * rot_amount/3)*global_amt:0" x1026 0.225}}
+  addUserKnob {12 center}
+  center {{width/2 x1049 1930 x1066 1440} {height/2 x1049 1505 x1066 1080}}
+  addUserKnob {6 enableShake +STARTLINE}
+  enableShake true
+  addUserKnob {6 enableMotionBlur +STARTLINE}
+  enableMotionBlur true
+  addUserKnob {4 mbChoice l method M {"2d transform" "vector blur" "" ""}}
+  mbChoice "vector blur"
+  addUserKnob {6 useVectorInput +STARTLINE}
+  useVectorInput true
+  addUserKnob {26 ""}
+  addUserKnob {14 frequency l Transform R 0 100}
+  frequency 36
+  addUserKnob {7 frequencyScale R 1 100}
+  frequencyScale 45
+  addUserKnob {7 frequencyRotation R 1 100}
+  frequencyRotation 66
+  addUserKnob {14 amplitude l Amplitude/Amount R 0 100}
+  amplitude 34.5
+  addUserKnob {7 TransformOffsetX R -50 50}
+  TransformOffsetX 31.5
+  addUserKnob {7 TransformOffsetY R -50 50}
+  TransformOffsetY 2
+  addUserKnob {7 ScaleOffset R -50 50}
+  ScaleOffset 38.5
+  addUserKnob {7 RotationOffset R -50 50}
+  RotationOffset 15.5
+ }
+push 0
+push 0
+push 0
+push 0
+push 0
+push 0
+push $N5248a000
+ Viewer {
+  inputs 8
+  channels motion
+  viewerProcess rec709
+  input_process false
+  name Viewer1
+  xpos 529
+  ypos 1114
+ }
+end_group
+Dot {
+ name Dot18
+ selected true
+ xpos -2292
+ ypos 9990
+}
+set N52541c00 [stack 0]
+Group {
+ name fizzle2
+ selected true
+ xpos -1765
+ ypos 9986
+ addUserKnob {20 User}
+ addUserKnob {6 distortioncheck l distortion +STARTLINE}
+ addUserKnob {6 scanlineenable l scanlines -STARTLINE}
+ scanlineenable true
+ addUserKnob {6 flickerenable l flicker -STARTLINE}
+ addUserKnob {6 scrollenable l scroll -STARTLINE}
+ scrollenable true
+ addUserKnob {4 linealign l lines M {Vertical Horizontal Grid None "" "" "" "" "" "" "" "" ""}}
+ linealign Horizontal
+ addUserKnob {7 dotsize l "line width" R 0 10}
+ dotsize 1.35
+ addUserKnob {41 saturation l "pre saturation" T Saturation1.saturation}
+ addUserKnob {41 multiply_1 l tint T Grade1.multiply}
+ addUserKnob {7 dotexp l "dot exposure" R -1 1}
+ dotexp -0.2
+ addUserKnob {41 white l "scanline gain" T Grade_scanline.white}
+ addUserKnob {41 minimum_enable l enable -STARTLINE T Clamp1.minimum_enable}
+ addUserKnob {20 redgroup l "red tube" t "multiply red channel and shit it's axis for weakened / missaligned tube gun effect" n 1}
+ addUserKnob {41 redvalue l "red multiply" T mult_red.value}
+ addUserKnob {41 translate l shift T Position_red.translate}
+ addUserKnob {20 endGroup n -1}
+ addUserKnob {20 greengroup l "green tube" t "multiply green channel and shit it's axis for weakened / missaligned tube gun effect" n 1}
+ addUserKnob {41 greenvalue l "green multiply" T mult_green.value}
+ addUserKnob {41 translate_1 l shift T Position_green.translate}
+ addUserKnob {20 endGroup_1 l endGroup n -1}
+ addUserKnob {20 bluegroup l "blue tube" t "multiply blue channel and shit it's axis for weakened / missaligned tube gun effect" n 1}
+ addUserKnob {41 bluevalue l "blue multiply" T mult_blues.value}
+ addUserKnob {41 translate_2 l shift T Position_blue.translate}
+ addUserKnob {20 endGroup_2 l endGroup n -1}
+ addUserKnob {41 minimum l "black lift" T Clamp1.minimum}
+ addUserKnob {41 mix T final_mix.mix}
+ addUserKnob {26 info l "" +STARTLINE T "\nFizzle v2.0 | by Julian van Mil 2011\nuse fizzle to simulate physical monitor\ndisply patterns and colour corrections"}
+ addUserKnob {20 distortion}
+ addUserKnob {41 channels T PerspDistort1.channels}
+ addUserKnob {41 fov l "Field of View" T PerspDistort1.fov}
+ addUserKnob {41 reverse T PerspDistort1.reverse}
+ addUserKnob {41 resize_bbox l "resize bounding box" -STARTLINE T PerspDistort1.resize_bbox}
+ addUserKnob {41 filter T PerspDistort1.filter}
+ addUserKnob {20 scanlines}
+ addUserKnob {4 scanlinedirection l "scanline alignment" M {Horizontal Vertical ""}}
+ addUserKnob {41 multiply_2 l multiply T Grade_scanline.multiply}
+ addUserKnob {41 black l lift T Grade_scanline.black}
+ addUserKnob {7 scanlinesize l "scanline size" R 0 35}
+ scanlinesize 27.4
+ addUserKnob {41 size l "scanline blur" T Blur1.size}
+ addUserKnob {26 scanlineanimationlitile l "scanline animation"}
+ addUserKnob {7 scanlineamp l amplitude R 0 300}
+ scanlineamp 202
+ addUserKnob {7 scanlinefeq l frequency}
+ scanlinefeq 0.495
+ addUserKnob {41 rotation T CameraShake_sacnline.rotation}
+ addUserKnob {41 octaves T CameraShake_sacnline.octaves}
+ addUserKnob {41 shutter T CameraShake_sacnline.shutter}
+ addUserKnob {41 samples T CameraShake_sacnline.samples}
+ addUserKnob {41 filter_1 l filter T CameraShake_sacnline.filter}
+ addUserKnob {26 scanlinedistortiontext l "scanline distortion"}
+ addUserKnob {6 scanlinedistortionenable l enable +STARTLINE}
+ scanlinedistortionenable true
+ addUserKnob {41 uv_scale l amount T IDistort1.uv_scale}
+ addUserKnob {41 scale T Transform_scanlinescale.scale}
+ addUserKnob {41 uv_offset l offset T IDistort1.uv_offset}
+ addUserKnob {20 flickertab l flicker}
+ addUserKnob {41 multiply T Grade_flicker.multiply}
+ addUserKnob {41 white_1 l gain T Grade_flicker.white}
+ addUserKnob {26 flickrcontrolslable l animation}
+ addUserKnob {41 scale_1 l scale T flickr_controls.scale}
+ addUserKnob {41 speed T flickr_controls.speed}
+ addUserKnob {41 seed T flickr_controls.seed}
+ addUserKnob {41 offset T flickr_controls.offset}
+ addUserKnob {41 float l result T flickr_controls.float}
+ addUserKnob {20 scrolltab l scroll}
+ addUserKnob {41 amplitude T SCROLL.amplitude}
+ addUserKnob {41 rotation_1 l rotation T SCROLL.rotation}
+ addUserKnob {41 scaling T SCROLL.scaling}
+ addUserKnob {41 frequency T SCROLL.frequency}
+ addUserKnob {41 octaves_1 l octaves T SCROLL.octaves}
+ addUserKnob {41 shutter_1 l shutter T SCROLL.shutter}
+ addUserKnob {41 samples_1 l samples T SCROLL.samples}
+ addUserKnob {41 scale_2 l "fixed scale" T SCROLL.scale}
+ addUserKnob {41 filter_2 l filter T SCROLL.filter}
+}
+ BackdropNode {
+  inputs 0
+  name BackdropNode1
+  tile_color 0x8e8e3800
+  label "LINE & DOT\n"
+  note_font_size 42
+  xpos -145
+  ypos -813
+  bdwidth 471
+  bdheight 652
+ }
+ BackdropNode {
+  inputs 0
+  name BackdropNode2
+  tile_color 0x37648eff
+  gl_color 0x80a2ccff
+  label TUBES
+  note_font_size 42
+  xpos -657
+  ypos -603
+  bdwidth 379
+  bdheight 525
+ }
+ BackdropNode {
+  inputs 0
+  name BackdropNode3
+  tile_color 0x7171c600
+  label "SCANLINE\n"
+  note_font_size 42
+  xpos -569
+  ypos 312
+  bdwidth 626
+  bdheight 606
+ }
+ BackdropNode {
+  inputs 0
+  name BackdropNode4
+  tile_color 0x8e8e3800
+  label CC
+  note_font_size 42
+  xpos -650
+  ypos -10
+  bdwidth 372
+  bdheight 269
+ }
+ StickyNote {
+  inputs 0
+  name Distortion
+  label DISTORTION
+  note_font_size 24
+  xpos -418
+  ypos 1114
+ }
+ NoOp {
+  inputs 0
+  name flickr_controls
+  xpos -628
+  ypos 155
+  addUserKnob {20 User}
+  addUserKnob {7 scale}
+  scale 0.5
+  addUserKnob {7 speed R 0 2}
+  speed 1
+  addUserKnob {7 seed R 0 100}
+  seed 7.5
+  addUserKnob {7 offset R 0 20}
+  offset 0.8
+  addUserKnob {26 ""}
+  addUserKnob {7 float}
+  float {{"this.scale * (random(frame * this.speed + this.seed)+this.offset)"}}
+  addUserKnob {7 percent}
+  percent {{floor(this.float*100) i}}
+ }
+ Input {
+  inputs 0
+  name Input1
+  xpos -579
+  ypos -955
+ }
+set N52540000 [stack 0]
+ Dot {
+  name Dot3
+  xpos -771
+  ypos -961
+ }
+ Dot {
+  name Dot4
+  xpos -771
+  ypos 1041
+ }
+set N5764b800 [stack 0]
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{parent.scanlinesize i} {Input1.height i}}
+  color0 0
+  color1 1
+  color2 1
+  color3 0
+  centerlinewidth 0
+  name CheckerBoard5
+  xpos -78
+  ypos 347
+  disable {{!parent.scanlineenable i}}
+ }
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{Input1.width+200 i} {parent.scanlinesize i}}
+  color0 {1 1 1 1}
+  color1 {1 1 1 1}
+  color2 {0 0 0 0}
+  color3 {0 0 0 0}
+  centerlinewidth 0
+  name CheckerBoard3
+  xpos -184
+  ypos 347
+  disable {{!parent.scanlineenable i}}
+ }
+ Switch {
+  inputs 2
+  which {{parent.scanlinedirection i}}
+  name scanlineswitch
+  xpos -132
+  ypos 443
+ }
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat4
+  xpos -132
+  ypos 467
+ }
+ Blur {
+  size 64
+  name Blur1
+  xpos -132
+  ypos 501
+  disable {{!parent.scanlineenable i}}
+ }
+ Gamma {
+  value 0.4
+  name Gamma1
+  xpos -132
+  ypos 530
+  disable {{!parent.scanlineenable i}}
+ }
+set N5764a000 [stack 0]
+ CameraShake {
+  name CameraShake_sacnline1
+  xpos -72
+  ypos 600
+  disable {{!parent.scanlineenable i}}
+  amplitude {{parent.scanlineamp i} 0}
+  rotation 3
+  frequency {{parent.scanlinefeq i}}
+ }
+push $N5764a000
+ CameraShake {
+  name CameraShake_sacnline
+  xpos -193
+  ypos 598
+  disable {{!parent.scanlineenable i}}
+  amplitude {0 {parent.scanlineamp i}}
+  rotation 3
+  frequency {{parent.scanlinefeq i}}
+  shutter 0.745
+ }
+set N903caa00 [stack 0]
+ Switch {
+  inputs 2
+  which {{parent.scanlinedirection i}}
+  name scanlineswitch1
+  xpos -132
+  ypos 708
+ }
+ Transform {
+  center {300 225}
+  name Transform_scanlinescale
+  xpos -132
+  ypos 778
+  disable {{!parent.scanlinedistortionenable x416 1}}
+ }
+push $N903caa00
+ Constant {
+  inputs 0
+  color {1 1 1 1}
+  name Constant1
+  xpos 236
+  ypos -717
+ }
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{parent.dotsize i x14 2} {Input1.height i}}
+  color0 0
+  color1 1
+  color2 1
+  color3 0
+  linecolor 0
+  centerlinewidth 0
+  name CheckerBoard1
+  xpos -83
+  ypos -743
+ }
+set N576c2400 [stack 0]
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{Input1.width i x14 2} {parent.dotsize i}}
+  color0 1
+  color1 1
+  color2 0
+  color3 0
+  linecolor 0
+  centerlinewidth 0
+  name CheckerBoard4
+  xpos 31
+  ypos -736
+ }
+set N576c2000 [stack 0]
+ Merge2 {
+  inputs 2
+  operation multiply
+  name Merge3
+  xpos 137
+  ypos -665
+ }
+push $N576c2000
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat2
+  xpos 31
+  ypos -664
+ }
+push $N576c2400
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat1
+  xpos -83
+  ypos -667
+ }
+ Switch {
+  inputs 4
+  which {{parent.linealign}}
+  name alignmentswitch
+  xpos -83
+  ypos -490
+ }
+set N5254a400 [stack 0]
+ Dot {
+  name Dot6
+  xpos -49
+  ypos -368
+ }
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{parent.dotsize i}}
+  color0 0
+  color1 1
+  color2 0
+  color3 1
+  centerlinewidth 0
+  name CheckerBoard2
+  xpos 61
+  ypos -467
+ }
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat3
+  xpos 61
+  ypos -395
+ }
+ Merge2 {
+  inputs 2
+  name Merge4
+  xpos 61
+  ypos -371
+ }
+set N5772d800 [stack 0]
+ Transform {
+  translate {0 {-parent.dotsize/2 i}}
+  center {960 540}
+  name Transform3
+  xpos 61
+  ypos -318
+ }
+push $N5772d800
+ Dot {
+  name Dot1
+  xpos 233
+  ypos -368
+ }
+ Merge2 {
+  inputs 2
+  operation minus
+  name Merge5
+  xpos 199
+  ypos -318
+ }
+set N5772cc00 [stack 0]
+ Transform {
+  translate {{parent.dotsize i} {parent.dotsize i}}
+  center {960 540}
+  name Transform4
+  xpos 59
+  ypos -253
+ }
+push $N5772cc00
+ Merge2 {
+  inputs 2
+  name Merge6
+  xpos 199
+  ypos -253
+ }
+ Dot {
+  name Dot2
+  xpos 233
+  ypos 107
+ }
+push $N5254a400
+ Dot {
+  name Dot5
+  xpos -419
+  ypos -487
+ }
+set N57769c00 [stack 0]
+push $N52540000
+ CameraShake {
+  name SCROLL
+  xpos -579
+  ypos -757
+  disable {{!parent.scrollenable i x49 1}}
+  amplitude {0 60}
+  frequency 0.07
+ }
+ Transform {
+  center {960 540}
+  name Transform1
+  xpos -579
+  ypos -733
+ }
+ Dot {
+  name Dot7
+  xpos -545
+  ypos -488
+ }
+set N577a7c00 [stack 0]
+ ShuffleCopy {
+  inputs 2
+  green black
+  blue black
+  name ShuffleCopy3
+  xpos -625
+  ypos -397
+  postage_stamp true
+ }
+ Multiply {
+  channels rgb
+  value 10
+  name mult_red
+  xpos -625
+  ypos -325
+ }
+ Position {
+  translate {6 1}
+  name Position_red
+  xpos -625
+  ypos -301
+ }
+ Premult {
+  name Premult1
+  xpos -625
+  ypos -277
+ }
+push $N57769c00
+push $N577a7c00
+ ShuffleCopy {
+  inputs 2
+  red black
+  blue black
+  name ShuffleCopy2
+  xpos -511
+  ypos -399
+  postage_stamp true
+ }
+ Multiply {
+  channels rgb
+  value 10
+  name mult_green
+  xpos -511
+  ypos -327
+ }
+ Position {
+  translate {-5 0}
+  name Position_green
+  xpos -511
+  ypos -303
+ }
+ Premult {
+  name Premult2
+  xpos -511
+  ypos -279
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  name Merge1
+  xpos -511
+  ypos -217
+ }
+push $N57769c00
+push $N577a7c00
+ ShuffleCopy {
+  inputs 2
+  red black
+  green black
+  name ShuffleCopy1
+  xpos -402
+  ypos -398
+  postage_stamp true
+ }
+ Multiply {
+  channels rgb
+  value 10
+  name mult_blues
+  xpos -402
+  ypos -326
+ }
+ Position {
+  translate {3 0}
+  name Position_blue
+  xpos -402
+  ypos -302
+ }
+ Premult {
+  name Premult3
+  xpos -402
+  ypos -278
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  name Merge2
+  xpos -511
+  ypos -193
+ }
+ Saturation {
+  saturation 3.05
+  name Saturation1
+  xpos -511
+  ypos 43
+ }
+ Grade {
+  multiply {0.45 0.75 1 1}
+  name Grade1
+  xpos -511
+  ypos 67
+ }
+ EXPTool {
+  inputs 1+1
+  red {{parent.dotexp i}}
+  green {{curve i x56 0}}
+  blue {{curve i x56 0}}
+  name EXPTool1
+  xpos -511
+  ypos 104
+ }
+ Grade {
+  multiply 3.6
+  mix {{flickr_controls.float.main}}
+  name Grade_flicker
+  xpos -511
+  ypos 158
+  disable {{!parent.flickerenable}}
+ }
+ Grade {
+  inputs 1+1
+  black 0.14
+  white 2.7
+  multiply 3.5
+  name Grade_scanline
+  xpos -511
+  ypos 598
+  disable {{!parent.scanlineenable x75 1}}
+ }
+ Remove {
+  channels scanlinedistort
+  name Remove1
+  xpos -511
+  ypos 690
+  disable {{!parent.scanlinedistortionenable i x416 1}}
+ }
+ ShuffleCopy {
+  inputs 2
+  alpha alpha2
+  black red
+  white green
+  out2 scanlinedistort
+  name ShuffleCopy5
+  xpos -511
+  ypos 778
+  disable {{!parent.scanlinedistortionenable i}}
+ }
+ IDistort {
+  uv scanlinedistort
+  uv_scale 3
+  name IDistort1
+  xpos -511
+  ypos 821
+  disable {{!parent.scanlinedistortionenable}}
+ }
+ Clamp {
+  minimum 0.014
+  maximum_enable false
+  name Clamp1
+  xpos -511
+  ypos 953
+ }
+ ShuffleCopy {
+  inputs 2
+  name ShuffleCopy4
+  xpos -511
+  ypos 1022
+ }
+push $N5764b800
+ Merge2 {
+  inputs 2
+  operation plus
+  Bchannels {rgba.red rgba.green rgba.blue -rgba.alpha}
+  name final_mix
+  xpos -511
+  ypos 1074
+ }
+ PerspDistort {
+  fov 14.4
+  reverse true
+  name PerspDistort1
+  xpos -511
+  ypos 1115
+  disable {{!parent.distortioncheck x49 1}}
+ }
+ Output {
+  name Output1
+  xpos -511
+  ypos 1287
+ }
+ StickyNote {
+  inputs 0
+  name Distortion1
+  label "BLACK LIFT"
+  note_font_size 24
+  xpos -418
+  ypos 952
+ }
+end_group
+ColorCorrect {
+ saturation 0.41
+ contrast 1.58
+ shadows.offset -0.02
+ name ColorCorrect20
+ selected true
+ xpos -1765
+ ypos 10138
+}
+Colorspace {
+ colorspace_out YCbCr
+ name Colorspace1
+ selected true
+ xpos -1765
+ ypos 10240
+}
+set N57864400 [stack 0]
+push $N57864400
+Reformat {
+ type scale
+ scale 0.5
+ name Reformat11
+ selected true
+ xpos -1669
+ ypos 10240
+}
+Blur {
+ size 0.6
+ name Blur11
+ selected true
+ xpos -1669
+ ypos 10266
+}
+Reformat {
+ type scale
+ scale 2
+ name Reformat12
+ selected true
+ xpos -1669
+ ypos 10304
+}
+Copy {
+ inputs 2
+ from0 rgba.red
+ to0 rgba.red
+ name Copy2
+ selected true
+ xpos -1765
+ ypos 10311
+}
+Colorspace {
+ colorspace_in YCbCr
+ name Colorspace2
+ selected true
+ xpos -1765
+ ypos 10380
+}
+Dot {
+ name Dot6
+ selected true
+ xpos -1737
+ ypos 10449
+}
+set N578a0400 [stack 0]
+push $N578a0400
+Group {
+ name TransChroma2
+ tile_color 0xd4b30a00
+ note_font "Bitstream Vera Sans"
+ selected true
+ xpos -2003
+ ypos 10452
+ mapsize {0.15 0.15}
+ addUserKnob {20 "" l TransChroma}
+ addUserKnob {7 tr l " rotate" R -180 180}
+ tr 0.1
+ addUserKnob {26 ""}
+ addUserKnob {14 ts l scale R 0 100}
+ ts 1.02
+ addUserKnob {26 ""}
+ addUserKnob {7 tx l x R -200 200}
+ tx 25
+ addUserKnob {7 ty l y R -200 200}
+ ty -4
+ addUserKnob {26 ""}
+ addUserKnob {12 centerg l center}
+ centerg {{format.width/2} {format.height/2}}
+ addUserKnob {26 ""}
+ addUserKnob {7 bias}
+ bias 0.2
+ addUserKnob {7 steps2 l steps R 8 21}
+ steps2 1
+ addUserKnob {26 ""}
+ addUserKnob {32 knob l help t "opens example script" -STARTLINE T "script_open \[getenv DD_FACILITY_ROOT]/extension/nuke/\[getenv NUKE_RELEASE]/templates/TransChroma_example.nk"}
+ addUserKnob {20 "" l colour}
+ addUserKnob {18 c1}
+ c1 {1 0 0}
+ addUserKnob {6 c1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c2}
+ c2 {0 4 0}
+ addUserKnob {6 c2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c3}
+ c3 {0 0 1}
+ addUserKnob {6 c3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+}
+ Input {
+  inputs 0
+  name Input1
+  xpos -240
+  ypos -74
+ }
+set N578a0000 [stack 0]
+ TimeWarp {
+  lookup {{dude2}}
+  length 0
+  time ""
+  filter nearest
+  name TimeWarp1
+  xpos -240
+  ypos -48
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipshit}
+  dipshit {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 dude3}
+  dude3 {{((dude(((x-1)*ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 dude2}
+  dude2 {{((dude(((x-1)/ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 ratio3}
+  ratio3 {{steps3/1 i}}
+  addUserKnob {7 dude}
+  dude {{curve i l x1 0 1}}
+  addUserKnob {7 steps3 l steps R 5 21}
+  steps3 {{int(steps2) i}}
+ }
+ Grade {
+  whitepoint {{1/21 i}}
+  multiply {{reda*colour1.r(x/TimeWarp1.steps3)+colour2.r(x/TimeWarp1.steps3)*greena+colour3.r(x/TimeWarp1.steps3)*bluea i} {greena*colour2.g(x/TimeWarp1.steps3)+colour1.g(x/TimeWarp1.steps3)*reda+colour3.g(x/TimeWarp1.steps3)*bluea i} {bluea*colour3.b(x/TimeWarp1.steps3)+colour1.b(x/TimeWarp1.steps3)*reda+colour2.b(x/TimeWarp1.steps3)*greena i} {curve i}}
+  black_clamp false
+  name Grade11
+  tile_color 0x7aa9ff00
+  label ChromaEngine
+  xpos -240
+  ypos -22
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipsh}
+  dipsh {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 redb}
+  redb {{curve(((x-1)/ratio)+1) i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greenb}
+  greenb {{curve(((x-1)/ratio)+1) i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 blueb}
+  blueb {{curve(((x-1)/ratio)+1) i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 reda}
+  reda {{"(frame<1) ? redb : redb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greena}
+  greena {{"(frame<1) ? greenb : greenb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 bluea}
+  bluea {{"(frame<1) ? blueb : blueb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 ratio}
+  ratio {{TimeWarp1.steps3/21 i}}
+  addUserKnob {26 ""}
+  addUserKnob {18 colour1}
+  colour1 {{c1.r i} {c1.g i} {c1.b i}}
+  addUserKnob {6 colour1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour2}
+  colour2 {{c2.r i} {c2.g i} {c2.b i}}
+  addUserKnob {6 colour2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour3}
+  colour3 {{c3.r i} {c3.g i} {c3.b i}}
+  addUserKnob {6 colour3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ }
+ Transform {
+  translate {{tx*(bias(x/steps2)-1) i} {ty*(bias(x/steps2)-1) i}}
+  rotate {{tr*(bias(x/steps2)-1) i}}
+  scale {{(1/ts*(1-(bias(x/steps2)))+((bias(x/steps2))))}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform2
+  xpos -240
+  ypos 18
+ }
+ Transform {
+  translate {{movexb i} {moveyb i}}
+  rotate {{rotb i}}
+  scale {{"scalexb " i} {scaleyb i}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform1
+  xpos -240
+  ypos 44
+  addUserKnob {20 "" l User}
+  addUserKnob {7 scalexb}
+  scalexb {{pow(((ts.w(x/steps2)-1)+1),(dud.scale.w(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 scaleyb}
+  scaleyb {{pow(((ts.h(x/steps2)-1)+1),(dud.scale.h(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 movexb}
+  movexb {{(dud.translate.x(((x-1)/ratio2)+1))*tx(x/steps2) i}}
+  addUserKnob {7 moveyb}
+  moveyb {{(dud.translate.y(((x-1)/ratio2)+1))*ty(x/steps2) i}}
+  addUserKnob {7 rotb}
+  rotb {{(dud.rotate(((x-1)/ratio2)+1))*tr(x/steps2) i}}
+  addUserKnob {7 ratio2}
+  ratio2 {{TimeWarp1.steps3/1 i}}
+ }
+ TimeWarp {
+  lookup {{TimeWarp1.dude3 i C x1 1 x71 71}}
+  length {{TimeWarp1.steps3 i}}
+  time ""
+  name TimeWarp2
+  xpos -240
+  ypos 70
+ }
+ Grade {
+  multiply {0.9209 1.0388 1.151 1}
+  black_clamp false
+  mix {{1-(int(steps2)-8)/13 i}}
+  name Grade5
+  xpos -240
+  ypos 96
+ }
+ Grade {
+  multiply {{1/(c1.r+c2.r+c3.r) i} {1/(c1.g+c2.g+c3.g) i} {1/(c1.b+c2.b+c3.b) i} 1}
+  black_clamp false
+  name Grade4
+  xpos -240
+  ypos 122
+ }
+ Output {
+  name Output1
+  xpos -240
+  ypos 148
+ }
+push $N578a0000
+ Transform {
+  translate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  rotate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  scale {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  skewX {{curve i x1 0 0}}
+  center {1024 554}
+  name dud
+  xpos -130
+  ypos -74
+ }
+end_group
+Saturation {
+ saturation 0
+ name Saturation4
+ selected true
+ xpos -2003
+ ypos 10568
+}
+push $N578a0400
+Group {
+ name TransChroma5
+ tile_color 0xd4b30a00
+ note_font "Bitstream Vera Sans"
+ selected true
+ xpos -1876
+ ypos 10531
+ mapsize {0.15 0.15}
+ addUserKnob {20 "" l TransChroma}
+ addUserKnob {7 tr l " rotate" R -180 180}
+ tr 1
+ addUserKnob {26 ""}
+ addUserKnob {14 ts l scale R 0 100}
+ ts 1.02
+ addUserKnob {26 ""}
+ addUserKnob {7 tx l x R -200 200}
+ tx -14
+ addUserKnob {7 ty l y R -200 200}
+ addUserKnob {26 ""}
+ addUserKnob {12 centerg l center}
+ centerg {{format.width/2} {format.height/2}}
+ addUserKnob {26 ""}
+ addUserKnob {7 bias}
+ bias 0.46
+ addUserKnob {7 steps2 l steps R 8 21}
+ steps2 8
+ addUserKnob {26 ""}
+ addUserKnob {32 knob l help t "opens example script" -STARTLINE T "script_open \[getenv DD_FACILITY_ROOT]/extension/nuke/\[getenv NUKE_RELEASE]/templates/TransChroma_example.nk"}
+ addUserKnob {20 "" l colour}
+ addUserKnob {18 c1}
+ c1 {1 0 0}
+ addUserKnob {6 c1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c2}
+ c2 {0 1 0}
+ addUserKnob {6 c2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c3}
+ c3 {0 0 1}
+ addUserKnob {6 c3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+}
+ Input {
+  inputs 0
+  name Input1
+  xpos -240
+  ypos -74
+ }
+set N57923400 [stack 0]
+ TimeWarp {
+  lookup {{dude2}}
+  length 0
+  time ""
+  filter nearest
+  name TimeWarp1
+  xpos -240
+  ypos -48
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipshit}
+  dipshit {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 dude3}
+  dude3 {{((dude(((x-1)*ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 dude2}
+  dude2 {{((dude(((x-1)/ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 ratio3}
+  ratio3 {{steps3/1 i}}
+  addUserKnob {7 dude}
+  dude {{curve i l x1 0 1}}
+  addUserKnob {7 steps3 l steps R 5 21}
+  steps3 {{int(steps2) i}}
+ }
+ Grade {
+  whitepoint {{1/21 i}}
+  multiply {{reda*colour1.r(x/TimeWarp1.steps3)+colour2.r(x/TimeWarp1.steps3)*greena+colour3.r(x/TimeWarp1.steps3)*bluea i} {greena*colour2.g(x/TimeWarp1.steps3)+colour1.g(x/TimeWarp1.steps3)*reda+colour3.g(x/TimeWarp1.steps3)*bluea i} {bluea*colour3.b(x/TimeWarp1.steps3)+colour1.b(x/TimeWarp1.steps3)*reda+colour2.b(x/TimeWarp1.steps3)*greena i} {curve i}}
+  black_clamp false
+  name Grade11
+  tile_color 0x7aa9ff00
+  label ChromaEngine
+  xpos -240
+  ypos -22
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipsh}
+  dipsh {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 redb}
+  redb {{curve(((x-1)/ratio)+1) i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greenb}
+  greenb {{curve(((x-1)/ratio)+1) i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 blueb}
+  blueb {{curve(((x-1)/ratio)+1) i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 reda}
+  reda {{"(frame<1) ? redb : redb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greena}
+  greena {{"(frame<1) ? greenb : greenb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 bluea}
+  bluea {{"(frame<1) ? blueb : blueb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 ratio}
+  ratio {{TimeWarp1.steps3/21 i}}
+  addUserKnob {26 ""}
+  addUserKnob {18 colour1}
+  colour1 {{c1.r i} {c1.g i} {c1.b i}}
+  addUserKnob {6 colour1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour2}
+  colour2 {{c2.r i} {c2.g i} {c2.b i}}
+  addUserKnob {6 colour2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour3}
+  colour3 {{c3.r i} {c3.g i} {c3.b i}}
+  addUserKnob {6 colour3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ }
+ Transform {
+  translate {{tx*(bias(x/steps2)-1) i} {ty*(bias(x/steps2)-1) i}}
+  rotate {{tr*(bias(x/steps2)-1) i}}
+  scale {{(1/ts*(1-(bias(x/steps2)))+((bias(x/steps2))))}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform2
+  xpos -240
+  ypos 18
+ }
+ Transform {
+  translate {{movexb i} {moveyb i}}
+  rotate {{rotb i}}
+  scale {{"scalexb " i} {scaleyb i}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform1
+  xpos -240
+  ypos 44
+  addUserKnob {20 "" l User}
+  addUserKnob {7 scalexb}
+  scalexb {{pow(((ts.w(x/steps2)-1)+1),(dud.scale.w(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 scaleyb}
+  scaleyb {{pow(((ts.h(x/steps2)-1)+1),(dud.scale.h(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 movexb}
+  movexb {{(dud.translate.x(((x-1)/ratio2)+1))*tx(x/steps2) i}}
+  addUserKnob {7 moveyb}
+  moveyb {{(dud.translate.y(((x-1)/ratio2)+1))*ty(x/steps2) i}}
+  addUserKnob {7 rotb}
+  rotb {{(dud.rotate(((x-1)/ratio2)+1))*tr(x/steps2) i}}
+  addUserKnob {7 ratio2}
+  ratio2 {{TimeWarp1.steps3/1 i}}
+ }
+ TimeWarp {
+  lookup {{TimeWarp1.dude3 i C x1 1 x71 71}}
+  length {{TimeWarp1.steps3 i}}
+  time ""
+  name TimeWarp2
+  xpos -240
+  ypos 70
+ }
+ Grade {
+  multiply {0.9209 1.0388 1.151 1}
+  black_clamp false
+  mix {{1-(int(steps2)-8)/13 i}}
+  name Grade5
+  xpos -240
+  ypos 96
+ }
+ Grade {
+  multiply {{1/(c1.r+c2.r+c3.r) i} {1/(c1.g+c2.g+c3.g) i} {1/(c1.b+c2.b+c3.b) i} 1}
+  black_clamp false
+  name Grade4
+  xpos -240
+  ypos 122
+ }
+ Output {
+  name Output1
+  xpos -240
+  ypos 148
+ }
+push $N57923400
+ Transform {
+  translate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  rotate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  scale {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  skewX {{curve i x1 0 0}}
+  center {1024 554}
+  name dud
+  xpos -130
+  ypos -74
+ }
+end_group
+Dissolve {
+ inputs 2
+ channels {rgba.red -rgba.green -rgba.blue none}
+ which 0.775
+ name Dissolve4
+ selected true
+ xpos -1876
+ ypos 10618
+}
+Copy {
+ inputs 2
+ from0 rgba.blue
+ to0 rgba.blue
+ name Copy6
+ selected true
+ xpos -1765
+ ypos 10624
+}
+Dot {
+ name Dot20
+ selected true
+ xpos -1737
+ ypos 10717
+}
+push $N52541c00
+Dissolve {
+ inputs 2
+ channels rgba
+ which {{curve x60 0 x62 1 x63 0.83 0.825 0.42 0 0.315 x69 0}}
+ name Dissolve5
+ selected true
+ xpos -2299
+ ypos 10719
+}
+Dot {
+ name Dot21
+ selected true
+ xpos -2258
+ ypos 10921
+}
+Grade {
+ inputs 1+1
+ name Grade22
+ selected true
+ xpos -2286
+ ypos 10995
+}
+ColorCorrect {
+ inputs 1+1
+ saturation 0.2
+ contrast {1.483334 2 0.37 1.5}
+ contrast_panelDropped true
+ gain {1.3 0.2 1.3 1}
+ gain_panelDropped true
+ shadows.gain 2.1
+ shadows.offset 0.44
+ midtones.offset {1 1 1 1}
+ midtones.offset_panelDropped true
+ name ColorCorrect22
+ selected true
+ xpos -2286
+ ypos 11021
+}
+Dot {
+ name Dot22
+ selected true
+ xpos -2258
+ ypos 11767
+}
+Group {
+ name Group40
+ help "Another 2D Camera Shake Tool for Nuke Features:/n* use either vector Blur or 2d transform motion blur/n* combine vectors from an input with camera shake vectors for motion blur/n*presets/n* tiling/n* pre-transform paramaters (i.e. to scale the image)/n* combining two noise patterns together i.e. a small vibration shake with a hand-held shake./n* being able to view the output curves with time offsets to place the big 'bumps' at the right moment in time/n* separate amplitude and frequency for Transform, scale and rotation."
+ tile_color 0x8ac160ff
+ label "\n\n"
+ selected true
+ xpos -2286
+ ypos 11829
+ addUserKnob {20 Controls}
+ addUserKnob {52 pyLoad l "" +STARTLINE T "nuke.thisGroup()\['pyClass'].execute()" +STARTLINE}
+ addUserKnob {22 pyClass l INVISIBLE -STARTLINE +INVISIBLE T "class cameraShakeVectors:\n\n\n    def __init__(self):\n\timport nuke\n\timport ast\n\tself.knobKeys = \['global_amt','center','amplitude','scale_amount','rot_amount','frequency','frequencyScale','frequencyRotation','global_amtHF','frequencyHF']\n\tself.thisG=nuke.thisGroup()\n\tpresetsStr=self.thisG\['presetsStr'].getValue()\n\tif not presetsStr is \"\":\n\t\tself.presetsDict=ast.literal_eval(presetsStr)\n\telse:\n\t\tself.presetsDict=\{\}\n\n    def savePreset(self):\n        newDict=\{\}\n        presetName=nuke.getInput('name of new preset')\n        if presetName: #2do validate is unique\n           presetName=presetName\n           for knob in self.knobKeys:\n                newDict\[knob]=(self.thisG\[knob].getValue())\n           self.presetsDict\[presetName]=newDict\n           self.thisG\['presetsStr'].setValue(str(self.presetsDict))\n\n    def updatePresetsList(self):\n             self.thisG\['presets'].setValues(self.presetsDict.keys())\n\n    def load(self):\n        preset=self.thisG\['presets'].value()\n        presetKnobs=self.presetsDict\[preset]        \n        for knob in presetKnobs:\n            \tself.thisG\[knob].setValue(presetKnobs\[knob])\n\n    def clearAll(self):\n\tif nuke.ask('Do you want to delete all the presets'):\n\t\tself.thisG\['presetsStr'].setValue('')\n\t\tself.thisG\['presets'].setValues(\[])\n\n    def delete(self):\n\tpreset=self.thisG\['presets'].value()\n\tif nuke.ask('Do you want to delete the '+preset+' preset'):\n\t\tdel self.presetsDict\[preset]\n\t\tnuke.tprint(self.presetsDict)\n\t\tself.thisG\['presetsStr'].setValue(str(self.presetsDict))"}
+ addUserKnob {41 enableShake l "Enable Shake (vector mode: motion blur is control independent)" T control.enableShake}
+ addUserKnob {41 enableMotionBlur l "Enable Motion Blur" T control.enableMotionBlur}
+ addUserKnob {6 motiontileEnable l "Enable Tile (motion blur only works in vector mode)" +STARTLINE}
+ motiontileEnable true
+ addUserKnob {41 checkerBoard T control.checkerBoard}
+ addUserKnob {20 PreShakeTransform l "Pre-Shake Transform" n 1}
+ addUserKnob {12 xformSizeOriginal_translate l Translate t "Use to translate image before you shake it"}
+ addUserKnob {14 xformSizeOriginal_scale l Scale t "Use to scale image before you shake it" R 0 100}
+ xformSizeOriginal_scale 1
+ addUserKnob {12 xformSizeOriginal_center l "XY Center" t "center of the pre-shake transform"}
+ addUserKnob {20 endGroup n -1}
+ addUserKnob {20 presets_G l Presets n 1}
+ addUserKnob {4 presets M {}}
+ addUserKnob {22 loadShake l " load " -STARTLINE T cameraShakeVectors().load()}
+ addUserKnob {22 saveShake l " save " -STARTLINE T "cameraShakeVectors().savePreset()\ncameraShakeVectors().updatePresetsList()"}
+ addUserKnob {22 clear l INVISIBLE -STARTLINE +INVISIBLE T cameraShakeVectors().clearAll()}
+ addUserKnob {22 delete l " delete " -STARTLINE T "cameraShakeVectors().delete()\ncameraShakeVectors().updatePresetsList()"}
+ addUserKnob {1 presetsStr l INVISIBLE +INVISIBLE}
+ presetsStr "\{\}"
+ addUserKnob {20 endGroup_2 l endGroup n -1}
+ addUserKnob {20 ShakeControls l "Shake Controls" n 1}
+ addUserKnob {41 global_amt l shake T control.global_amt}
+ addUserKnob {41 center T control.center}
+ addUserKnob {26 text02 l " amplitude (amount)"}
+ addUserKnob {41 amplitude l Transform T control.amplitude}
+ addUserKnob {41 scale_amount l Scale T control.scale_amount}
+ addUserKnob {41 rot_amount l Rotation T control.rot_amount}
+ addUserKnob {26 text03 l "Frequency (smoothness)"}
+ addUserKnob {41 frequency l Transform T control.frequency}
+ addUserKnob {41 frequencyScale l Scale T control.frequencyScale}
+ addUserKnob {41 frequencyRotation l Rotation T control.frequencyRotation}
+ addUserKnob {26 text05 l "2nd Hi frequency shake"}
+ addUserKnob {41 global_amtHF l "Transform Amplitude" T control.global_amtHF}
+ addUserKnob {41 frequencyHF l "Transform Frequency" T control.frequencyHF}
+ addUserKnob {20 endGroup_1 l endGroup n -1}
+ addUserKnob {20 MotionBlur}
+ addUserKnob {41 mbChoice l method T control.mbChoice}
+ addUserKnob {26 ""}
+ addUserKnob {26 method2d l "method 2d"}
+ addUserKnob {41 filter T TransformMB.filter}
+ addUserKnob {41 motionblur T TransformMB.motionblur}
+ addUserKnob {41 shutter T TransformMB.shutter}
+ addUserKnob {41 shutteroffset l "shutter offset" T TransformMB.shutteroffset}
+ addUserKnob {41 shuttercustomoffset l "" -STARTLINE T TransformMB.shuttercustomoffset}
+ addUserKnob {26 ""}
+ addUserKnob {26 methodVectors l "method Vectors"}
+ addUserKnob {41 shutter_1 l shutter T MotionBlur2D1.shutter}
+ addUserKnob {41 shutteroffset_1 l "shutter offset" T MotionBlur2D1.shutteroffset}
+ addUserKnob {41 shuttercustomoffset_1 l "" -STARTLINE T MotionBlur2D1.shuttercustomoffset}
+ addUserKnob {41 method T VectorBlur2.method}
+ addUserKnob {41 grow_bbox l "grow bbox" T VectorBlur2.grow_bbox}
+ addUserKnob {26 ""}
+ addUserKnob {26 text01 l "Use Input Vectors" T ""}
+ addUserKnob {41 useVectorInput l "" t "combine input vectors and camera shake vectors together" -STARTLINE T control.useVectorInput}
+ addUserKnob {41 in l "" -STARTLINE T ShuffleCopy2.in}
+ addUserKnob {41 mix l "add input vectors" T Merge10.mix}
+ addUserKnob {20 Curves}
+ addUserKnob {26 text04 l "This are here so" T "you can look at the shake curves in the curve editor"}
+ addUserKnob {41 translate T control.translate}
+ addUserKnob {41 scale T control.scale}
+ addUserKnob {41 rotation T control.rotation}
+ addUserKnob {26 text04_1 l "Offset (time)"}
+ addUserKnob {41 TransformOffsetY l TransformOffsetH T control.TransformOffsetY}
+ addUserKnob {41 TransformOffsetX l TransformOffsetY T control.TransformOffsetX}
+ addUserKnob {41 ScaleOffset T control.ScaleOffset}
+ addUserKnob {41 RotationOffset T control.RotationOffset}
+ addUserKnob {20 endGroup_3 l endGroup n -1}
+ addUserKnob {20 Info}
+ addUserKnob {26 version l version: T "v0.6b (1/5/2014)"}
+ addUserKnob {26 github l "github latest:" T https://github.com/vfxwiki/CameraShakeVetr}
+ addUserKnob {26 githubstable l "github stable:" T https://github.com/vfxwiki/nukeArtistToolkit/blob/master/CameraShakeVetr}
+}
+ Input {
+  inputs 0
+  name vectors
+  xpos 615
+  ypos -247
+  number 1
+ }
+ CheckerBoard2 {
+  inputs 0
+  name CheckerBoard1
+  xpos 229
+  ypos -291
+ }
+ Input {
+  inputs 0
+  name Input1
+  xpos 370
+  ypos -286
+ }
+ Switch {
+  inputs 2
+  which {{control.checkerBoard i}}
+  name Switch3
+  xpos 370
+  ypos -194
+ }
+set N52548d80 [stack 0]
+ AddChannels {
+  channels motionShk
+  name AddChannels1
+  xpos 370
+  ypos -164
+ }
+ ShuffleCopy {
+  inputs 2
+  in motion
+  red red
+  green green
+  blue blue
+  out motionShk
+  out2 rgba
+  name ShuffleCopy2
+  xpos 370
+  ypos -107
+ }
+ Crop {
+  box {0 0 {width} {height}}
+  name Crop2
+  xpos 370
+  ypos -77
+  disable {{!motiontileEnable}}
+ }
+ Dot {
+  name Dot12
+  xpos 402
+  ypos -19
+ }
+set N579f1400 [stack 0]
+ Transform {
+  translate {{xformSizeOriginal_translate.x} {xformSizeOriginal_translate.y}}
+  scale {{xformSizeOriginal_scale.w}}
+  center {{xformSizeOriginal_center.x} {xformSizeOriginal_center.y}}
+  filter Rifman
+  name xformSizeOriginal
+  tile_color 0xffff00
+  label "Pre-Shake Translate"
+  xpos 412
+  ypos 30
+ }
+set N579f1000 [stack 0]
+ Transform {
+  translate {{control.translate i} {control.translate i}}
+  center {{control.center i} {control.center i}}
+  filter Rifman
+  name xformShake
+  tile_color 0xff000000
+  label ShakeXY
+  xpos 379
+  ypos 250
+ }
+set N579f0c00 [stack 0]
+ Dot {
+  name Dot23
+  xpos 223
+  ypos 193
+ }
+push $N579f0c00
+ MotionBlur2D {
+  inputs 2
+  uv motionShk
+  name MotionBlur2D2
+  xpos 341
+  ypos 316
+ }
+set N579f0400 [stack 0]
+ Transform {
+  translate {{-control.translate} {-control.translate}}
+  center {{control.center} {control.center}}
+  filter Rifman
+  name xformShake3
+  tile_color 0xff000000
+  label ShakeXY
+  xpos 151
+  ypos 310
+ }
+push $N579f1400
+ Dot {
+  name Dot11
+  xpos 70
+  ypos 125
+ }
+ ShuffleCopy {
+  inputs 2
+  in motionShk
+  alpha alpha2
+  black red
+  white green
+  red2 blue
+  green2 alpha
+  out2 motionShk
+  name ShuffleCopy5
+  xpos 36
+  ypos 316
+ }
+ Dot {
+  name Dot2
+  xpos 70
+  ypos 362
+ }
+set N57a27400 [stack 0]
+ Dot {
+  name Dot9
+  xpos 70
+  ypos 426
+ }
+set N57a27000 [stack 0]
+ Dot {
+  name Dot8
+  xpos 70
+  ypos 454
+ }
+set N57a26c00 [stack 0]
+ Dot {
+  name Dot7
+  xpos 70
+  ypos 482
+ }
+set N57a26800 [stack 0]
+ Dot {
+  name Dot6
+  xpos 70
+  ypos 562
+ }
+set N57a26400 [stack 0]
+ Dot {
+  name Dot5
+  xpos 70
+  ypos 590
+ }
+set N57a26000 [stack 0]
+ Dot {
+  name Dot4
+  xpos 70
+  ypos 618
+ }
+set N57a45c00 [stack 0]
+ Dot {
+  name Dot3
+  xpos 70
+  ypos 700
+ }
+set N57a45800 [stack 0]
+ Dot {
+  name Dot10
+  xpos 70
+  ypos 728
+ }
+ Transform {
+  translate {{width+Transform1.translate.x i} {-height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform9
+  xpos 142
+  ypos 725
+ }
+push $N57a45800
+ Transform {
+  translate {{-width+Transform1.translate.x i} {height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform8
+  xpos 142
+  ypos 697
+ }
+push $N57a45c00
+ Transform {
+  translate {{width+Transform1.translate.x i} {height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform5
+  xpos 142
+  ypos 615
+ }
+push $N57a26000
+ Transform {
+  translate {{Transform1.translate.x i} {height+Transform1.translate.y i}}
+  scale {1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform6
+  xpos 142
+  ypos 587
+ }
+push $N57a26400
+ Transform {
+  translate {{width+Transform1.translate.x i} {Transform1.translate.y i}}
+  scale {-1 1}
+  center {{width/2 i} {height/2 i}}
+  name Transform7
+  xpos 142
+  ypos 559
+ }
+push $N57a26800
+ Transform {
+  translate {{-width+Transform1.translate.x i} {-height+Transform1.translate.y i}}
+  scale {-1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform4
+  xpos 142
+  ypos 479
+ }
+push $N57a26c00
+ Transform {
+  translate {{Transform1.translate.x i} {-height+Transform1.translate.y i}}
+  scale {1 -1}
+  center {{width/2 i} {height/2 i}}
+  name Transform3
+  xpos 142
+  ypos 451
+ }
+push $N57a27000
+ Transform {
+  translate {{-width+Transform1.translate.x i} {Transform1.translate.y i}}
+  scale {-1 1}
+  center {{width/2 i} {height/2 i}}
+  name Transform2
+  xpos 142
+  ypos 423
+ }
+push $N57a27400
+ Transform {
+  translate {{xformShake.translate.x} {xformShake.translate.y}}
+  center {{width/2} {height/2}}
+  name Transform1
+  xpos 252
+  ypos 359
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge1
+  xpos 252
+  ypos 423
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge2
+  xpos 252
+  ypos 451
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge3
+  xpos 252
+  ypos 479
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge4
+  xpos 252
+  ypos 559
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge5
+  xpos 252
+  ypos 587
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge6
+  xpos 252
+  ypos 615
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge7
+  xpos 252
+  ypos 697
+ }
+ Merge2 {
+  inputs 2
+  also_merge motionShk
+  name Merge8
+  xpos 252
+  ypos 725
+ }
+ Shuffle {
+  alpha white
+  name Shuffle3
+  xpos 252
+  ypos 749
+ }
+push $N579f0400
+push $N579f0c00
+ Switch {
+  inputs 2
+  which {{motiontileEnable}}
+  name Switch4
+  xpos 379
+  ypos 482
+ }
+ Merge2 {
+  inputs 2
+  bbox A
+  also_merge motionShk
+  name Merge9
+  label MotionTile
+  xpos 379
+  ypos 731
+  disable {{!motiontileEnable x1042 0}}
+ }
+set N57ac0800 [stack 0]
+push $N579f1000
+ Dot {
+  name Dot1
+  xpos 883
+  ypos 39
+ }
+ Dot {
+  name Dot15
+  xpos 885
+  ypos 708
+ }
+set N57ac0000 [stack 0]
+ Dot {
+  name Dot13
+  xpos 1202
+  ypos 1385
+ }
+set N57b05c00 [stack 0]
+push $N57ac0000
+push $N57ac0800
+ Transform {
+  rotate {{control.rotation i}}
+  center {{control.center i} {control.center i}}
+  filter Rifman
+  name xformShake1
+  tile_color 0xff000000
+  label ShakeRotate
+  xpos 379
+  ypos 820
+ }
+set N57b05800 [stack 0]
+ ShuffleCopy {
+  inputs 2
+  in motionShk
+  alpha alpha2
+  black red
+  white green
+  red2 blue
+  green2 alpha
+  out2 motionShk
+  name ShuffleCopy1
+  xpos 869
+  ypos 862
+ }
+ Dot {
+  name Dot24
+  xpos 924
+  ypos 1426
+ }
+push $N57ac0800
+push $N57b05800
+ Transform {
+  scale {{control.scale i}}
+  center {{control.center i} {control.center i}}
+  filter Rifman
+  name xformShake2
+  tile_color 0xff000000
+  label ShakeZoom
+  xpos 379
+  ypos 916
+ }
+set N57b04c00 [stack 0]
+ Dot {
+  name Dot17
+  xpos 383
+  ypos 1035
+ }
+push $N57b04c00
+ Dot {
+  name Dot16
+  xpos 426
+  ypos 1037
+ }
+ MotionBlur2D {
+  inputs 2
+  uv motionShk
+  name MotionBlur2D1
+  xpos 373
+  ypos 1072
+ }
+set N57b04000 [stack 0]
+ Merge2 {
+  inputs 2
+  operation plus
+  Achannels motionShk
+  Bchannels motionShk
+  output motionShk
+  name Merge11
+  xpos 291
+  ypos 1140
+  disable {{!motiontileEnable i}}
+ }
+ Dot {
+  name Dot18
+  xpos 407
+  ypos 1243
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  Achannels motionShk
+  Bchannels motionShk
+  output motionShk
+  name Merge10
+  xpos 385
+  ypos 1398
+  disable {{!control.useVectorInput x1046 1}}
+ }
+ ShuffleCopy {
+  inputs 2
+  in2 motionShk
+  red red
+  green green
+  blue blue
+  out2 motionShk
+  name ShuffleCopy3
+  xpos 996
+  ypos 1588
+  disable {{control.enableShake x1049 0}}
+ }
+ ShuffleCopy {
+  inputs 2
+  in motionShk
+  alpha alpha2
+  black red
+  white green
+  red2 blue
+  green2 alpha
+  out2 motionShk
+  name ShuffleCopy4
+  xpos 917
+  ypos 1642
+  disable true
+ }
+ VectorBlur {
+  channels rgb
+  uv motionShk
+  mix {{control.enableMotionBlur 0.9064516129}}
+  name VectorBlur2
+  tile_color 0xcc804e00
+  label (all)
+  xpos 834
+  ypos 1678
+  disable {{!control.enableMotionBlur x1040 1}}
+ }
+push $N57b04c00
+ Transform {
+  center {{width/2} {height/2}}
+  filter Rifman
+  motionblur 1
+  shutteroffset centred
+  name TransformMB
+  xpos 526
+  ypos 1275
+  disable {{!control.enableMotionBlur x1044 0}}
+ }
+push $N57b05c00
+ Dot {
+  name Dot22
+  xpos 665
+  ypos 1717
+ }
+ Switch {
+  inputs 2
+  which {{control.enableShake}}
+  name Switch1
+  xpos 603
+  ypos 1856
+ }
+ Switch {
+  inputs 2
+  which {{control.mbChoice}}
+  name Switch2
+  xpos 834
+  ypos 1856
+ }
+ Remove {
+  channels motionShk
+  name Remove1
+  xpos 834
+  ypos 1881
+ }
+ Output {
+  name Output1
+  xpos 834
+  ypos 1932
+ }
+ Dot {
+  inputs 0
+  name Dot14
+  xpos 211
+  ypos 916
+ }
+push $N52548d80
+ Dot {
+  name Dot25
+  xpos -328
+  ypos -202
+ }
+ Dot {
+  name Dot27
+  xpos -298
+  ypos 833
+ }
+ Dot {
+  name Dot19
+  xpos -298
+  ypos 1002
+ }
+ Dot {
+  name Dot26
+  xpos -282
+  ypos 1666
+ }
+ NoOp {
+  name control
+  xpos -110
+  ypos 1584
+  addUserKnob {20 User}
+  addUserKnob {6 checkerBoard +STARTLINE}
+  addUserKnob {7 frequencyHF R 1 100}
+  frequencyHF 38
+  addUserKnob {14 global_amtHF R 0 100}
+  global_amtHF 17
+  addUserKnob {7 global_amt}
+  global_amt {{curve x166 0 0.52 1 x170 1 x171 0.64 0.36 0.12 0.85 0}}
+  addUserKnob {7 scale_amount}
+  scale_amount 0.425
+  addUserKnob {7 rot_amount}
+  rot_amount 0.36
+  addUserKnob {14 translate R 0 100}
+  translate {{"frequency.h>0?(((( noise((frame+TransformOffsetX)*(1/(frequency.w/5)),0,5) + (frequency.w/5)) * amplitude.w)-(amplitude.w*(frequency.w/5)))*10+((( noise((frame+TransformOffsetX+1000)*(1/((frequency.w/100*frequencyHF*0.25))),0,5) + (frequency.w/100*frequencyHF*0.25)) * amplitude.w)-(amplitude.w*(frequency.w/100*frequencyHF*0.25)))*(global_amtHF/10))*global_amt:0" x1026 -6930281} {"frequency.h>0?((((noise((frame+TransformOffsetY+1000)*(1/((frequency.h/5))),0,5) + (frequency.h/5)) * amplitude.h)-(amplitude.h*(frequency.h/5)))*10+((( noise((frame+TransformOffsetY+2000)*(1/((frequency.h/100*frequencyHF*0.25))),0,5) + (frequency.h/100*frequencyHF*0.25)) * amplitude.h)-(amplitude.h*(frequency.h/100*frequencyHF*0.25)))*(global_amtHF/10))*global_amt:0"}}
+  addUserKnob {14 scale R 0 100}
+  scale {{frequencyScale>0?1+((scale_amount/10)*noise((frame+ScaleOffset)*(2/(frequencyScale/10)),0.5)*global_amt):1}}
+  addUserKnob {7 rotation}
+  rotation {{"frequencyRotation>0?(((rot_amount*100)* noise((frame+RotationOffset)*(1/(frequencyRotation/100)),0.5)) * rot_amount/3)*global_amt:0" x1026 0.225}}
+  addUserKnob {12 center}
+  center {{width/2 x1049 1930 x1066 1440} {height/2 x1049 1505 x1066 1080}}
+  addUserKnob {6 enableShake +STARTLINE}
+  enableShake true
+  addUserKnob {6 enableMotionBlur +STARTLINE}
+  enableMotionBlur true
+  addUserKnob {4 mbChoice l method M {"2d transform" "vector blur" "" ""}}
+  mbChoice "vector blur"
+  addUserKnob {6 useVectorInput +STARTLINE}
+  useVectorInput true
+  addUserKnob {26 ""}
+  addUserKnob {14 frequency l Transform R 0 100}
+  frequency 36
+  addUserKnob {7 frequencyScale R 1 100}
+  frequencyScale 45
+  addUserKnob {7 frequencyRotation R 1 100}
+  frequencyRotation 66
+  addUserKnob {14 amplitude l Amplitude/Amount R 0 100}
+  amplitude 34.5
+  addUserKnob {7 TransformOffsetX R -50 50}
+  TransformOffsetX 31.5
+  addUserKnob {7 TransformOffsetY R -50 50}
+  TransformOffsetY 2
+  addUserKnob {7 ScaleOffset R -50 50}
+  ScaleOffset 38.5
+  addUserKnob {7 RotationOffset R -50 50}
+  RotationOffset 15.5
+ }
+push 0
+push 0
+push 0
+push 0
+push 0
+push 0
+push $N57b04000
+ Viewer {
+  inputs 8
+  channels motion
+  viewerProcess rec709
+  input_process false
+  name Viewer1
+  xpos 529
+  ypos 1114
+ }
+end_group
+Dot {
+ name Dot23
+ selected true
+ xpos -2255
+ ypos 12002
+}
+set N57bb1c00 [stack 0]
+Group {
+ name fizzle3
+ selected true
+ xpos -1728
+ ypos 11998
+ addUserKnob {20 User}
+ addUserKnob {6 distortioncheck l distortion +STARTLINE}
+ addUserKnob {6 scanlineenable l scanlines -STARTLINE}
+ scanlineenable true
+ addUserKnob {6 flickerenable l flicker -STARTLINE}
+ addUserKnob {6 scrollenable l scroll -STARTLINE}
+ scrollenable true
+ addUserKnob {4 linealign l lines M {Vertical Horizontal Grid None "" "" "" "" "" "" "" "" ""}}
+ linealign Horizontal
+ addUserKnob {7 dotsize l "line width" R 0 10}
+ dotsize 1.35
+ addUserKnob {41 saturation l "pre saturation" T Saturation1.saturation}
+ addUserKnob {41 multiply_1 l tint T Grade1.multiply}
+ addUserKnob {7 dotexp l "dot exposure" R -1 1}
+ dotexp -0.2
+ addUserKnob {41 white l "scanline gain" T Grade_scanline.white}
+ addUserKnob {41 minimum_enable l enable -STARTLINE T Clamp1.minimum_enable}
+ addUserKnob {20 redgroup l "red tube" t "multiply red channel and shit it's axis for weakened / missaligned tube gun effect" n 1}
+ addUserKnob {41 redvalue l "red multiply" T mult_red.value}
+ addUserKnob {41 translate l shift T Position_red.translate}
+ addUserKnob {20 endGroup n -1}
+ addUserKnob {20 greengroup l "green tube" t "multiply green channel and shit it's axis for weakened / missaligned tube gun effect" n 1}
+ addUserKnob {41 greenvalue l "green multiply" T mult_green.value}
+ addUserKnob {41 translate_1 l shift T Position_green.translate}
+ addUserKnob {20 endGroup_1 l endGroup n -1}
+ addUserKnob {20 bluegroup l "blue tube" t "multiply blue channel and shit it's axis for weakened / missaligned tube gun effect" n 1}
+ addUserKnob {41 bluevalue l "blue multiply" T mult_blues.value}
+ addUserKnob {41 translate_2 l shift T Position_blue.translate}
+ addUserKnob {20 endGroup_2 l endGroup n -1}
+ addUserKnob {41 minimum l "black lift" T Clamp1.minimum}
+ addUserKnob {41 mix T final_mix.mix}
+ addUserKnob {26 info l "" +STARTLINE T "\nFizzle v2.0 | by Julian van Mil 2011\nuse fizzle to simulate physical monitor\ndisply patterns and colour corrections"}
+ addUserKnob {20 distortion}
+ addUserKnob {41 channels T PerspDistort1.channels}
+ addUserKnob {41 fov l "Field of View" T PerspDistort1.fov}
+ addUserKnob {41 reverse T PerspDistort1.reverse}
+ addUserKnob {41 resize_bbox l "resize bounding box" -STARTLINE T PerspDistort1.resize_bbox}
+ addUserKnob {41 filter T PerspDistort1.filter}
+ addUserKnob {20 scanlines}
+ addUserKnob {4 scanlinedirection l "scanline alignment" M {Horizontal Vertical ""}}
+ addUserKnob {41 multiply_2 l multiply T Grade_scanline.multiply}
+ addUserKnob {41 black l lift T Grade_scanline.black}
+ addUserKnob {7 scanlinesize l "scanline size" R 0 35}
+ scanlinesize 27.4
+ addUserKnob {41 size l "scanline blur" T Blur1.size}
+ addUserKnob {26 scanlineanimationlitile l "scanline animation"}
+ addUserKnob {7 scanlineamp l amplitude R 0 300}
+ scanlineamp 202
+ addUserKnob {7 scanlinefeq l frequency}
+ scanlinefeq 0.495
+ addUserKnob {41 rotation T CameraShake_sacnline.rotation}
+ addUserKnob {41 octaves T CameraShake_sacnline.octaves}
+ addUserKnob {41 shutter T CameraShake_sacnline.shutter}
+ addUserKnob {41 samples T CameraShake_sacnline.samples}
+ addUserKnob {41 filter_1 l filter T CameraShake_sacnline.filter}
+ addUserKnob {26 scanlinedistortiontext l "scanline distortion"}
+ addUserKnob {6 scanlinedistortionenable l enable +STARTLINE}
+ scanlinedistortionenable true
+ addUserKnob {41 uv_scale l amount T IDistort1.uv_scale}
+ addUserKnob {41 scale T Transform_scanlinescale.scale}
+ addUserKnob {41 uv_offset l offset T IDistort1.uv_offset}
+ addUserKnob {20 flickertab l flicker}
+ addUserKnob {41 multiply T Grade_flicker.multiply}
+ addUserKnob {41 white_1 l gain T Grade_flicker.white}
+ addUserKnob {26 flickrcontrolslable l animation}
+ addUserKnob {41 scale_1 l scale T flickr_controls.scale}
+ addUserKnob {41 speed T flickr_controls.speed}
+ addUserKnob {41 seed T flickr_controls.seed}
+ addUserKnob {41 offset T flickr_controls.offset}
+ addUserKnob {41 float l result T flickr_controls.float}
+ addUserKnob {20 scrolltab l scroll}
+ addUserKnob {41 amplitude T SCROLL.amplitude}
+ addUserKnob {41 rotation_1 l rotation T SCROLL.rotation}
+ addUserKnob {41 scaling T SCROLL.scaling}
+ addUserKnob {41 frequency T SCROLL.frequency}
+ addUserKnob {41 octaves_1 l octaves T SCROLL.octaves}
+ addUserKnob {41 shutter_1 l shutter T SCROLL.shutter}
+ addUserKnob {41 samples_1 l samples T SCROLL.samples}
+ addUserKnob {41 scale_2 l "fixed scale" T SCROLL.scale}
+ addUserKnob {41 filter_2 l filter T SCROLL.filter}
+}
+ BackdropNode {
+  inputs 0
+  name BackdropNode1
+  tile_color 0x8e8e3800
+  label "LINE & DOT\n"
+  note_font_size 42
+  xpos -145
+  ypos -813
+  bdwidth 471
+  bdheight 652
+ }
+ BackdropNode {
+  inputs 0
+  name BackdropNode2
+  tile_color 0x37648eff
+  gl_color 0x80a2ccff
+  label TUBES
+  note_font_size 42
+  xpos -657
+  ypos -603
+  bdwidth 379
+  bdheight 525
+ }
+ BackdropNode {
+  inputs 0
+  name BackdropNode3
+  tile_color 0x7171c600
+  label "SCANLINE\n"
+  note_font_size 42
+  xpos -569
+  ypos 312
+  bdwidth 626
+  bdheight 606
+ }
+ BackdropNode {
+  inputs 0
+  name BackdropNode4
+  tile_color 0x8e8e3800
+  label CC
+  note_font_size 42
+  xpos -650
+  ypos -10
+  bdwidth 372
+  bdheight 269
+ }
+ StickyNote {
+  inputs 0
+  name Distortion
+  label DISTORTION
+  note_font_size 24
+  xpos -418
+  ypos 1114
+ }
+ NoOp {
+  inputs 0
+  name flickr_controls
+  xpos -628
+  ypos 155
+  addUserKnob {20 User}
+  addUserKnob {7 scale}
+  scale 0.5
+  addUserKnob {7 speed R 0 2}
+  speed 1
+  addUserKnob {7 seed R 0 100}
+  seed 7.5
+  addUserKnob {7 offset R 0 20}
+  offset 0.8
+  addUserKnob {26 ""}
+  addUserKnob {7 float}
+  float {{"this.scale * (random(frame * this.speed + this.seed)+this.offset)"}}
+  addUserKnob {7 percent}
+  percent {{floor(this.float*100) i}}
+ }
+ Input {
+  inputs 0
+  name Input1
+  xpos -579
+  ypos -955
+ }
+set N57bb0000 [stack 0]
+ Dot {
+  name Dot3
+  xpos -771
+  ypos -961
+ }
+ Dot {
+  name Dot4
+  xpos -771
+  ypos 1041
+ }
+set N57bdd800 [stack 0]
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{parent.scanlinesize i} {Input1.height i}}
+  color0 0
+  color1 1
+  color2 1
+  color3 0
+  centerlinewidth 0
+  name CheckerBoard5
+  xpos -78
+  ypos 347
+  disable {{!parent.scanlineenable i}}
+ }
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{Input1.width+200 i} {parent.scanlinesize i}}
+  color0 {1 1 1 1}
+  color1 {1 1 1 1}
+  color2 {0 0 0 0}
+  color3 {0 0 0 0}
+  centerlinewidth 0
+  name CheckerBoard3
+  xpos -184
+  ypos 347
+  disable {{!parent.scanlineenable i}}
+ }
+ Switch {
+  inputs 2
+  which {{parent.scanlinedirection i}}
+  name scanlineswitch
+  xpos -132
+  ypos 443
+ }
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat4
+  xpos -132
+  ypos 467
+ }
+ Blur {
+  size 64
+  name Blur1
+  xpos -132
+  ypos 501
+  disable {{!parent.scanlineenable i}}
+ }
+ Gamma {
+  value 0.4
+  name Gamma1
+  xpos -132
+  ypos 530
+  disable {{!parent.scanlineenable i}}
+ }
+set N57bdc000 [stack 0]
+ CameraShake {
+  name CameraShake_sacnline1
+  xpos -72
+  ypos 600
+  disable {{!parent.scanlineenable i}}
+  amplitude {{parent.scanlineamp i} 0}
+  rotation 3
+  frequency {{parent.scanlinefeq i}}
+ }
+push $N57bdc000
+ CameraShake {
+  name CameraShake_sacnline
+  xpos -193
+  ypos 598
+  disable {{!parent.scanlineenable i}}
+  amplitude {0 {parent.scanlineamp i}}
+  rotation 3
+  frequency {{parent.scanlinefeq i}}
+  shutter 0.745
+ }
+set N57c45700 [stack 0]
+ Switch {
+  inputs 2
+  which {{parent.scanlinedirection i}}
+  name scanlineswitch1
+  xpos -132
+  ypos 708
+ }
+ Transform {
+  center {300 225}
+  name Transform_scanlinescale
+  xpos -132
+  ypos 778
+  disable {{!parent.scanlinedistortionenable x416 1}}
+ }
+push $N57c45700
+ Constant {
+  inputs 0
+  color {1 1 1 1}
+  name Constant1
+  xpos 236
+  ypos -717
+ }
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{parent.dotsize i x14 2} {Input1.height i}}
+  color0 0
+  color1 1
+  color2 1
+  color3 0
+  linecolor 0
+  centerlinewidth 0
+  name CheckerBoard1
+  xpos -83
+  ypos -743
+ }
+set N57c58400 [stack 0]
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{Input1.width i x14 2} {parent.dotsize i}}
+  color0 1
+  color1 1
+  color2 0
+  color3 0
+  linecolor 0
+  centerlinewidth 0
+  name CheckerBoard4
+  xpos 31
+  ypos -736
+ }
+set N57c58000 [stack 0]
+ Merge2 {
+  inputs 2
+  operation multiply
+  name Merge3
+  xpos 137
+  ypos -665
+ }
+push $N57c58000
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat2
+  xpos 31
+  ypos -664
+ }
+push $N57c58400
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat1
+  xpos -83
+  ypos -667
+ }
+ Switch {
+  inputs 4
+  which {{parent.linealign}}
+  name alignmentswitch
+  xpos -83
+  ypos -490
+ }
+set N57bb8400 [stack 0]
+ Dot {
+  name Dot6
+  xpos -49
+  ypos -368
+ }
+ CheckerBoard2 {
+  inputs 0
+  boxsize {{parent.dotsize i}}
+  color0 0
+  color1 1
+  color2 0
+  color3 1
+  centerlinewidth 0
+  name CheckerBoard2
+  xpos 61
+  ypos -467
+ }
+ Reformat {
+  type "to box"
+  box_width {{Input1.width i}}
+  box_height {{Input1.height i}}
+  box_fixed true
+  scale {1 1}
+  resize fill
+  filter Impulse
+  name Reformat3
+  xpos 61
+  ypos -395
+ }
+ Merge2 {
+  inputs 2
+  name Merge4
+  xpos 61
+  ypos -371
+ }
+set N57ccb800 [stack 0]
+ Transform {
+  translate {0 {-parent.dotsize/2 i}}
+  center {960 540}
+  name Transform3
+  xpos 61
+  ypos -318
+ }
+push $N57ccb800
+ Dot {
+  name Dot1
+  xpos 233
+  ypos -368
+ }
+ Merge2 {
+  inputs 2
+  operation minus
+  name Merge5
+  xpos 199
+  ypos -318
+ }
+set N57ccac00 [stack 0]
+ Transform {
+  translate {{parent.dotsize i} {parent.dotsize i}}
+  center {960 540}
+  name Transform4
+  xpos 59
+  ypos -253
+ }
+push $N57ccac00
+ Merge2 {
+  inputs 2
+  name Merge6
+  xpos 199
+  ypos -253
+ }
+ Dot {
+  name Dot2
+  xpos 233
+  ypos 107
+ }
+push $N57bb8400
+ Dot {
+  name Dot5
+  xpos -419
+  ypos -487
+ }
+set N57d05c00 [stack 0]
+push $N57bb0000
+ CameraShake {
+  name SCROLL
+  xpos -579
+  ypos -757
+  disable {{!parent.scrollenable i x49 1}}
+  amplitude {0 60}
+  frequency 0.07
+ }
+ Transform {
+  center {960 540}
+  name Transform1
+  xpos -579
+  ypos -733
+ }
+ Dot {
+  name Dot7
+  xpos -545
+  ypos -488
+ }
+set N5811bc00 [stack 0]
+ ShuffleCopy {
+  inputs 2
+  green black
+  blue black
+  name ShuffleCopy3
+  xpos -625
+  ypos -397
+  postage_stamp true
+ }
+ Multiply {
+  channels rgb
+  value 10
+  name mult_red
+  xpos -625
+  ypos -325
+ }
+ Position {
+  translate {6 1}
+  name Position_red
+  xpos -625
+  ypos -301
+ }
+ Premult {
+  name Premult1
+  xpos -625
+  ypos -277
+ }
+push $N57d05c00
+push $N5811bc00
+ ShuffleCopy {
+  inputs 2
+  red black
+  blue black
+  name ShuffleCopy2
+  xpos -511
+  ypos -399
+  postage_stamp true
+ }
+ Multiply {
+  channels rgb
+  value 10
+  name mult_green
+  xpos -511
+  ypos -327
+ }
+ Position {
+  translate {-5 0}
+  name Position_green
+  xpos -511
+  ypos -303
+ }
+ Premult {
+  name Premult2
+  xpos -511
+  ypos -279
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  name Merge1
+  xpos -511
+  ypos -217
+ }
+push $N57d05c00
+push $N5811bc00
+ ShuffleCopy {
+  inputs 2
+  red black
+  green black
+  name ShuffleCopy1
+  xpos -402
+  ypos -398
+  postage_stamp true
+ }
+ Multiply {
+  channels rgb
+  value 10
+  name mult_blues
+  xpos -402
+  ypos -326
+ }
+ Position {
+  translate {3 0}
+  name Position_blue
+  xpos -402
+  ypos -302
+ }
+ Premult {
+  name Premult3
+  xpos -402
+  ypos -278
+ }
+ Merge2 {
+  inputs 2
+  operation plus
+  name Merge2
+  xpos -511
+  ypos -193
+ }
+ Saturation {
+  saturation 3.05
+  name Saturation1
+  xpos -511
+  ypos 43
+ }
+ Grade {
+  multiply {0.45 0.75 1 1}
+  name Grade1
+  xpos -511
+  ypos 67
+ }
+ EXPTool {
+  inputs 1+1
+  red {{parent.dotexp i}}
+  green {{curve i x56 0}}
+  blue {{curve i x56 0}}
+  name EXPTool1
+  xpos -511
+  ypos 104
+ }
+ Grade {
+  multiply 3.6
+  mix {{flickr_controls.float.main}}
+  name Grade_flicker
+  xpos -511
+  ypos 158
+  disable {{!parent.flickerenable}}
+ }
+ Grade {
+  inputs 1+1
+  black 0.14
+  white 2.7
+  multiply 3.5
+  name Grade_scanline
+  xpos -511
+  ypos 598
+  disable {{!parent.scanlineenable x75 1}}
+ }
+ Remove {
+  channels scanlinedistort
+  name Remove1
+  xpos -511
+  ypos 690
+  disable {{!parent.scanlinedistortionenable i x416 1}}
+ }
+ ShuffleCopy {
+  inputs 2
+  alpha alpha2
+  black red
+  white green
+  out2 scanlinedistort
+  name ShuffleCopy5
+  xpos -511
+  ypos 778
+  disable {{!parent.scanlinedistortionenable i}}
+ }
+ IDistort {
+  uv scanlinedistort
+  uv_scale 3
+  name IDistort1
+  xpos -511
+  ypos 821
+  disable {{!parent.scanlinedistortionenable}}
+ }
+ Clamp {
+  minimum 0.014
+  maximum_enable false
+  name Clamp1
+  xpos -511
+  ypos 953
+ }
+ ShuffleCopy {
+  inputs 2
+  name ShuffleCopy4
+  xpos -511
+  ypos 1022
+ }
+push $N57bdd800
+ Merge2 {
+  inputs 2
+  operation plus
+  Bchannels {rgba.red rgba.green rgba.blue -rgba.alpha}
+  name final_mix
+  xpos -511
+  ypos 1074
+ }
+ PerspDistort {
+  fov 14.4
+  reverse true
+  name PerspDistort1
+  xpos -511
+  ypos 1115
+  disable {{!parent.distortioncheck x49 1}}
+ }
+ Output {
+  name Output1
+  xpos -511
+  ypos 1287
+ }
+ StickyNote {
+  inputs 0
+  name Distortion1
+  label "BLACK LIFT"
+  note_font_size 24
+  xpos -418
+  ypos 952
+ }
+end_group
+ColorCorrect {
+ saturation 0.41
+ contrast 1.58
+ shadows.offset -0.02
+ name ColorCorrect21
+ selected true
+ xpos -1728
+ ypos 12150
+}
+Colorspace {
+ colorspace_out YCbCr
+ name Colorspace5
+ selected true
+ xpos -1728
+ ypos 12252
+}
+set N581d4400 [stack 0]
+push $N581d4400
+Reformat {
+ type scale
+ scale 0.5
+ name Reformat14
+ selected true
+ xpos -1632
+ ypos 12252
+}
+Blur {
+ size 0.6
+ name Blur13
+ selected true
+ xpos -1632
+ ypos 12278
+}
+Reformat {
+ type scale
+ scale 2
+ name Reformat15
+ selected true
+ xpos -1632
+ ypos 12316
+}
+Copy {
+ inputs 2
+ from0 rgba.red
+ to0 rgba.red
+ name Copy7
+ selected true
+ xpos -1728
+ ypos 12323
+}
+Colorspace {
+ colorspace_in YCbCr
+ name Colorspace6
+ selected true
+ xpos -1728
+ ypos 12392
+}
+Dot {
+ name Dot24
+ selected true
+ xpos -1700
+ ypos 12461
+}
+set N5820a400 [stack 0]
+push $N5820a400
+Group {
+ name TransChroma6
+ tile_color 0xd4b30a00
+ note_font "Bitstream Vera Sans"
+ selected true
+ xpos -1966
+ ypos 12464
+ mapsize {0.15 0.15}
+ addUserKnob {20 "" l TransChroma}
+ addUserKnob {7 tr l " rotate" R -180 180}
+ tr 0.1
+ addUserKnob {26 ""}
+ addUserKnob {14 ts l scale R 0 100}
+ ts 1.02
+ addUserKnob {26 ""}
+ addUserKnob {7 tx l x R -200 200}
+ tx 25
+ addUserKnob {7 ty l y R -200 200}
+ ty -4
+ addUserKnob {26 ""}
+ addUserKnob {12 centerg l center}
+ centerg {{format.width/2} {format.height/2}}
+ addUserKnob {26 ""}
+ addUserKnob {7 bias}
+ bias 0.2
+ addUserKnob {7 steps2 l steps R 8 21}
+ steps2 1
+ addUserKnob {26 ""}
+ addUserKnob {32 knob l help t "opens example script" -STARTLINE T "script_open \[getenv DD_FACILITY_ROOT]/extension/nuke/\[getenv NUKE_RELEASE]/templates/TransChroma_example.nk"}
+ addUserKnob {20 "" l colour}
+ addUserKnob {18 c1}
+ c1 {1 0 0}
+ addUserKnob {6 c1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c2}
+ c2 {0 4 0}
+ addUserKnob {6 c2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c3}
+ c3 {0 0 1}
+ addUserKnob {6 c3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+}
+ Input {
+  inputs 0
+  name Input1
+  xpos -240
+  ypos -74
+ }
+set N5820a000 [stack 0]
+ TimeWarp {
+  lookup {{dude2}}
+  length 0
+  time ""
+  filter nearest
+  name TimeWarp1
+  xpos -240
+  ypos -48
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipshit}
+  dipshit {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 dude3}
+  dude3 {{((dude(((x-1)*ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 dude2}
+  dude2 {{((dude(((x-1)/ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 ratio3}
+  ratio3 {{steps3/1 i}}
+  addUserKnob {7 dude}
+  dude {{curve i l x1 0 1}}
+  addUserKnob {7 steps3 l steps R 5 21}
+  steps3 {{int(steps2) i}}
+ }
+ Grade {
+  whitepoint {{1/21 i}}
+  multiply {{reda*colour1.r(x/TimeWarp1.steps3)+colour2.r(x/TimeWarp1.steps3)*greena+colour3.r(x/TimeWarp1.steps3)*bluea i} {greena*colour2.g(x/TimeWarp1.steps3)+colour1.g(x/TimeWarp1.steps3)*reda+colour3.g(x/TimeWarp1.steps3)*bluea i} {bluea*colour3.b(x/TimeWarp1.steps3)+colour1.b(x/TimeWarp1.steps3)*reda+colour2.b(x/TimeWarp1.steps3)*greena i} {curve i}}
+  black_clamp false
+  name Grade11
+  tile_color 0x7aa9ff00
+  label ChromaEngine
+  xpos -240
+  ypos -22
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipsh}
+  dipsh {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 redb}
+  redb {{curve(((x-1)/ratio)+1) i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greenb}
+  greenb {{curve(((x-1)/ratio)+1) i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 blueb}
+  blueb {{curve(((x-1)/ratio)+1) i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 reda}
+  reda {{"(frame<1) ? redb : redb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greena}
+  greena {{"(frame<1) ? greenb : greenb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 bluea}
+  bluea {{"(frame<1) ? blueb : blueb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 ratio}
+  ratio {{TimeWarp1.steps3/21 i}}
+  addUserKnob {26 ""}
+  addUserKnob {18 colour1}
+  colour1 {{c1.r i} {c1.g i} {c1.b i}}
+  addUserKnob {6 colour1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour2}
+  colour2 {{c2.r i} {c2.g i} {c2.b i}}
+  addUserKnob {6 colour2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour3}
+  colour3 {{c3.r i} {c3.g i} {c3.b i}}
+  addUserKnob {6 colour3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ }
+ Transform {
+  translate {{tx*(bias(x/steps2)-1) i} {ty*(bias(x/steps2)-1) i}}
+  rotate {{tr*(bias(x/steps2)-1) i}}
+  scale {{(1/ts*(1-(bias(x/steps2)))+((bias(x/steps2))))}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform2
+  xpos -240
+  ypos 18
+ }
+ Transform {
+  translate {{movexb i} {moveyb i}}
+  rotate {{rotb i}}
+  scale {{"scalexb " i} {scaleyb i}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform1
+  xpos -240
+  ypos 44
+  addUserKnob {20 "" l User}
+  addUserKnob {7 scalexb}
+  scalexb {{pow(((ts.w(x/steps2)-1)+1),(dud.scale.w(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 scaleyb}
+  scaleyb {{pow(((ts.h(x/steps2)-1)+1),(dud.scale.h(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 movexb}
+  movexb {{(dud.translate.x(((x-1)/ratio2)+1))*tx(x/steps2) i}}
+  addUserKnob {7 moveyb}
+  moveyb {{(dud.translate.y(((x-1)/ratio2)+1))*ty(x/steps2) i}}
+  addUserKnob {7 rotb}
+  rotb {{(dud.rotate(((x-1)/ratio2)+1))*tr(x/steps2) i}}
+  addUserKnob {7 ratio2}
+  ratio2 {{TimeWarp1.steps3/1 i}}
+ }
+ TimeWarp {
+  lookup {{TimeWarp1.dude3 i C x1 1 x71 71}}
+  length {{TimeWarp1.steps3 i}}
+  time ""
+  name TimeWarp2
+  xpos -240
+  ypos 70
+ }
+ Grade {
+  multiply {0.9209 1.0388 1.151 1}
+  black_clamp false
+  mix {{1-(int(steps2)-8)/13 i}}
+  name Grade5
+  xpos -240
+  ypos 96
+ }
+ Grade {
+  multiply {{1/(c1.r+c2.r+c3.r) i} {1/(c1.g+c2.g+c3.g) i} {1/(c1.b+c2.b+c3.b) i} 1}
+  black_clamp false
+  name Grade4
+  xpos -240
+  ypos 122
+ }
+ Output {
+  name Output1
+  xpos -240
+  ypos 148
+ }
+push $N5820a000
+ Transform {
+  translate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  rotate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  scale {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  skewX {{curve i x1 0 0}}
+  center {1024 554}
+  name dud
+  xpos -130
+  ypos -74
+ }
+end_group
+Saturation {
+ saturation 0
+ name Saturation5
+ selected true
+ xpos -1966
+ ypos 12580
+}
+push $N5820a400
+Group {
+ name TransChroma7
+ tile_color 0xd4b30a00
+ note_font "Bitstream Vera Sans"
+ selected true
+ xpos -1839
+ ypos 12543
+ mapsize {0.15 0.15}
+ addUserKnob {20 "" l TransChroma}
+ addUserKnob {7 tr l " rotate" R -180 180}
+ tr 1
+ addUserKnob {26 ""}
+ addUserKnob {14 ts l scale R 0 100}
+ ts 1.02
+ addUserKnob {26 ""}
+ addUserKnob {7 tx l x R -200 200}
+ tx -14
+ addUserKnob {7 ty l y R -200 200}
+ addUserKnob {26 ""}
+ addUserKnob {12 centerg l center}
+ centerg {{format.width/2} {format.height/2}}
+ addUserKnob {26 ""}
+ addUserKnob {7 bias}
+ bias 0.46
+ addUserKnob {7 steps2 l steps R 8 21}
+ steps2 8
+ addUserKnob {26 ""}
+ addUserKnob {32 knob l help t "opens example script" -STARTLINE T "script_open \[getenv DD_FACILITY_ROOT]/extension/nuke/\[getenv NUKE_RELEASE]/templates/TransChroma_example.nk"}
+ addUserKnob {20 "" l colour}
+ addUserKnob {18 c1}
+ c1 {1 0 0}
+ addUserKnob {6 c1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c2}
+ c2 {0 1 0}
+ addUserKnob {6 c2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {18 c3}
+ c3 {0 0 1}
+ addUserKnob {6 c3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+}
+ Input {
+  inputs 0
+  name Input1
+  xpos -240
+  ypos -74
+ }
+set N58295400 [stack 0]
+ TimeWarp {
+  lookup {{dude2}}
+  length 0
+  time ""
+  filter nearest
+  name TimeWarp1
+  xpos -240
+  ypos -48
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipshit}
+  dipshit {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 dude3}
+  dude3 {{((dude(((x-1)*ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 dude2}
+  dude2 {{((dude(((x-1)/ratio3)+1))*(1))+1 i}}
+  addUserKnob {7 ratio3}
+  ratio3 {{steps3/1 i}}
+  addUserKnob {7 dude}
+  dude {{curve i l x1 0 1}}
+  addUserKnob {7 steps3 l steps R 5 21}
+  steps3 {{int(steps2) i}}
+ }
+ Grade {
+  whitepoint {{1/21 i}}
+  multiply {{reda*colour1.r(x/TimeWarp1.steps3)+colour2.r(x/TimeWarp1.steps3)*greena+colour3.r(x/TimeWarp1.steps3)*bluea i} {greena*colour2.g(x/TimeWarp1.steps3)+colour1.g(x/TimeWarp1.steps3)*reda+colour3.g(x/TimeWarp1.steps3)*bluea i} {bluea*colour3.b(x/TimeWarp1.steps3)+colour1.b(x/TimeWarp1.steps3)*reda+colour2.b(x/TimeWarp1.steps3)*greena i} {curve i}}
+  black_clamp false
+  name Grade11
+  tile_color 0x7aa9ff00
+  label ChromaEngine
+  xpos -240
+  ypos -22
+  addUserKnob {20 "" l User}
+  addUserKnob {7 dipsh}
+  dipsh {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  addUserKnob {7 redb}
+  redb {{curve(((x-1)/ratio)+1) i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greenb}
+  greenb {{curve(((x-1)/ratio)+1) i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 blueb}
+  blueb {{curve(((x-1)/ratio)+1) i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 reda}
+  reda {{"(frame<1) ? redb : redb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0.125 0.122 0.118 0.114 0.1080000028 0.102 0.094 0.082 0.071 0.051 0 0 0 0 0 0 0 0 0 0 0}}
+  addUserKnob {7 greena}
+  greena {{"(frame<1) ? greenb : greenb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0.01600000076 0.027 0.035 0.043 0.04949999973 0.055 0.063 0.071 0.078 0.08600000292 0.078 0.071 0.063 0.05700000003 0.051 0.043 0.035 0.027 0.01649999991 0}}
+  addUserKnob {7 bluea}
+  bluea {{"(frame<1) ? blueb : blueb(((frame-1)%(TimeWarp1.steps3))+1)" i x1 0 0 0 0 0 0 0 0 0 0 0 0.051 0.071 0.082 0.094 0.102 0.1084999964 0.114 0.118 0.122 0.125}}
+  addUserKnob {7 ratio}
+  ratio {{TimeWarp1.steps3/21 i}}
+  addUserKnob {26 ""}
+  addUserKnob {18 colour1}
+  colour1 {{c1.r i} {c1.g i} {c1.b i}}
+  addUserKnob {6 colour1_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour2}
+  colour2 {{c2.r i} {c2.g i} {c2.b i}}
+  addUserKnob {6 colour2_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+  addUserKnob {18 colour3}
+  colour3 {{c3.r i} {c3.g i} {c3.b i}}
+  addUserKnob {6 colour3_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ }
+ Transform {
+  translate {{tx*(bias(x/steps2)-1) i} {ty*(bias(x/steps2)-1) i}}
+  rotate {{tr*(bias(x/steps2)-1) i}}
+  scale {{(1/ts*(1-(bias(x/steps2)))+((bias(x/steps2))))}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform2
+  xpos -240
+  ypos 18
+ }
+ Transform {
+  translate {{movexb i} {moveyb i}}
+  rotate {{rotb i}}
+  scale {{"scalexb " i} {scaleyb i}}
+  center {{centerg.x i} {centerg.y i}}
+  name Transform1
+  xpos -240
+  ypos 44
+  addUserKnob {20 "" l User}
+  addUserKnob {7 scalexb}
+  scalexb {{pow(((ts.w(x/steps2)-1)+1),(dud.scale.w(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 scaleyb}
+  scaleyb {{pow(((ts.h(x/steps2)-1)+1),(dud.scale.h(((x-1)/ratio2)+1))) i}}
+  addUserKnob {7 movexb}
+  movexb {{(dud.translate.x(((x-1)/ratio2)+1))*tx(x/steps2) i}}
+  addUserKnob {7 moveyb}
+  moveyb {{(dud.translate.y(((x-1)/ratio2)+1))*ty(x/steps2) i}}
+  addUserKnob {7 rotb}
+  rotb {{(dud.rotate(((x-1)/ratio2)+1))*tr(x/steps2) i}}
+  addUserKnob {7 ratio2}
+  ratio2 {{TimeWarp1.steps3/1 i}}
+ }
+ TimeWarp {
+  lookup {{TimeWarp1.dude3 i C x1 1 x71 71}}
+  length {{TimeWarp1.steps3 i}}
+  time ""
+  name TimeWarp2
+  xpos -240
+  ypos 70
+ }
+ Grade {
+  multiply {0.9209 1.0388 1.151 1}
+  black_clamp false
+  mix {{1-(int(steps2)-8)/13 i}}
+  name Grade5
+  xpos -240
+  ypos 96
+ }
+ Grade {
+  multiply {{1/(c1.r+c2.r+c3.r) i} {1/(c1.g+c2.g+c3.g) i} {1/(c1.b+c2.b+c3.b) i} 1}
+  black_clamp false
+  name Grade4
+  xpos -240
+  ypos 122
+ }
+ Output {
+  name Output1
+  xpos -240
+  ypos 148
+ }
+push $N58295400
+ Transform {
+  translate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  rotate {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  scale {{"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1} {"(frame<1) ? (curve) : curve(((frame-1)%(2-1))+1)" i x1 0 1}}
+  skewX {{curve i x1 0 0}}
+  center {1024 554}
+  name dud
+  xpos -130
+  ypos -74
+ }
+end_group
+Dissolve {
+ inputs 2
+ channels {rgba.red -rgba.green -rgba.blue none}
+ which 0.775
+ name Dissolve6
+ selected true
+ xpos -1839
+ ypos 12630
+}
+Copy {
+ inputs 2
+ from0 rgba.blue
+ to0 rgba.blue
+ name Copy8
+ selected true
+ xpos -1728
+ ypos 12636
+}
+Dot {
+ name Dot25
+ selected true
+ xpos -1700
+ ypos 12729
+}
+push $N57bb1c00
+Dissolve {
+ inputs 2
+ channels rgba
+ which {{curve x166 0 x168 1 x169 0.83 0.825 0.42 0 0.315 x175 0}}
+ name Dissolve7
+ selected true
+ xpos -2270
+ ypos 12731
+}
+ColorCorrect {
+ inputs 1+1
+ saturation 0.28
+ contrast 0.4
+ gain {1.9 1.3 2.3 3}
+ gain_panelDropped true
+ offset 0.035
+ name ColorCorrect24
+ selected true
+ xpos -2270
+ ypos 13070
+}
+Grade {
+ inputs 1+1
+ blackpoint 0.045
+ whitepoint 0.46
+ multiply 1.76
+ name Grade24
+ selected true
+ xpos -2270
+ ypos 13122
+}
+Grade {
+ inputs 1+1
+ name Grade14
+ selected true
+ xpos -2270
+ ypos 13675
+}
+ColorCorrect {
+ inputs 1+1
+ saturation 0.2
+ contrast {1.483334 2 0.37 1.5}
+ contrast_panelDropped true
+ gain {1.3 0.2 1.3 1}
+ gain_panelDropped true
+ shadows.gain 2.1
+ shadows.offset 0.44
+ midtones.offset {1 1 1 1}
+ midtones.offset_panelDropped true
+ name ColorCorrect13
+ selected true
+ xpos -2270
+ ypos 13701
+}
+Dot {
+ name Dot9
+ selected true
+ xpos -2242
+ ypos 14135
+}
+set N5831ac00 [stack 0]
+Write {
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/14_NUKE/TEST_COMPS/v26/TEST_COMPS_v26_lossy.%04d.jpg"
+ file_type jpeg
+ _jpeg_quality 0.6
+ render_order 0
+ checkHashOnRead false
+ in_colorspace linear
+ out_colorspace linear
+ beforeRender "import os\nif not os.path.isdir(os.path.dirname(nuke.thisNode()\['file'].evaluate())):\n  os.makedirs(os.path.dirname(nuke.thisNode()\['file'].evaluate()))"
+ name Write5
+ selected true
+ xpos -2419
+ ypos 14323
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/14_NUKE/TEST_COMPS/v26/TEST_COMPS_v26_lossy.####.jpg"
+ last 256
+ origlast 137
+ origset true
+ name Read167
+ selected true
+ xpos -2407
+ ypos 14450
+}
+Read {
+ inputs 0
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/14_NUKE/TEST_COMPS/v26/TEST_COMPS_v26_lossy.####.exr"
+ last 256
+ origlast 191
+ origset true
+ colorspace sRGB
+ name Read168
+ selected true
+ xpos -2270
+ ypos 14448
+}
+Dot {
+ name Dot31
+ selected true
+ xpos -2242
+ ypos 14683
+}
+set N58387c00 [stack 0]
+Merge2 {
+ inputs 2
+ operation from
+ name Merge5
+ selected true
+ xpos -2407
+ ypos 14685
+}
+Grade {
+ gamma 1.14
+ name Grade3
+ selected true
+ xpos -2407
+ ypos 14749
+}
+push $N58387c00
+Merge2 {
+ inputs 2
+ operation plus
+ name Merge10
+ selected true
+ xpos -2270
+ ypos 14749
+}
+Write {
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/14_NUKE/TEST_COMPS/v26/TEST_COMPS_v26.%04d.exr"
+ file_type exr
+ version 23
+ in_colorspace linear
+ out_colorspace linear
+ name Write4
+ selected true
+ xpos -2270
+ ypos 14951
+}
+push $N5831ac00
+Write {
+ file "Z:/FILMS/STRIKE ANYWHERE/SK07_ARIZONA FILM VFX/14_NUKE/TEST_COMPS/v26/TEST_COMPS_v26_lossy.%04d.exr"
+ colorspace sRGB
+ file_type exr
+ render_order 2
+ version 24
+ in_colorspace linear
+ out_colorspace linear
+ beforeRender "import os\nif not os.path.isdir(os.path.dirname(nuke.thisNode()\['file'].evaluate())):\n  os.makedirs(os.path.dirname(nuke.thisNode()\['file'].evaluate()))"
+ name Write7
+ selected true
+ xpos -2260
+ ypos 14333
+}
+StickyNote {
+ inputs 0
+ name StickyNote2
+ label "LIGHTING ROLLING SHUTTERS"
+ note_font_size 200
+ selected true
+ xpos -5227
+ ypos 5869
+}
