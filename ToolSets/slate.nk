@@ -1,0 +1,624 @@
+set cut_paste_input [stack 0]
+version 10.0 v4
+push $cut_paste_input
+Group {
+ name slate
+ selected true
+ xpos 406
+ ypos 593
+ addUserKnob {20 User l "Territory Slate"}
+ addUserKnob {26 ""}
+ addUserKnob {26 expl l Usage: T "Name your script properly:\n\n\"Sequence_Shot_Asset_Task_version.nk\""}
+ addUserKnob {26 ""}
+ addUserKnob {1 show l Show:}
+ show RPO
+ addUserKnob {1 artist l Artist:}
+ artist "Ricardo Musch"
+ addUserKnob {26 ""}
+ addUserKnob {26 lbl_version l Version: T "20170320 - Ricardo Musch - Terrritory Studios"}
+}
+ Reformat {
+  inputs 0
+  name slateFormat
+  xpos -663
+  ypos -864
+  disable true
+ }
+ Constant {
+  inputs 0
+  channels rgb
+  format "1126 472 0 0 1126 472 1 "
+  name Constant1
+  xpos -360
+  ypos -1079
+ }
+ NoOp {
+  inputs 0
+  name NoOp1
+  label "\[value Input1.format.x]\n\[value Input1.format.y]\n\[value Input1.format.r]\n\[value Input1.format.t]"
+  xpos -155
+  ypos -1192
+ }
+ Roto {
+  inputs 0
+  cliptype none
+  format "2048 2048 0 0 2048 2048 1 square_2K"
+  curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097152}
+    {t x44700000 x44070000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Rectangle2 512 bezier
+     {{cc
+       {f 8192}
+       {px 1
+        {0 xc34e3940}
+        {x44cfd588 x44a6c66c}
+        {xc3a8d200 0}
+        {x43a8d200 0}
+        {x44227000 x44a6c66c}
+        {0 xc34e3940}
+        {0 x434e3940}
+        {x44227000 x4432e1e8}
+        {x43a8d200 0}
+        {xc3a8d200 0}
+        {x44cfd588 x4432e1e8}
+        {0 x434e3940}}}
+      {cc
+       {f 8192}
+       {px 1
+        {0 xc34e3940}
+        {0 0}
+        {xc3a8d200 0}
+        {x43a8d200 0}
+        {0 0}
+        {0 xc34e3940}
+        {0 x434e3940}
+        {0 0}
+        {x43a8d200 0}
+        {xc3a8d200 0}
+        {0 0}
+        {0 x434e3940}}}}
+     {tx 1 x43c74000 x43336667}
+     {a osw x41200000 osf 0 str 1 spx x44700000 spy x44070000 sb 1 tt x41000000}}
+    {curvegroup Rectangle1 512 bezier
+     {{cc
+       {f 8192}
+       {px 1
+        {0 xc4159d00}
+        {x43e6dca0 x44ef8f54}
+        {x434c3380 0}
+        {xc34c33c0 0}
+        {x44864a80 x44ef8f54}
+        {0 xc4159d00}
+        {0 x44159d00}
+        {x44864a80 x42f23dc0}
+        {xc34c33c0 0}
+        {x434c3380 0}
+        {x43e6dca0 x42f23dc0}
+        {0 x44159d00}}}
+      {cc
+       {f 8192}
+       {px 1
+        {0 xc4159d00}
+        {0 0}
+        {x434c3380 0}
+        {xc34c33c0 0}
+        {0 0}
+        {0 xc4159d00}
+        {0 x44159d00}
+        {0 0}
+        {xc34c33c0 0}
+        {x434c3380 0}
+        {0 0}
+        {0 x44159d00}}}}
+     {tx 1 x43c0d999 x43333334}
+     {a osw x41200000 osf 0 str 1 spx x44700000 spy x44070000 sb 1 tt x41000000}}}}}}
+  toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 tt 8 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+  toolbar_brush_hardness 0.200000003
+  toolbar_source_transform_scale {1 1}
+  toolbar_source_transform_center {960 540}
+  colorOverlay {0 0 0 0}
+  lifetime_type "all frames"
+  motionblur_shutter_offset_type centred
+  source_black_outside true
+  name Logo
+  xpos -626
+  ypos -388
+ }
+ Crop {
+  box {436 92 1692 1940}
+  reformat true
+  crop false
+  name Crop1
+  xpos -626
+  ypos -362
+ }
+ Transform {
+  translate {207 -1612}
+  scale 0.06
+  center {0 1848}
+  name Transform1
+  xpos -626
+  ypos -336
+ }
+set N699dcc00 [stack 0]
+ Constant {
+  inputs 0
+  channels rgb
+  color 1
+  name Constant3
+  xpos -660
+  ypos -531
+ }
+ Dot {
+  name Dot1
+  xpos -626
+  ypos -439
+ }
+ Crop {
+  box {{"(\[value Input1.format.w]/100)*10"} {"(\[value Input1.format.t]/100)*24.5"} {"(\[value Input1.format.r]/100)*90"} {"(\[value Input1.format.t]/100)*25"}}
+  name line
+  xpos -575
+  ypos -443
+ }
+ Input {
+  inputs 0
+  name Input1
+  xpos 94
+  ypos -993
+ }
+set N7a3e9c00 [stack 0]
+ Remove {
+  name Remove1
+  xpos -182
+  ypos -999
+ }
+ Grade {
+  multiply 0
+  name Grade1
+  xpos -182
+  ypos -961
+ }
+ Dot {
+  name Dot3
+  xpos -326
+  ypos -957
+ }
+set N7a3e9000 [stack 0]
+ Crop {
+  box {0 {"\[value Input1.format.t]-\[value Input1.format.t]*.018"} {"\[value Input1.format.w]" x1 1920} {"\[value Input1.format.t]"}}
+  name topBar
+  xpos -409
+  ypos -925
+ }
+push $N7a3e9000
+ Crop {
+  box {0 0 {"\[value Input1.format.r]"} {"\[value Input1.format.t]*.018" x1 1080}}
+  name bottomBar
+  xpos -306
+  ypos -925
+ }
+ Merge2 {
+  inputs 2
+  name Merge2
+  xpos -353
+  ypos -890
+ }
+ Premult {
+  name Premult1
+  xpos -353
+  ypos -856
+ }
+ Dot {
+  name Dot4
+  xpos -319
+  ypos -775
+ }
+set N7a41bc00 [stack 0]
+push $N7a3e9c00
+ BlackOutside {
+  name BlackOutside1
+  xpos -482
+  ypos -772
+ }
+ ColorCorrect {
+  contrast 0
+  offset 1
+  name ColorCorrect1
+  xpos -482
+  ypos -746
+ }
+ Grade {
+  multiply 0.2
+  name Grade2
+  xpos -482
+  ypos -720
+ }
+ Transform {
+  scale 5
+  center {{"\[value Input1.format.r]/2"} {"\[value Input1.format.t]/2"}}
+  name Transform2
+  xpos -482
+  ypos -693
+ }
+ ColorCorrect {
+  name ColorCorrect2
+  xpos -482
+  ypos -667
+ }
+ Crop {
+  box {0 0 {"\[value Input1.format.r]"} {"\[value Input1.format.t]"}}
+  name Crop2
+  xpos -482
+  ypos -641
+ }
+ Merge2 {
+  inputs 2
+  name Merge1
+  xpos -353
+  ypos -621
+ }
+ Text2 {
+  font_size_toolbar 100
+  font_width_toolbar 100
+  font_height_toolbar 100
+  message "Facility:\nShow:\nFile:\nAsset name:\nTask:\nVersion:\nFrame range:\nArtist:\nDate:"
+  old_message {{70 97 99 105 108 105 116 121 58 10 83 104 111 119 58 10 70 105 108 101 58 10 65 115 115 101 116 32 110 97 109 101 58 10 84 97 115 107 58 10 86 101 114 115 105 111 110 58 10 70 114 97 109 101 32 114 97 110 103 101 58 10 65 114 116 105 115 116 58 10 68 97 116 101 58}
+    }
+  box {{"\[value Input1.format.w]/100*10"} 0 {"\[value Input1.format.w]" x1 2048} {"(\[value Input1.format.t]/100)*90" x1 1843.675}}
+  transforms {{0 2}
+    }
+  baseline_values {{0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0 13 0 14 0 15 0 16 0 17 0 18 0 19 0 20 0 21 0 22 0 23 0 24 0 25 0 26 0 27 0 28 0 29 0 30 0 31 0 32 0 33 0 34 0 35 0 36 0 37 0 38 0 39 0 40 0 41 0 42 0 43 0 44 0 45 0 46 0 47 0 48 0 49 0 50 0 51 0 52 0 53 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0 63 0 64 0 65 0 66 0 67 0 68 0 69 0 70 0 71 0 72 0 73 0 74 0 0 -0.2 1 -0.2 2 -0.2 3 -0.2 4 -0.2 5 -0.2 6 -0.2 7 -0.2 8 -0.2 9 -0.2 10 -0.2 11 -0.2 12 -0.2 13 -0.2 14 -0.2 15 -0.2 16 -0.2 17 -0.2 18 -0.2 19 -0.2 20 -0.2 21 -0.2 22 -0.2 23 -0.2 24 -0.2 25 -0.2 26 -0.2 27 -0.2 28 -0.2 29 -0.2 30 -0.2 31 -0.2 32 -0.2 33 -0.2 34 -0.2 35 -0.2 36 -0.2 37 -0.2 38 -0.2 39 -0.2 40 -0.2 41 -0.2 42 -0.2 43 -0.2 44 -0.2 45 -0.2 46 -0.2 47 -0.2 48 -0.2 49 -0.2 50 -0.2 51 -0.2 52 -0.2 53 -0.2 54 -0.2 55 -0.2 56 -0.2 57 -0.2 58 -0.2 59 -0.2 60 -0.2 61 -0.2 62 -0.2 63 -0.2 64 -0.2 65 -0.2 66 -0.2 67 -0.2 68 -0.2 69 -0.2 70 -0.2 71 -0.2 72 -0.2 73 -0.2 74 -0.2}
+    }
+  cursor_position 74
+  font {{ Verdana : Regular : verdana.ttf : 0 }}
+  global_font_scale {{"\[value Input1.format.w]/100*.015"}}
+  leading 1.5
+  scale {1 1}
+  cursor_initialised true
+  autofit_bbox false
+  initial_cursor_position {{0 2160}
+    }
+  group_animations {{0} imported: 0 selected: items: "root transform/"}
+  animation_layers {{1 11 1024 778 0 0 1 1 0 0 0 0}
+    }
+  name T_midTitles
+  xpos -353
+  ypos -547
+ }
+ Text2 {
+  font_size_toolbar 100
+  font_width_toolbar 100
+  font_height_toolbar 100
+  message "Territory Studio\n\[value show]\n\[python \{os.path.basename((nuke.root().name())) \}]\n\[python \{str.split(os.path.basename((nuke.root().name())),\"_\")\[2] \}] \n\[python \{str.split(os.path.basename((nuke.root().name())),\"_\")\[3] \}]\n\[python \{str.split(str.split(os.path.basename((nuke.root().name())),\"_\")\[-1],\".\")\[0] \}]\n\[value root.first_frame] - \[value root.last_frame]\n\[value artist]\n\[date %D] (mm/dd/yy)"
+  old_message {{84 101 114 114 105 116 111 114 121 32 83 116 117 100 105 111 10 82 80 79 10 83 74 66 95 49 55 56 48 95 115 111 114 101 110 116 111 86 105 115 111 114 95 118 105 115 111 114 72 85 68 95 118 48 48 49 46 110 107 10 115 111 114 101 110 116 111 86 105 115 111 114 32 10 118 105 115 111 114 72 85 68 10 118 48 48 49 10 57 57 51 32 45 32 49 48 52 52 10 82 105 99 97 114 100 111 32 77 117 115 99 104 10 48 51 47 50 51 47 49 55 32 40 109 109 47 100 100 47 121 121 41}
+    }
+  old_expression_markers {{17 19 21 58 60 71 74 81 83 86 88 90 94 97 99 111 113 120}
+    }
+  box {{"\[value Input1.format.w]/100*35"} 0 {"(\[value Input1.format.w]/100)*97"} {"(\[value Input1.format.t]/100)*90"}}
+  transforms {{0 2}
+    }
+  baseline_values {{0 0 16 0 20 0 21 0 22 0 23 0 24 0 25 0 59 0 60 0 61 0 62 0 63 0 64 0 65 0 66 0 73 0 74 0 75 0 76 0 77 0 82 0 87 0 88 0 98 0 99 0 112 0 113 0 0 -0.2 16 -0.2 20 -0.2 21 -0.2 22 -0.2 23 -0.2 24 -0.2 25 -0.2 59 -0.2 60 -0.2 61 -0.2 62 -0.2 63 -0.2 64 -0.2 65 -0.2 66 -0.2 73 -0.2 74 -0.2 75 -0.2 76 -0.2 77 -0.2 82 -0.2 87 -0.2 88 -0.2 98 -0.2 99 -0.2 112 -0.2 113 -0.2}
+    }
+  cursor_position 388
+  font {{ Verdana : Regular : verdana.ttf : 0 }}
+  global_font_scale {{"\[value Input1.format.w]/100*.015"}}
+  leading 1.5
+  scale {1 1}
+  cursor_initialised true
+  autofit_bbox false
+  initial_cursor_position {{0 2160}
+    }
+  group_animations {{0} imported: 0 selected: items: "root transform/"}
+  animation_layers {{1 11 1024 778 0 0 1 1 0 0 0 0}
+    }
+  name T_midData
+  xpos -353
+  ypos -515
+ }
+ Merge2 {
+  inputs 2
+  name Merge3
+  xpos -353
+  ypos -443
+  disable true
+ }
+ Merge2 {
+  inputs 2
+  name Merge4
+  xpos -353
+  ypos -336
+  disable true
+ }
+ Text2 {
+  font_size_toolbar 100
+  font_width_toolbar 100
+  font_height_toolbar 100
+  message "________________\nTerritoryStudio.com"
+  old_message {{95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 10 84 101 114 114 105 116 111 114 121 83 116 117 100 105 111 46 99 111 109}
+    }
+  box {{"(\[value Input1.format.w]/100)*10"} {"(\[value Input1.format.t]/100)*10"} {"(\[value Input1.format.r]/100)*90" x1000 1013.4} {"(\[value Input1.format.t]/100)*20"}}
+  xjustify right
+  transforms {{0 2}
+    }
+  cursor_position 16
+  font {{ Verdana : Bold : verdanab.ttf : 0 }}
+  global_font_scale {{"(\[value Input1.format.t]/10000)*5"}}
+  leading 0.25
+  scale {1 1}
+  cursor_initialised true
+  autofit_bbox false
+  initial_cursor_position {{1128.5 204.5}
+    }
+  group_animations {{0} imported: 0 selected: items: "root transform/"}
+  animation_layers {{1 11 563 236 0 0 1 1 0 0 0 0}
+    }
+  name Logo1
+  xpos -353
+  ypos -284
+ }
+ Matrix {
+  matrix {
+      {1 2 1}
+      {2 26 2}
+      {1 2 1}
+    }
+  normalize true
+  name antiAlias
+  xpos -353
+  ypos -236
+ }
+ FrameHold {
+  first_frame {{Input1.first_frame-1}}
+  name FrameHold2
+  xpos -353
+  ypos -182
+ }
+push $N7a41bc00
+ Text2 {
+  font_size_toolbar 100
+  font_width_toolbar 100
+  font_height_toolbar 100
+  message TERRITORYSTUDIO
+  old_message {{84 69 82 82 73 84 79 82 89 83 84 85 68 73 79}
+    }
+  box {5 0 {"\[value Input1.format.r]*.5"} {"\[value Input1.format.t]-1"}}
+  transforms {{0 2}
+    }
+  cursor_position 15
+  font {{ Verdana : Bold : verdanab.ttf : 0 }}
+  global_font_scale {{"\[value Input1.format.t]*.015/100"}}
+  scale {1 1}
+  cursor_initialised true
+  autofit_bbox false
+  initial_cursor_position {{1348.199951 1080.799805}
+    }
+  group_animations {{0} imported: 0 selected: items: "root transform/"}
+  animation_layers {{1 11 1024 778 0 0 1 1 0 0 0 0}
+    }
+  name T_TERRITORY
+  xpos -153
+  ypos -779
+ }
+ Text2 {
+  font_size_toolbar 100
+  font_width_toolbar 100
+  font_height_toolbar 100
+  message "\[value show]"
+  old_message {{82 80 79}
+    }
+  old_expression_markers {{0 2}
+    }
+  box {{"\[value Input1.format.r]/20*9"} 0 {"\[value Input1.format.r]-5"} {"\[value Input1.format.t]-1"}}
+  transforms {{0 2}
+    }
+  cursor_position 12
+  font {{ Verdana : Bold : verdanab.ttf : 0 }}
+  global_font_scale {{"\[value Input1.format.t]*.015/100"}}
+  scale {1 1}
+  cursor_initialised true
+  autofit_bbox false
+  initial_cursor_position {{1348.199951 1080.799805}
+    }
+  group_animations {{0} imported: 0 selected: items: "root transform/"}
+  animation_layers {{1 11 1024 778 0 0 1 1 0 0 0 0}
+    }
+  name T_show
+  xpos -153
+  ypos -753
+ }
+ Text2 {
+  font_size_toolbar 100
+  font_width_toolbar 100
+  font_height_toolbar 100
+  message "\[date %D]"
+  old_message {{48 51 47 50 51 47 49 55}
+    }
+  old_expression_markers {{0 7}
+    }
+  box {{"\[value Input1.format.r]/2"} 0 {"\[value Input1.format.r]-5"} {"\[value Input1.format.t]-1"}}
+  xjustify right
+  transforms {{0 2}
+    }
+  cursor_position 9
+  font {{ Verdana : Bold : verdanab.ttf : 0 }}
+  global_font_scale {{"\[value Input1.format.t]*.015/100"}}
+  scale {1 1}
+  cursor_initialised true
+  autofit_bbox false
+  initial_cursor_position {{1348.199951 1080.799805}
+    }
+  group_animations {{0} imported: 0 selected: items: "root transform/"}
+  animation_layers {{1 11 1024 778 0 0 1 1 0 0 0 0}
+    }
+  name T_date
+  xpos -153
+  ypos -727
+ }
+ Text2 {
+  font_size_toolbar 100
+  font_width_toolbar 100
+  font_height_toolbar 100
+  message "\[python \{str.split(os.path.basename((nuke.root().name())),\"_\")\[0] \}]_\[python \{str.split(os.path.basename((nuke.root().name())),\"_\")\[1] \}]"
+  old_message {{83 74 66 95 49 55 56 48}
+    }
+  old_expression_markers {{0 2 4 7}
+    }
+  box {5 5 {"\[value Input1.format.r]*.5"} {bottomBar.box.t}}
+  transforms {{0 2}
+    }
+  cursor_position 137
+  font {{ Verdana : Bold : verdanab.ttf : 0 }}
+  global_font_scale {{"\[value Input1.format.t]*.015/100"}}
+  scale {1 1}
+  cursor_initialised true
+  autofit_bbox false
+  initial_cursor_position {{1348.199951 1080.799805}
+    }
+  group_animations {{0} imported: 0 selected: items: "root transform/"}
+  animation_layers {{1 11 1024 778 0 0 1 1 0 0 0 0}
+    }
+  name T_shotName
+  selected true
+  xpos -153
+  ypos -675
+ }
+set N7fed2000 [stack 0]
+ FrameHold {
+  first_frame {{Input1.first_frame-1}}
+  name FrameHold1
+  xpos -153
+  ypos -644
+ }
+ Text2 {
+  font_size_toolbar 100
+  font_width_toolbar 100
+  font_height_toolbar 100
+  message "\[value hiddenFrameCount.message]"
+  old_message {{49 48 48 48}
+    }
+  old_expression_markers {{0 3}
+    }
+  box {5 1 {"\[value Input1.format.w]-5" x1 3840.1} {bottomBar.box.t}}
+  xjustify right
+  transforms {{0 2}
+    }
+  cursor_position 32
+  font {{ Verdana : Bold : verdanab.ttf : 0 }}
+  global_font_scale {{"\[value Input1.format.t]*.015/100" x1 0}}
+  scale {1 1}
+  cursor_initialised true
+  autofit_bbox false
+  initial_cursor_position {{1348.199951 1080.799805}
+    }
+  group_animations {{0} imported: 0 selected: items: "root transform/"}
+  animation_layers {{1 11 1024 778 0 0 1 1 0 0 0 0}
+    }
+  name T_frameCounter
+  xpos -153
+  ypos -592
+ }
+ Matrix {
+  matrix {
+      {1 2 1}
+      {2 26 2}
+      {1 2 1}
+    }
+  normalize true
+  name antiAlias1
+  xpos -153
+  ypos -560
+ }
+push $N7a3e9c00
+ Text2 {
+  font_size_toolbar 100
+  font_width_toolbar 100
+  font_height_toolbar 100
+  opacity 0
+  message "\[value frame]"
+  old_message {{49 48 48 48}
+    }
+  old_expression_markers {{0 3}
+    }
+  box {175 285.5 527.5 386.5}
+  transforms {{0 2}
+    }
+  cursor_position 13
+  scale {1 1}
+  cursor_initialised true
+  autofit_bbox false
+  initial_cursor_position {{0 1080}
+    }
+  group_animations {{0} imported: 0 selected: items: "root transform/"}
+  animation_layers {{1 11 960 540 0 0 1 1 0 0 0 0}
+    }
+  name hiddenFrameCount
+  xpos 94
+  ypos -753
+ }
+ Merge2 {
+  inputs 2
+  name Merge5
+  xpos 94
+  ypos -554
+ }
+ Dot {
+  name Dot2
+  xpos 128
+  ypos -305
+ }
+ Dissolve {
+  inputs 2
+  which {{"frame == Input1.first_frame-1" x1 1 0}}
+  name Dissolve1
+  xpos 94
+  ypos -182
+ }
+ FrameRange {
+  first_frame {{Input1.first_frame-1}}
+  last_frame {{Input1.last_frame}}
+  time ""
+  name FrameRange1
+  xpos 94
+  ypos -80
+ }
+ Output {
+  name Output1
+  xpos 94
+  ypos -7
+ }
+push $N699dcc00
+push $N7fed2000
+ Viewer {
+  inputs 2
+  frame 1000
+  frame_range 1044-1044
+  colour_sample_bbox {0.6750000119 0.6218749881 0.6760416627 0.6229166389}
+  samplepoints {{0.6750000119 0.6218749881}
+    }
+  translate {-0.8949999809 0.4819999933}
+  name Viewer1
+  xpos -825
+  ypos -746
+ }
+end_group
